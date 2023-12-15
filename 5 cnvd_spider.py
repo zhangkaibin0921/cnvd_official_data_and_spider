@@ -1,4 +1,5 @@
 #需要手动更换cookie，单线程，sleep(3)。否则会被封锁ip
+import random
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from lxml import etree
@@ -7,7 +8,7 @@ import mysql.connector
 
 headers = {
     'Host': 'www.cnvd.org.cn',
-    'Cookie': '__jsluid_s=46493e058490a07b63faaa0c00f0e8e9; __jsl_clearance_s=1702631125.29|0|4JEeLoJudF1OjFVBPGyJXbOfLTY%3D; JSESSIONID=B02A720D957A837C0ED1C655AE20E90D',
+    'Cookie': '__jsluid_s=46493e058490a07b63faaa0c00f0e8e9; JSESSIONID=B02A720D957A837C0ED1C655AE20E90D; __jsl_clearance_s=1702634754.095|0|iqik9GgZGEomL5ijLqZBJjI4aBM%3D',
     'Cache-Control': 'max-age=0',
     'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120"',
     'Sec-Ch-Ua-Mobile': '?0',
@@ -161,8 +162,12 @@ def getdetail(cnvd_id):
     else:
         item["cn_patch"] = ''
 
-    print(item)
 
+    if item["cnvd_id"]=='':
+        item["cnvd_id"] ="AKEE"+str(random.randint(0, 100000000))
+
+
+    print(item)
 
     query = "insert ignore into cnvd (cn_url,cn_title,pub_date,hazard_level,cn_impact,cnvd_id,cve_id,cn_types,cn_describe,cn_reference,cn_solution,cn_patch) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
     cursor.execute(query, (item['cn_url'],item['cn_title'],item['pub_date'],item['hazard_level'],item['cn_impact'],item['cnvd_id'],item['cve_id'],item['cn_types'],item['cn_describe'],item['cn_reference'],item['cn_solution'],item['cn_patch']))
@@ -178,18 +183,18 @@ with open('need.txt','r',encoding='utf-8') as file:
     temp=file.read()
     cnvd_list=eval(temp)
 
-
+print(cnvd_list)
 #cnvd_list=['CNVD-2021-14449']
 
+
 for i in cnvd_list:
-    future=executor.submit(getdetail, i)
-    if not future.result():
+    res=getdetail(i)
+    #future=executor.submit(getdetail, i)
+    if not res:#future.result():
         print(i+"**************")
         with open('need.txt', 'w', encoding='utf-8') as file:
             file.write(str(cnvd_list))
         break
-    cnvd_list.remove(i)
-
 
 # 关闭线程池
 executor.shutdown()
