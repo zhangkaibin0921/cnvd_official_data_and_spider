@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vulnerabilitys><vulnerability><number>CNVD-2021-63686</number><title>吉翁电子（深圳）有限公司TOTOLINK  N600R存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>吉翁电子（深圳）有限公司 TOTOLINK N600R V5.3c.2043</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-03</submitTime><openTime>2021-10-04</openTime><discovererName>dota_st</discovererName><formalWay>厂商已提供漏洞修复方案，请关注厂商主页更新： &#xD;
+https://www.totolink.net/ </formalWay><description>TOTOLINK N600R是一款无线路由器。
+
+吉翁电子（深圳）有限公司TOTOLINK  N600R存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>TOTOLINK  N600R存在逻辑缺陷漏洞的补丁</patchName><patchDescription> TOTOLINK N600R是一款无线路由器。&#xD;
+&#xD;
+TOTOLINK  N600R存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-64035</number><title>北京网御星云信息技术有限公司SSL VPN存在信息泄露漏洞</title><serverity>中</serverity><products><product>北京网御星云信息技术有限公司 SSL VPN </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-09</submitTime><openTime>2021-10-07</openTime><discovererName>Eternit7</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+https://www.leadsec.com.cn/</formalWay><description>北京网御星云信息技术有限公司由联想网御科技（北京）有限公司更名而来，业务涵盖网络边界安全防护、应用与数据安全防护、全网安全风险管理、专业安全解决方案和专业安全服务等多个方向。
+
+北京网御星云信息技术有限公司SSL VPN存在信息泄露漏洞，攻击者可利用漏洞获取敏感信息。</description><patchName>北京网御星云信息技术有限公司SSL VPN存在信息泄露漏洞的补丁</patchName><patchDescription>北京网御星云信息技术有限公司由联想网御科技（北京）有限公司更名而来，业务涵盖网络边界安全防护、应用与数据安全防护、全网安全风险管理、专业安全解决方案和专业安全服务等多个方向。&#xD;
+&#xD;
+北京网御星云信息技术有限公司SSL VPN存在信息泄露漏洞，攻击者可利用漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-65141</number><title>新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>新天科技股份有限公司 智能表综合管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-10</submitTime><openTime>2021-10-09</openTime><discovererName>林舒</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.suntront.com/</formalWay><description>新天科技股份有限公司是水表，电能表，气表的专业生产厂家和供应商。
+
+新天科技股份有限公司智能表综合管理系统存在存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description><patchName>新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞的补丁</patchName><patchDescription>新天科技股份有限公司是水表，电能表，气表的专业生产厂家和供应商。&#xD;
+&#xD;
+新天科技股份有限公司智能表综合管理系统存在存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-64016</number><title>新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞（CNVD-2021-64016）</title><serverity>高</serverity><products><product>新天科技股份有限公司 智能表综合管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-11</submitTime><openTime>2021-10-07</openTime><discovererName>林舒</discovererName><formalWay>厂商已提供漏洞修复方案，请关注厂商主页更新：&#xD;
+https://www.suntront.com/</formalWay><description>新天科技股份有限公司是水表，电能表，气表的专业生产厂家和供应商。
+
+新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description><patchName>新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞（CNVD-2021-64016）的补丁</patchName><patchDescription>新天科技股份有限公司是水表，电能表，气表的专业生产厂家和供应商。&#xD;
+&#xD;
+新天科技股份有限公司智能表综合管理系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-64012</number><title>北京亚鸿世纪科技发展有限公司企业侧互联网综合管理平台存在命令执行漏洞</title><serverity>高</serverity><products><product>北京亚鸿世纪科技发展有限公司 企业侧互联网综合管理平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-11</submitTime><openTime>2021-10-07</openTime><discovererName>归辞！</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.act-telecom.com/</formalWay><description>北京亚鸿世纪科技发展有限公司是一家专注于互联网空间数据治理、网络与信息安全及数据增值解决方案及服务的高科技公司。
+
+北京亚鸿世纪科技发展有限公司企业侧互联网综合管理平台存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权。</description><patchName>北京亚鸿世纪科技发展有限公司企业侧互联网综合管理平台存在命令执行漏洞的补丁</patchName><patchDescription>北京亚鸿世纪科技发展有限公司是一家专注于互联网空间数据治理、网络与信息安全及数据增值解决方案及服务的高科技公司。&#xD;
+&#xD;
+北京亚鸿世纪科技发展有限公司企业侧互联网综合管理平台存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-65119</number><title>四创软件有限公司山洪灾害监测预警发布系统存在未授权访问漏洞</title><serverity>中</serverity><products><product>四创科技有限公司 山洪灾害监测预警发布系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-12</submitTime><openTime>2021-10-09</openTime><discovererName>覃晓宁</discovererName><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.istrong.cn</formalWay><description>四创软件有限公司是一家致力于中国防灾减灾事业的技术型企业。 
+
+四创软件有限公司山洪灾害监测预警发布系统存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>四创软件有限公司山洪灾害监测预警发布系统存在未授权访问漏洞的补丁</patchName><patchDescription>四创软件有限公司是一家致力于中国防灾减灾事业的技术型企业。 &#xD;
+&#xD;
+四创软件有限公司山洪灾害监测预警发布系统存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-64584</number><title>华为技术有限公司SRG3260存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 SRG3260 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-08-13</submitTime><openTime>2021-10-08</openTime><discovererName>小杰安全</discovererName><formalWay>厂商已提供漏洞修复方案，建议用户下载使用：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>华为技术有限公司是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域。
+
+华为技术有限公司SRG3260存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>华为技术有限公司SRG3260存在弱口令漏洞的补丁</patchName><patchDescription>华为技术有限公司是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域。&#xD;
+&#xD;
+华为技术有限公司SRG3260存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-76083</number><cves><cve><cveNumber>CVE-2021-24610</cveNumber></cve></cves><title>WordPress插件跨站脚本漏洞</title><serverity>低</serverity><products><product>WordPress TranslatePress &lt;2.0.9</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-09-29</submitTime><openTime>2021-10-09</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-24610</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://wpscan.com/vulnerability/b87fcc2f-c2eb-4e23-9757-d1c590f26d3f</formalWay><description>WordPress 插件是WordPress开源的一个应用插件。
+
+WordPress插件TranslatePress存在跨站脚本漏洞，该漏洞源于WEB应用缺少对客户端数据的正确验证。攻击者可利用该漏洞执行客户端代码。</description><patchName>WordPress插件跨站脚本漏洞的补丁</patchName><patchDescription>WordPress 插件是WordPress开源的一个应用插件。&#xD;
+&#xD;
+WordPress插件TranslatePress存在跨站脚本漏洞，该漏洞源于WEB应用缺少对客户端数据的正确验证。攻击者可利用该漏洞执行客户端代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-76782</number><cves><cve><cveNumber>CVE-2021-35204</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-35204</cveUrl></cve></cves><title>Netscaut nGeniusONE support端点跨站脚本漏洞</title><serverity>低</serverity><products><product>netscout nGeniusONE 6.3.0 build 1196</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-10-08</submitTime><openTime>2021-10-09</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-35204</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.netscout.com/securityadvisories</formalWay><description>Netscout NgeniusOne是美国Netscout公司的一个集中管理应用与网路效能解决方案。
+
+Netscaut nGeniusONE在6.3.0 build 1196版本存在跨站脚本漏洞，该漏洞源于Support端点缺少对用户输入数据的校验和对输处的数据的过滤。攻击者可利用该漏洞在客户端执行JavaScript代码。</description><patchName>Netscaut nGeniusONE support端点跨站脚本漏洞的补丁</patchName><patchDescription>Netscout NgeniusOne是美国Netscout公司的一个集中管理应用与网路效能解决方案。&#xD;
+&#xD;
+Netscaut nGeniusONE在6.3.0 build 1196版本存在跨站脚本漏洞，该漏洞源于Support端点缺少对用户输入数据的校验和对输处的数据的过滤。攻击者可利用该漏洞在客户端执行JavaScript代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability></vulnerabilitys>

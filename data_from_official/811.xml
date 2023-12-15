@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vulnerabilitys><vulnerability><number>CNVD-2021-33055</number><cves><cve><cveNumber>CVE-2019-13545</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-13545</cveUrl></cve></cves><title>Horner Automation Cscape缓冲区溢出漏洞</title><serverity>中</serverity><products><product>Horner Automation Horner Automation Cscape &lt;=9.90</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2019-10-18</submitTime><openTime>2021-05-07</openTime><referenceLink>https://www.us-cert.gov/ics/advisories/icsa-19-290-02</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://hornerautomation.com/</formalWay><description>Horner Automation Cscape是美国Horner Automation公司的一套用于工业控制系统开发的编程软件。
+
+Horner Automation Cscape 9.90及之前版本中存在缓冲区溢出漏洞。该漏洞源于网络系统或产品在内存上执行操作时，未正确验证数据边界，导致向关联的其他内存位置上执行了错误的读写操作。攻击者可利用该漏洞执行任意代码。</description><patchName>Horner Automation Cscape缓冲区溢出漏洞的补丁</patchName><patchDescription>Horner Automation Cscape是美国Horner Automation公司的一套用于工业控制系统开发的编程软件。&#xD;
+&#xD;
+Horner Automation Cscape 9.90及之前版本中存在缓冲区溢出漏洞。该漏洞源于网络系统或产品在内存上执行操作时，未正确验证数据边界，导致向关联的其他内存位置上执行了错误的读写操作。攻击者可利用该漏洞执行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33054</number><cves><cve><cveNumber>CVE-2020-36210</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-36210</cveUrl></cve></cves><title>Rust内存破坏漏洞</title><serverity>中</serverity><products><product>Mozilla Rust &lt;0.2.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-01-29</submitTime><openTime>2021-05-07</openTime><referenceLink>https://rustsec.org/advisories/RUSTSEC-2020-0103.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://github.com/mersinvald/autorand-rs/issues/5</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust 在0.2.3之前版本存在内存破坏漏洞。该漏洞源于程序对阵列隐含随机性，因此在发生紧急情况时可能会丢弃未初始化的内存，从而导致内存破坏。目前没有详细漏洞细节提供。</description><patchName>Rust内存破坏漏洞的补丁</patchName><patchDescription>Rust是Mozilla基金会的一款通用、编译型编程语言。&#xD;
+&#xD;
+Rust 在0.2.3之前版本存在内存破坏漏洞。该漏洞源于程序对阵列隐含随机性，因此在发生紧急情况时可能会丢弃未初始化的内存，从而导致内存破坏。目前没有详细漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32648</number><cves><cve><cveNumber>CVE-2020-4857</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-4857</cveUrl></cve></cves><title>IBM Engineering Requirements Management DOORS Next跨站脚本漏洞（CNVD-2021-32648）</title><serverity>低</serverity><products><product>IBM Engineering Requirements Management DOORS Next </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-02</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-4857</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6417585</formalWay><description>IBM Engineering Requirements Management DOORS Next是美国国际商业机器公司（IBM）的可扩展的解决方案。该解决方案可帮助您捕获、跟踪、分析和管理系统与高级IT应用开发。
+
+IBM Engineering Requirements Management DOORS Next存在跨站脚本漏洞，该漏洞允许攻击者在Web UI中嵌入任意JavaScript代码，从而更改预期的功能，从而可能导致可信会话中的凭证公开。</description><patchName>IBM Engineering Requirements Management DOORS Next跨站脚本漏洞（CNVD-2021-32648）的补丁</patchName><patchDescription>IBM Engineering Requirements Management DOORS Next是美国国际商业机器公司（IBM）的可扩展的解决方案。该解决方案可帮助您捕获、跟踪、分析和管理系统与高级IT应用开发。&#xD;
+&#xD;
+IBM Engineering Requirements Management DOORS Next存在跨站脚本漏洞，该漏洞允许攻击者在Web UI中嵌入任意JavaScript代码，从而更改预期的功能，从而可能导致可信会话中的凭证公开。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33252</number><cves><cve><cveNumber>CVE-2020-29553</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-29553</cveUrl></cve></cves><title>Grav跨站请求伪造漏洞</title><serverity>中</serverity><products><product>Grav Grav &lt;=1.7.0-rc.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-16</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-29553</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://getgrav.org/</formalWay><description>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。
+
+Grav 1.7.0-rc.17及更早版本中的调度程序存在跨站请求伪造漏洞。攻击者可通过诱使管理员访问恶意网站利用该漏洞执行系统命令。</description><patchName>Grav跨站请求伪造漏洞的补丁</patchName><patchDescription>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。&#xD;
+&#xD;
+Grav 1.7.0-rc.17及更早版本中的调度程序存在跨站请求伪造漏洞。攻击者可通过诱使管理员访问恶意网站利用该漏洞执行系统命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33251</number><cves><cve><cveNumber>CVE-2020-29556</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-29556</cveUrl></cve></cves><title>Grav路径遍历漏洞</title><serverity>低</serverity><products><product>Grav Grav &lt;=1.7.0-rc.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-16</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-29556</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://getgrav.org/</formalWay><description>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。
+
+Grav 1.7.0-rc.17及更早版本的备份功能存在路径遍历漏洞。攻击者可利用该漏洞读取底层服务器上的任意本地文件。</description><patchName>Grav路径遍历漏洞的补丁</patchName><patchDescription>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。&#xD;
+&#xD;
+Grav 1.7.0-rc.17及更早版本的备份功能存在路径遍历漏洞。攻击者可利用该漏洞读取底层服务器上的任意本地文件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33250</number><cves><cve><cveNumber>CVE-2020-29555</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-29555</cveUrl></cve></cves><title>Grav任意文件删除漏洞</title><serverity>中</serverity><products><product>Grav Grav &lt;=1.7.0-rc.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-16</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-29555</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://getgrav.org/</formalWay><description>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。
+
+Grav 1.7.0-rc.17及更早版本的BackupDelete功能存在任意文件删除漏洞。攻击者可通过路径遍历技术利用该漏洞删除底层服务器上的任意文件。</description><patchName>Grav任意文件删除漏洞的补丁</patchName><patchDescription>Grav是一款使用Markdown文件进行内容管理的平面文件CMS。&#xD;
+&#xD;
+Grav 1.7.0-rc.17及更早版本的BackupDelete功能存在任意文件删除漏洞。攻击者可通过路径遍历技术利用该漏洞删除底层服务器上的任意文件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-22612</number><title>广州市九安智能技术股份有限公司网络视频监控客户端存在弱口令漏洞</title><serverity>中</serverity><products><product>广州市九安智能技术股份有限公司 网络视频监控客户端 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>EdisonJH</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.juanvision.com/</formalWay><description>广州市九安智能技术股份有限公司是全球领先的移动图传基础设施和物联网平台提供商。
+
+广州市九安智能技术股份有限公司网络视频监控客户端存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24964</number><title>景腾多媒体股份有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>景腾多媒体股份有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-18</submitTime><openTime>2021-05-03</openTime><discovererName>woqu</discovererName><formalWay>厂商暂未提供修复方案，请关注厂商主页及时更新： &#xD;
+https://www.webview.com.tw</formalWay><description>景腾多媒体股份有限公司是台湾一家网页设计和移动应用公司。
+
+景腾多媒体股份有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-24989</number><title>华夏ERP存在未授权访问漏洞（CNVD-2021-24989）</title><serverity>低</serverity><products><product>华夏ERP 华夏ERP v2.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-18</submitTime><openTime>2021-05-03</openTime><discovererName>OLD6</discovererName><formalWay>厂商暂未提供修复方案，请关注厂商主页及时更新： &#xD;
+http://www.huaxiaerp.com</formalWay><description>华夏ERP基于SpringBoot框架，立志为中小企业提供开源好用的ERP软件，目前专注进销存+财务功能。
+
+华夏ERP存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22596</number><title>SemCms前台存在XSS漏洞</title><serverity>中</serverity><products><product>SemCms SemCms 1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.sem-cms.com/</formalWay><description>SemCms是一套开源外贸企业网站管理系统，主要用于外贸企业。
+
+SemCms前台存在XSS漏洞，攻击者可利用该漏洞获取用户cookie等敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22597</number><title>淄博闪灵网络科技有限公司付费阅读系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>淄博闪灵网络科技有限公司 付费阅读系统 2020-02-07</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://fh.s-cms.cn/index.html</formalWay><description>付费阅读系统是一个以fahuo100为核心进行开发的知识付费系统网站模板。
+
+淄博闪灵网络科技有限公司付费阅读系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22598</number><title>SemCms前台存在SQL注入漏洞</title><serverity>高</serverity><products><product>SemCms SemCms 1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.sem-cms.com/</formalWay><description>SemCms是一套开源外贸企业网站管理系统，主要用于外贸企业。
+
+SemCms前台存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22610</number><title>LJCMS存在SQL注入漏洞（CNVD-2021-22610）</title><serverity>高</serverity><products><product>北京良精志诚科技有限责任公司 LJCMS 2020-06-30</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.8cms.com/</formalWay><description>LJCMS是一款自由和开放源码的内容管理系统。 
+
+LJCMS存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-30086</number><title>伴心APP在拒绝服务漏洞</title><serverity>低</serverity><products><product>成都边际网络科技有限公司 伴心APP v2.2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>爱加密安全服务中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://api.mengpaxing.com/</formalWay><description>伴心App是一款线上语音视频社交应用，以语音聊天室，游戏竞技等线上线下分享技能主题互动，相互邀约，根据兴趣进行社交。 
+
+伴心APP在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务攻击。</description></vulnerability><vulnerability><number>CNVD-2021-22609</number><title>A3MALL电商系统开源版存在未授权访问漏洞</title><serverity>中</serverity><products><product>A3MALL电商系统开源版 A3MALL电商系统开源版 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.a3-mall.com/</formalWay><description>A3MALL电商系统开源版是一款开源免费商城系统。
+
+A3MALL电商系统开源版存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22608</number><title>SemCms SE***_Do***.php文件存在SQL注入漏洞（CNVD-2021-22608）</title><serverity>中</serverity><products><product>SemCms SemCms 3.9</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-04</openTime><discovererName>梦幻</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.sem-cms.com/</formalWay><description>SemCms是一套开源外贸企业网站管理系统。
+
+SemCms SE***_Do***.php文件存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22633</number><title>淄博闪灵网络科技有限公司付费阅读系统存在XSS漏洞</title><serverity>中</serverity><products><product>淄博闪灵网络科技有限公司 付费阅读系统 5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://fh.s-cms.cn/index.html</formalWay><description>付费阅读系统是一个以fahuo100为核心进行开发的知识付费系统网站模板。
+
+淄博闪灵网络科技有限公司付费阅读系统存在XSS漏洞，攻击者可利用该漏洞获取管理员cookie。</description></vulnerability><vulnerability><number>CNVD-2021-22607</number><title>南通协达软件有限公司建站系统存在SQL注入漏洞（CNVD-2021-22607）</title><serverity>高</serverity><products><product>南通协达软件有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.hasjwl.com/</formalWay><description>南通协达软件有限公司是一家从事网站制作、网络营销、SEO优化的专业公司。
+
+南通协达软件有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24775</number><title>ke361存在SQL注入漏洞</title><serverity>高</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-03</openTime><discovererName>冷虎林</discovererName><formalWay>暂无</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+ke361存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22606</number><title>OurPHP后台存在任意文件读取漏洞</title><serverity>低</serverity><products><product>哈尔滨伟成科技有限公司 OURPHP 3.2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>1winner</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ourphp.net/</formalWay><description>OurPHP是一套企业电商营销的建站系统。
+
+OurPHP后台存在任意文件读取漏洞，攻击者可利用该漏洞读取任意系统文件。</description></vulnerability><vulnerability><number>CNVD-2021-22605</number><title>OurPHP存在SQL注入漏洞（CNVD-2021-22605）</title><serverity>中</serverity><products><product>哈尔滨伟成科技有限公司 OURPHP 3.2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>1winner</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ourphp.net/</formalWay><description>OurPHP是一款基于PHP MySQL开发符合W3C标准的建站系统。
+
+OurPHP存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22603</number><title>四创科技有限公司建站系统存在目录遍历漏洞</title><serverity>中</serverity><products><product>四创科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.istrong.cn/</formalWay><description>四创科技有限公司致力于减灾兴利事业，提供减灾兴利信息化全面解决方案。
+
+四创科技有限公司建站系统存在目录遍历漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22602</number><title>新华三技术有限公司SecPath U200-A存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 SecPath U200-A </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/ </formalWay><description>SecPath U200-A是H3C公司面向中小型企业/分支机构设计的新一代UTM（United Threat Management，统一威胁管理）设备。
+
+新华三技术有限公司SecPath U200-A存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22601</number><title>SemCms存在SQL注入漏洞（CNVD-2021-22601）</title><serverity>高</serverity><products><product>SemCms SemCms 1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>海南神州希望网路有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.sem-cms.com/</formalWay><description>SemCms是一套开源外贸企业网站管理系统，主要用于外贸企业。
+
+SemCms存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22600</number><title>OurPHP存在SQL注入漏洞（CNVD-2021-22600）</title><serverity>中</serverity><products><product>哈尔滨伟成科技有限公司 OURPHP 3.2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>1winner</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ourphp.net</formalWay><description>OurPHP是一款基于PHP MySQL开发符合W3C标准的建站系统。
+
+OurPHP存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22599</number><title>Ke361存在文件上传漏洞</title><serverity>高</serverity><products><product>Ke361 Ke361 1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+Ke361存在文件上传漏洞，攻击者可利用该漏洞获取网站服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-28434</number><title>任丘市正中网络科技有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>任丘市正中网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-03</openTime><discovererName>刘俊</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新： &#xD;
+http://rq114.b2bvip.com/contact/</formalWay><description>任丘市正中网络科技有限公司于2002年09月02日成立。法定代表人乔文英,公司经营范围包括：弱电及计算机系统集成；电脑、办公自动化及财务软件、办公用品及电脑耗材、文化用品、建筑电器、安防器材、数码产品批发零售；楼宇对讲、智能门禁工程施工；安全防范工程设计、安装、维修；网络技术服务、软件开发等。
+
+任丘市正中网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-22695</number><title>KingView存在拒绝服务漏洞</title><serverity>中</serverity><products><product>北京亚控科技发展有限公司 KingView 6.60 SP3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>obabydbg</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.kingview.com/news_info.php?num=1001862</formalWay><description>KingView是北京亚控科技发展有限公司推出的工业组态软件产品。
+
+KingView存在拒绝服务漏洞，攻击者可利用该漏洞导致软件宕机。</description></vulnerability><vulnerability><number>CNVD-2021-22586</number><title>新华三技术有限公司SecPath U200-C存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 SecPath U200-C </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>SecPath U200-A是H3C公司面向中小型企业/分支机构设计的新一代UTM（United Threat Management，统一威胁管理）设备。
+
+新华三技术有限公司SecPath U200-C存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22585</number><title>xdcms前台存在SQL注入漏洞</title><serverity>高</serverity><products><product>南宁旭东网络科技有限公司 XDcms 3.0.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>fthgb</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.xdcms.cn</formalWay><description>xdcms是一套开源的通用的内容管理系统。
+
+xdcms前台存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-22584</number><title>OurPHP存在SQL注入漏洞（CNVD-2021-22584）</title><serverity>中</serverity><products><product>哈尔滨伟成科技有限公司 OURPHP 3.2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>1winner</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ourphp.net</formalWay><description>OurPHP是一款基于PHP MySQL开发符合W3C标准的建站系统。
+
+OurPHP存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-30090</number><title>北京格林伟迪科技股份有限公司CPE-WiFi存在命令执行漏洞</title><serverity>高</serverity><products><product>北京格林伟迪科技股份有限公司 CPE-WiFi V2.0（硬件版本）/V2.0.5-X000（软件版本）</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>打伞的蜗牛</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.gwdelight.com/</formalWay><description>北京格林伟迪科技股份有限公司是一家专业从事边缘网光传输和综合接入设备设计开发、生产制造和营销服务的高科技企业。
+
+北京格林伟迪科技股份有限公司CPE-WiFi存在命令执行漏洞，攻击者可利用该漏洞执行系统命令，获取系统权限。</description></vulnerability><vulnerability><number>CNVD-2021-22694</number><title>傲拓科技股份有限公司NA400PLC存在缓冲区溢出漏洞</title><serverity>中</serverity><products><product>傲拓科技股份有限公司 NA400PLC </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-19</submitTime><openTime>2021-05-03</openTime><discovererName>michaelinfinity</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.nandaauto.com/product/22/ </formalWay><description>NA400PLC是傲拓科技股份有限公司推出的高性能可编程控制器。
+
+傲拓科技股份有限公司NA400PLC存在缓冲区溢出漏洞，攻击者可利用该漏洞导致系统崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24633</number><title>壹零科技公司建站系统存在SQL注入漏洞</title><serverity>中</serverity><products><product>壹零科技公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-20</submitTime><openTime>2021-05-04</openTime><discovererName>上海崤函信息科技有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.01solomo.com/</formalWay><description>零壹科技任公司是一家集咨询、专业服务和产品营销于一体的商务智能解决方案提供商。 
+
+壹零科技公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24627</number><title>江苏欧索软件有限公司公安办事大厅系统api接口存在未授权访问漏洞</title><serverity>中</serverity><products><product>江苏欧索软件有限公司 公安办事大厅系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-20</submitTime><openTime>2021-05-04</openTime><discovererName>M1r4n</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.oceansoft.com.cn/</formalWay><description>江苏欧索软件有限公司于1998年07月27日在苏州高新区（虎丘区）市场监督管理局登记成立。法定代表人卢小燕，公司经营范围包括开发销售计算机软件、系统集成、并提供相关技术支持和售后服务等。
+
+江苏欧索软件有限公司公安办事大厅系统api接口存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24458</number><title>锐捷RSR路由器WEB管理系统存在命令执行漏洞</title><serverity>高</serverity><products><product>锐捷网络股份有限公司 RSR路由器WEB管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>王义路</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ruijie.com.cn</formalWay><description>锐捷网络股份有限公司是一家主要经营信息系统集成服务；因特网虚拟专用网服务；互联网管理服务等项目的公司。
+
+锐捷RSR路由器WEB管理系统存在命令执行漏洞。攻击者可利用该漏洞获取服务器权限。</description></vulnerability><vulnerability><number>CNVD-2021-24457</number><title>杭州品茗信息技术有限公司建站系统存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>杭州品茗信息技术有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-04</openTime><discovererName>vogt</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.pminfo.cn/</formalWay><description>杭州品茗信息技术有限公司是一家致力于打造国内领先的公共资源交易信息化领域的高科技企业。
+
+杭州品茗信息技术有限公司建站系统存在逻辑缺陷漏洞。攻击者可利用该漏洞通过抓包修改接收的手机号，成功登录系统，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24456</number><title>HDHCMS存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>HDHCMS HDHCMS 1.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>Ansei</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.hdhcms.com/</formalWay><description>HDHCMS是一款基于PC网站+手机网站+微信小程序+第三方平台接入（微信公众号、熊掌号）的多合一自助建站管理系统。
+
+HDHCMS存在逻辑缺陷漏洞。攻击者可利用漏洞通过构造cookie即可直接登入后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24455</number><title>CmsEasy存在信息泄露漏洞</title><serverity>中</serverity><products><product>四平市九州易通科技有限公司 CmsEasy 5_6_0_20170105</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>honghong</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.cmseasy.cn/</formalWay><description>CmsEasy是一款基于PHP+Mysql架构的网站内容管理系统，也是一个PHP开发平台。
+
+CmsEasy存在信息泄露漏洞。攻击者可以利用漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24454</number><title>天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞（CNVD-2021-24454）</title><serverity>中</serverity><products><product>天信仪表集团有限公司 天信SCADA系统 1.5</product><product>天信仪表集团有限公司 天信SCADA系统 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>王晓帅</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.tancy.com/</formalWay><description>天信仪表集团有限公司是国内流量仪表和燃气应用系统解决方案的专业服务商。
+
+天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞。攻击者可利用漏洞获取数据库敏感信息。 </description></vulnerability><vulnerability><number>CNVD-2021-24453</number><title>天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞（CNVD-2021-24453）</title><serverity>中</serverity><products><product>天信仪表集团有限公司 天信SCADA系统 1.5</product><product>天信仪表集团有限公司 天信SCADA系统 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>王晓帅</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.tancy.com/</formalWay><description>天信仪表集团有限公司是国内流量仪表和燃气应用系统解决方案的专业服务商。
+
+天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞。攻击者可利用漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24452</number><title>天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞（CNVD-2021-24452）</title><serverity>中</serverity><products><product>天信仪表集团有限公司 天信SCADA系统 1.5</product><product>天信仪表集团有限公司 天信SCADA系统 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>王晓帅</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.tancy.com/</formalWay><description>天信仪表集团有限公司是国内流量仪表和燃气应用系统解决方案的专业服务商。
+
+天信仪表集团有限公司天信SCADA系统存在SQL注入漏洞。攻击者可利用漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-29174</number><title>厦门市南希网络科技有限公司网站管理后台存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>厦门市南希网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-05</openTime><discovererName>zhenghao777</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.nanxi.net.cn/</formalWay><description>厦门市南希网络科技有限公司是一家提供网站建设，系统开发内容分析策划，界面前端视觉设计、后台程序数据库开发、网站整合营销计划、网站推广配套为一体的综合型数字化高新技术企业。
+
+厦门市南希网络科技有限公司网站管理后台存在逻辑缺陷漏洞，攻击者可利用该漏洞登录后台进行操作获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24451</number><title>H3C SecPath F1000-AK115存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 SecPath F1000-AK115 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-21</submitTime><openTime>2021-05-05</openTime><discovererName>alin</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>H3C SecPath F1000-AK115是企业级防火墙。
+
+H3C SecPath F1000-AK115存在弱口令漏洞。攻击者利用默认弱密码登录后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24716</number><title>普联技术有限公司TL-WR841HP存在弱口令漏洞</title><serverity>中</serverity><products><product>普联技术有限公司 TL-WR841HP 固件版本：3.16.9（硬件版本：v2 00000000）</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>anon</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tp-link.com.cn/ </formalWay><description>TL-WR841HP是一款300Mbps，高功率无线路由器。
+
+普联技术有限公司TL-WR841HP存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24715</number><title>普联技术有限公司TL-WR940N存在弱口令漏洞</title><serverity>中</serverity><products><product>TP-Link TL-WR940N 固件版本：3.19.1（硬件版本：v6 00000000）</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>anon</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tp-link.com.cn</formalWay><description>TL-WR940N是一款无线路由器。
+
+普联技术有限公司TL-WR940N存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24735</number><title>ShuipFCMS存在文件上传漏洞</title><serverity>高</serverity><products><product>ShuipFCMS ShuipFCMS v2.0.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://gitee.com/skykain/shuipfcms</formalWay><description>ShuipFCMS是一款基于ThinkPHP框架为核心，采用独立分组的方式开发的内容管理系统。
+
+ShuipFCMS存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24714</number><title>ShuipFCMS存在代码执行漏洞（NVD-C-2021-75467）</title><serverity>高</serverity><products><product>ShuipFCMS ShuipFCMS v2.0.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://gitee.com/skykain/shuipfcms</formalWay><description>ShuipFCMS是一款基于ThinkPHP框架为核心，采用独立分组的方式开发的内容管理系统。
+
+ShuipFCMS存在代码执行漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24736</number><title>新华三技术有限公司WX3520H存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 WX3520H </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>alin</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>WX3520H是一款企业级运营无线控制器。
+
+新华三技术有限公司WX3520H存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24784</number><title>鑫运网络建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>鑫运网络 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.345600.net/</formalWay><description>鑫运网络是一家专业从事网站建设、网页设计、网站制作为主的互联网公司。
+
+鑫运网络建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24739</number><title>ProNest2012存在缓冲区溢出漏洞</title><serverity>中</serverity><products><product>Hypertherm ProNest2012 10.2.3.5116</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>carlgood</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.hypertherm.com</formalWay><description>ProNest2012是一款CAD/CAM零件套料软件。
+
+ProNest2012存在缓冲区溢出漏洞，攻击者可利用该漏洞导致拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24738</number><title>新华三技术有限公司WX2540H存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 WX2540H </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>WX2540H是一款无线控制器。
+
+新华三技术有限公司WX2540H存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24730</number><title>北京天润顺腾科技有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>北京天润顺腾科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tianrunshunteng.com/ </formalWay><description>北京天润顺腾科技有限公司是一家长期服务于信息化与电子化产业前沿高科技阵地，专业从事于企业电子商务、网站软件开发、APP开发等相关的网络增值服务的公司。
+
+北京天润顺腾科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-29175</number><title>WebSOC知道网站立体监控系统存在弱口令漏洞</title><serverity>高</serverity><products><product>北京知道创宇信息技术有限公司 WebSOC知道网站立体监控系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.knownsec.com/#/ </formalWay><description>WebSOC知道网站立体监控系统是知道创宇旗下一款web安全监控产品。
+
+WebSOC知道网站立体监控系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24729</number><title>北京天润顺腾科技有限公司建站系统存在XSS漏洞</title><serverity>中</serverity><products><product>北京天润顺腾科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tianrunshunteng.com</formalWay><description>北京天润顺腾科技有限公司是一家长期服务于信息化与电子化产业前沿高科技阵地，专业从事于企业电子商务、网站软件开发、APP开发等相关的网络增值服务的公司。
+
+北京天润顺腾科技有限公司建站系统存在XSS漏洞，攻击者可利用该漏洞获取用户cookie等敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24728</number><title>北京天润顺腾科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24728）</title><serverity>高</serverity><products><product>北京天润顺腾科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tianrunshunteng.com</formalWay><description>北京天润顺腾科技有限公司是一家长期服务于信息化与电子化产业前沿高科技阵地，专业从事于企业电子商务、网站软件开发、APP开发等相关的网络增值服务的公司。
+
+北京天润顺腾科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24727</number><title>天润顺腾在线考试系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>北京天润顺腾科技有限公司 天润顺腾在线考试系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tianrunshunteng.com/ </formalWay><description>天润顺腾在线考试系统是一款为多行业网校设计的考试系统。
+
+天润顺腾在线考试系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24724</number><title>华三小贝路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 华三小贝路由器 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/ </formalWay><description>华三小贝路由器是一款专注商铺的企业级路由器。
+
+华三小贝路由器存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25287</number><title>e-mobile存在命令执行漏洞</title><serverity>高</serverity><products><product>上海泛微网络科技股份有限公司 e-mobile </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-06</openTime><discovererName>孙英东、乔盛欣、李明栋、种亚男、张世骏</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.weaver.com.cn/</formalWay><description>e-mobile一款由上海泛微网络科技股份有限公司开发的移动办公产品，专门为手机、平板电脑等移动终端用户精心打造的移动办公产品。
+
+e-mobile存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权限。</description></vulnerability><vulnerability><number>CNVD-2021-24632</number><title>RG-UAC锐捷统一上网行为管理与审计系统存在逻辑缺陷漏洞</title><serverity>低</serverity><products><product>锐捷网络股份有限公司 RG-UAC锐捷统一上网行为管理与审计系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>独das</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ruijie.com.cn/ </formalWay><description>锐捷网络股份有限公司是一家利用云计算、SDN、移动互联、大数据、物联网等新技术为各行业用户提供端到端解决方案的公司。
+
+RG-UAC锐捷统一上网行为管理与审计系统存在逻辑缺陷漏洞，攻击者可利用该漏洞修改管理员密码。
+</description></vulnerability><vulnerability><number>CNVD-2021-24626</number><title>新华三技术有限公司WX2560H存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 WX2560H </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>alin</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>WX2560H是新华三技术有限公司自主研发的网关型无线控制器。
+
+新华三技术有限公司WX2560H存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24515</number><title>XpdfReader存在拒绝服务漏洞</title><serverity>高</serverity><products><product>xpdfreader XpdfReader 4.03</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>treebacker</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.xpdfreader.com/</formalWay><description>Xpdfreader是一款是可用于Windows和Linux的开源PDF阅读器。
+
+XpdfReader存在拒绝服务漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24514</number><title>H3C SecPath F1000-C-G2存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C SecPath F1000-C-G2 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>H3C SecPath F1000-C-G2是新华三技术有限公司的一款防火墙。
+
+H3C SecPath F1000-C-G2存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24513</number><title>H3C WAC380-30存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C WAC380-30 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>H3C WAC380-30是新华三技术有限公司自主研发的网关型无线控制器。
+
+H3C WAC380-30存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24512</number><title>先极大学生创新训练智能管理系统存在未授权访问漏洞</title><serverity>低</serverity><products><product>南京先极科技有限公司 先极大学生创新训练智能管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>netstat</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.changedu.com</formalWay><description>先极大学生创新训练智能管理系统是一套贯穿于大学生创新训练项目的整套作业流程的管理系统。
+
+先极大学生创新训练智能管理系统存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24511</number><title>健康采集上报系统存在SQL注入漏洞（CNVD-2021-24511）</title><serverity>中</serverity><products><product>健康采集上报系统 健康采集上报系统 3.0 build20200511</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>H1KMaster</discovererName><formalWay>暂无</formalWay><description>健康采集上报系统采用PHP+mysql开发，代码开源，方便二次开发。
+
+健康采集上报系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24510</number><title>健康采集上报系统存在文件上传漏洞（CNVD-2021-24510）</title><serverity>高</serverity><products><product>健康采集上报系统 健康采集上报系统 3.0 build20200511</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>H1KMaster</discovererName><formalWay>暂无</formalWay><description>健康采集上报系统采用PHP+mysql开发，代码开源，方便二次开发。
+
+健康采集上报系统存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24509</number><title>H3C SecPath F1000系列多个防火墙存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 SecPath F1000-AI-60 </product><product>新华三技术有限公司 SecPath F1000-AK109 </product><product>新华三技术有限公司 SecPath F1000-AK108 </product><product>新华三技术有限公司 SecPath F1000-AK125 </product><product>新华三技术有限公司 SecPath F1000-AK135 </product><product>新华三技术有限公司 SecPath F1000-AK145 </product><product>新华三技术有限公司 SecPath F1000-AK155 </product><product>新华三技术有限公司 SecPath F1000-AK1130 </product><product>新华三技术有限公司 SecPath F1000-C8120 </product><product>新华三技术有限公司 SecPath F1000-C8160 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/</formalWay><description>H3C SecPath F1000系列是新华三技术有限公司推出的防火墙。
+
+H3C SecPath F1000系列多个防火墙存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24508</number><title>H3C SecPath F100系列多个防火墙存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C SECPATH F100-C60-WiNet </product><product>新华三技术有限公司 H3C ECPATH F100-M-G2 </product><product>新华三技术有限公司 H3C SecPath F100-A-G2 </product><product>新华三技术有限公司 H3C SecPath F100-C50-WiNet </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>杨涌林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com</formalWay><description>H3C SecPath F100系列是新华三技术有限公司推出的防火墙。
+
+H3C SecPath F100系列多个防火墙存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24507</number><title>新华三技术有限公司多个无线控制器产品存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C WX3510H </product><product>新华三技术有限公司 H3C WX2510H </product><product>新华三技术有限公司 H3C WX3508H </product><product>新华三技术有限公司 H3C WX3540H </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>alin</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com</formalWay><description>H3C WX3510H，H3C WX2510H，H3C WX3508H，H3C WX3540H是新华三技术有限公司的无线控制器。
+
+新华三技术有限公司多个无线控制器产品存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24506</number><title>H3C多款MSR系列路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C MSR3600路由器 </product><product>新华三技术有限公司 H3C MSR830-6BHI路由器 </product><product>新华三技术有限公司 H3C MSR830-6BEI路由器 </product><product>新华三技术有限公司 H3C MSR810路由器 </product><product>新华三技术有限公司 H3C MSR36-20路由器 </product><product>新华三技术有限公司 H3C MSR3610路由器 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>alin</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com</formalWay><description>MSR系列路由器是新华三技术有限公司的一款企业级路由器。
+
+H3C多款MSR系列路由器存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24505</number><title>geeweb存在代码执行漏洞</title><serverity>高</serverity><products><product>GeeLeaf geeweb 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>上海崤函信息科技有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.geeleaf.com/ </formalWay><description>geeweb是一款基于PHP MySQL开发的以完全免费、快速建站、维护简易、安全性高、负载力强、SEO友好等为特点，面向各中小企业、社会团体、学校及个人用户等的建站系统。
+
+geeweb存在代码执行漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24503</number><title>华为多个防火墙产品存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 SRG2210 </product><product>华为技术有限公司 SRG1220 </product><product>华为技术有限公司 SRG1210-S </product><product>华为技术有限公司 SRG2220 </product><product>华为技术有限公司 USG5160 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>从安</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>SRG1210-S 、SRG2220 、SRG1220 、SRG2210 、USG5160是华为技术有限公司的防火墙产品。
+
+华为多个防火墙产品存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24482</number><title>深圳市捷顺科技实业股份有限公司JieLink+智能终端操作平台存在SQL注入漏洞</title><serverity>高</serverity><products><product>深圳市捷顺科技实业股份有限公司 JieLink+智能终端操作平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>全能小赵同学</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.jieshun.cn/</formalWay><description>JieLink+智能终端操作平台是深圳市捷顺科技实业股份有限公司历经多年行业经验积累推出的新一代智能终端操作平台解决方案。
+
+深圳市捷顺科技实业股份有限公司JieLink+智能终端操作平台存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24479</number><title>H3C M60系统管理存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 H3C M60系统管理 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-22</submitTime><openTime>2021-05-06</openTime><discovererName>chanra</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁信息，请关注厂商主页随时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>H3C M60是新华三技术有限公司的一款路由器。
+
+H3C M60系统管理存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24785</number><title>祥云cms存在命令执行漏洞</title><serverity>高</serverity><products><product>苏州祥云平台信息技术有限公司 祥云cms </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>南星</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.cn86.cn/</formalWay><description>州祥云平台信息技术有限公司经营范围包括计算机领域内技术开发、技术服务及技术转让等。
+
+祥云cms存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权限。</description></vulnerability><vulnerability><number>CNVD-2021-25286</number><title>e-mobile移动系统管理平台存在未授权访问漏洞</title><serverity>中</serverity><products><product>上海泛微网络科技股份有限公司 E-Mobile移动门户管理平台 V6.6 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>anon</discovererName><formalWay>厂商已发布相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.weaver.com.cn/</formalWay><description>e-mobile一款由上海泛微网络科技股份有限公司开发的移动办公产品，专门为手机、平板电脑等移动终端用户精心打造的移动办公产品。
+
+e-mobile移动系统管理平台存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25285</number><title>H3C ER2200G2系统管理存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER2200G2系统管理 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>zxsong</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>ER2200G2是新华三技术有限公司推出的新一代高性能企业级路由器。
+
+H3C ER2200G2系统管理存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24804</number><title>MessageSolution企业邮件归档管理系统EEA存在信息泄露漏洞</title><serverity>中</serverity><products><product>MessageSolution 企业邮件归档管理系统 EEA 6.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>moke</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.messagesolution.cn/product_email_archiving.htm</formalWay><description>MessageSolution是电子邮件归档，邮件归档、文件归档、SharePoint归档备份管理、Domino文档归档、邮件归档系统中小企业版等一系列非结构化数据的归档产品可以帮助用户高效率低成本的管理其邮件和电子数据资源。
+
+MessageSolution企业邮件归档管理系统EEA存在信息泄露漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25284</number><title>新华三技术有限公司多款产品存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER5100 </product><product>新华三技术有限公司 ER5200G2 </product><product>新华三技术有限公司 GR5200 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>joker10101</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>ER5100是一款高性能千兆下行路由器。ER5200G2是新一代企业级千兆高性能路由器。GR5200是新一代高性能企业级路由器。
+
+新华三技术有限公司多款产品存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-26156</number><title>H3C多款路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER5100 </product><product>新华三技术有限公司 ER5200G2 </product><product>新华三技术有限公司 GR5200 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-08</openTime><discovererName>joker10101</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>ER5100是为中小企业、网吧、学校等机构量身定制的一款高性能千兆路由器。ER5200G2是新一代企业级千兆高性能路由器。GR5200是一款企业级千兆路由器。
+
+H3C多款路由器存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25283</number><title>H3C ER2100n系统管理存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER2100n系统管理 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>ycl</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>H3C ER2100n是一款企业级高性能无线路由器。
+
+H3C ER2100n系统管理存在弱口令漏洞。攻击者可利用该漏洞登录路由器后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24770</number><title>武汉沃讯科技有限公司OA协同办公系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>武汉沃讯科技有限公司 OA协同办公系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>for安全</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.wxoa.cn/</formalWay><description>武汉沃讯科技有限公司是一家从事协同管理的软件厂商。
+
+武汉沃讯科技有限公司OA协同办公系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24769</number><title>安徽希望网络科技有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>安徽希望网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>春告鳥</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ahxwkj.com/</formalWay><description>安徽希望网络科技有限公司成立于2003年，是一家主要从事网站建设、网络推广和网络营销的互联网基础产品服务商。
+
+安徽希望网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24768</number><title>安徽希望网络科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24768）</title><serverity>高</serverity><products><product>安徽希望网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>春告鳥</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ahxwkj.com/</formalWay><description>安徽希望网络科技有限公司成立于2003年，是一家主要从事网站建设、网络推广和网络营销的互联网基础产品服务商。
+
+安徽希望网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24767</number><title>安徽希望网络科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24767）</title><serverity>高</serverity><products><product>安徽希望网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>春告鳥</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ahxwkj.com/</formalWay><description>安徽希望网络科技有限公司成立于2003年，是一家主要从事网站建设、网络推广和网络营销的互联网基础产品服务商。
+
+安徽希望网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24766</number><title>安徽希望网络科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24766）</title><serverity>高</serverity><products><product>安徽希望网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>春告鳥</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ahxwkj.com/</formalWay><description>安徽希望网络科技有限公司成立于2003年，是一家主要从事网站建设、网络推广和网络营销的互联网基础产品服务商。
+
+安徽希望网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24765</number><title>安徽希望网络科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24765）</title><serverity>高</serverity><products><product>安徽希望网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>春告鳥</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ahxwkj.com/</formalWay><description>安徽希望网络科技有限公司成立于2003年，是一家主要从事网站建设、网络推广和网络营销的互联网基础产品服务商。
+
+安徽希望网络科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-25281</number><title>普联技术有限公司USG2130存在弱口令漏洞</title><serverity>中</serverity><products><product>普联技术有限公司 TL-ER2220G TL-ER2220G 1.0（硬件版本）</product><product>普联技术有限公司 TL-ER2220G 1.0.1 Build 200702 Rel.39512n（软件版本）</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>len0m0</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁信息，请关注厂商主页随时更新：&#xD;
+https://www.tp-link.com.cn/</formalWay><description>TL-ER2220G是普联技术有限公司双核多WAN口千兆企业VPN路由器。
+
+普联技术有限公司USG2130存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24808</number><title>华为多个产品存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 Secoway USG2160BSR </product><product>华为技术有限公司 SRG3230 </product><product>华为技术有限公司 Secoway USG2120BSR </product><product>华为技术有限公司 SRG1220 </product><product>华为技术有限公司 Secoway USG2130 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>蓝大朝</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>Secoway USG2160BSR是华为技术有限公司一款防火墙，Huawei SRG3230是一款网关，Huawei SRG1220是华为技术有限公司的一款路由器。
+
+华为多个产品存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24806</number><title>HUAWEI SRG2210存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 SRG2210 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>杨颖浩</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>SRG2210是一款路由器。
+
+HUAWEI SRG2210存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24771</number><title>深信服科技股份有限公司一体化网关MIG存在弱口令漏洞</title><serverity>中</serverity><products><product>深信服科技股份有限公司 一体化网关MIG </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>ppwcnvd</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.sangfor.com.cn/</formalWay><description>深信服科技股份有限公司是一家专注于企业级安全、云计算及基础架构的产品和服务供应商，拥有深信服智安全、信服云和深信服新IT三大业务品牌，致力于承载各行业用户数字化转型过程中的基石性工作，从而让用户的IT更简单、更安全、更有价值。
+
+深信服科技股份有限公司一体化网关MIG存在弱口令漏洞，攻击者利用该漏洞登录系统后台，获取数据和敏感信息以及执行未授权的操作。</description></vulnerability><vulnerability><number>CNVD-2021-24805</number><title>HUAWEI SRG1220w存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 SRG1220w </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>杨颖浩</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>SRG1220w是一款路由器。
+
+HUAWEI SRG1220w存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24708</number><title>ShuipFCMS存在任意文件写入漏洞（CNVD-2021-24708）</title><serverity>高</serverity><products><product>ShuipFCMS ShuipFCMS v2.0.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://gitee.com/skykain/shuipfcms</formalWay><description>ShuipFCMS是一款基于ThinkPHP框架为核心，采用独立分组的方式开发的内容管理系统。 
+
+ShuipFCMS存在任意文件写入漏洞，攻击者可利用该漏洞获取服务器权限。
+</description></vulnerability><vulnerability><number>CNVD-2021-24706</number><title>RGCMS存在文件包含漏洞</title><serverity>高</serverity><products><product>RGCMS RGCMS v2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.rgxx.com/</formalWay><description>RGCMS是一套开源的建站管理系统。
+
+RGCMS存在文件包含漏洞，攻击者可利用该漏洞获取服务器权限。
+</description></vulnerability><vulnerability><number>CNVD-2021-24705</number><title>RGCMS存在文件上传漏洞（CNVD-2021-24705）</title><serverity>高</serverity><products><product>RGCMS RGCMS v2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://rgxx.com/</formalWay><description>RGCMS是一套开源的建站管理系统。
+
+RGCMS存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权限。</description></vulnerability><vulnerability><number>CNVD-2021-24704</number><title>深圳市天地心网络技术有限公司建站系统存在SQL注入漏洞（CNVD-2021-24704）</title><serverity>高</serverity><products><product>深圳市天地心网络技术有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.tiandixin.net/</formalWay><description>深圳市天地心网络技术有限公司经营范围包括：网络技术开发，平面设计，LOGO设计，企业形象策划等。
+
+深圳市天地心网络技术有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25998</number><title>深圳市天地心网络技术有限公司建站系统存在SQL注入漏洞（CNVD-2021-25998）</title><serverity>高</serverity><products><product>深圳市天地心网络技术有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-29</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tiandixin.net/</formalWay><description>深圳市天地心网络技术有限公司是一家策略研发型企业，众多大型项目经验，超过上万家中国企业共同选择的网站平台建设者，公司主要专注于企业网站建设、百度首页自然排名，域名注册，空间租用，企业邮局，400电话，企业VI设计，电子画册制作等服务。
+
+深圳市天地心网络技术有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-24703</number><title>Bento4存在拒绝服务漏洞</title><serverity>中</serverity><products><product>Bento4 Bento4 1.6.0.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>Mr.Bean</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.bento4.com/</formalWay><description>bento4是一个C类库和设计用来读取和写入ISO-MP4文件的工具。
+
+Bento4存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24702</number><title>唐山平升电子技术开发有限公司网站后台管理系统存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>唐山平升电子技术开发有限公司 网站后台管理系统 V1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.data86.com</formalWay><description>唐山平升电子技术开发有限公司经营范围包括：电子产品、仪器仪表、电气设备、计算机、软件、自动控制系统的设计、制造、机电设备、批发、零售；技术服务等。
+
+唐山平升电子技术开发有限公司网站后台管理系统存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24701</number><title>常熟市祺迹网络信息科技有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>常熟市祺迹网络信息科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.18686.net</formalWay><description>常熟市祺迹网络信息科技有限公司是一家专业从事常熟网站优化，常熟网站建设，常熟网站制作网络推广为一体的综合型互联网企业。
+
+常熟市祺迹网络信息科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24700</number><title>ForceControl存在拒绝服务漏洞</title><serverity>高</serverity><products><product>北京力控元通科技有限公司 ForceControl V7.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.sunwayland.com/</formalWay><description>ForceControl是一款通用型的人机可视化监控组态软件，是国内率先以分布式实时数据库技术作为内核的自动化软件产品。
+
+ForceControl存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24699</number><title>ForceControl存在拒绝服务漏洞（CNVD-2021-24699）</title><serverity>高</serverity><products><product>北京力控元通科技有限公司 ForceControl V7.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.sunwayland.com/</formalWay><description>ForceControl是一款通用型的人机可视化监控组态软件，是国内率先以分布式实时数据库技术作为内核的自动化软件产品。
+
+ForceControl存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24926</number><title>奇乐自媒体新闻系统免费版存在SQL注入漏洞</title><serverity>中</serverity><products><product>合肥奇乐网络科技有限公司 奇乐自媒体新闻系统免费版 1.1.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.qilecms.com</formalWay><description>奇乐自媒体新闻系统是基于TP5.1开发的新闻管理系统。
+
+奇乐自媒体新闻系统免费版存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24698</number><title>ForceControl存在拒绝服务漏洞（CNVD-2021-24698）</title><serverity>高</serverity><products><product>北京力控元通科技有限公司 ForceControl V7.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.sunwayland.com/</formalWay><description>ForceControl是一款通用型的人机可视化监控组态软件，是国内率先以分布式实时数据库技术作为内核的自动化软件产品。
+
+ForceControl存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24927</number><title>奇乐中介担保系统免费版存在SQL注入漏洞</title><serverity>中</serverity><products><product>合肥奇乐网络科技有限公司 奇乐中介担保系统免费版 1.2.9</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-07</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.qilecms.com</formalWay><description>奇乐中介担保系统是一款基于TP5.1的中介担保交易系统。
+
+奇乐中介担保系统免费版存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24697</number><title>快排CMS存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>快排CMS 快排CMS </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>hackingbird</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.kpcms.cn/</formalWay><description>快排CMS是开源免费的PHP企业网站制作、建设、开发、优化SEO管理系统。
+
+快排CMS存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24696</number><title>WebAccess/HMI Designer存在拒绝服务漏洞（CNVD-2021-24696）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24695</number><title>WebAccess/HMI Designer存在内存破坏漏洞</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在内存破坏漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24694</number><title>WebAccess/HMI Designer存在内存越界访问漏洞</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在内存越界访问漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24693</number><title>WebAccess/HMI Designer存在拒绝服务漏洞（CNVD-2021-24693）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24692</number><title>WebAccess/HMI Designer存在拒绝服务漏洞（CNVD-2021-24692）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24691</number><title>WebAccess/HMI Designer存在拒绝服务漏洞（CNVD-2021-24691）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24690</number><title>WebAccess/HMI Designer存在堆溢出漏洞</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在堆溢出漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24535</number><title>WebAccess/HMI Designer存在拒绝服务漏洞（CNVD-2021-24535）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24534</number><title>方正防火墙存在弱口令漏洞</title><serverity>中</serverity><products><product>北大方正集团有限公司 方正防火墙 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>徐琳辉</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.founder.com/</formalWay><description>方正集团植根北大，致力于持续提供卓越的产品与服务，为人们创造更智能、更健康、更富足的生活。 
+
+方正防火墙存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24533</number><title>WebAccess/HMI Designer存在内存破坏漏洞（CNVD-2021-24533）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在内存破坏漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24532</number><title>WebAccess/HMI Designer存在内存越界访问漏洞（CNVD-2021-24532）</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在内存越界访问漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24531</number><title>Ke361存在SQL注入漏洞（CNVD-2021-24531）</title><serverity>中</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>冷虎林</discovererName><formalWay>暂无</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+Ke361存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-24530</number><title>WebAccess/HMI Designer存在整数溢出漏洞</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 WebAccess/HMI Designer 2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn/</formalWay><description>WebAccess/HMI Designer是一款人机界面集成开发工具。
+
+WebAccess/HMI Designer存在整数溢出漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24529</number><title>大唐AC集中管理平台存在弱口令漏洞</title><serverity>中</serverity><products><product>大唐电信科技股份有限公司 大唐电信AC集中管理平台 1.02.032</product><product>大唐电信科技股份有限公司 大唐电信AC集中管理平台 1.02.040</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-08</openTime><discovererName>蒙育乐</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.datang.com/</formalWay><description>大唐电信科技股份有限公司经营范围包括：制造电子及通信设备、移动电话机、仪器仪表、文化办公设备等。
+
+大唐AC集中管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24528</number><title>ke361存在SQL注入漏洞（CNVD-2021-24528）</title><serverity>中</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>冷虎林</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+ke361存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-24527</number><title>H3C ER3200路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER3200路由器 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>cc相信光</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>ER3200是H3C公司推出的一款高性能路由器。
+
+H3C ER3200路由器存在弱口令漏洞。攻击者利用该漏洞登录系统后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24526</number><title>H3C ER6300路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER6300路由器 1.1.1.7</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>pwnter</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.h3c.com.cn/</formalWay><description>ER6300是H3C公司推出的一款高性能全千兆网吧专用路由器。
+
+H3C ER6300路由器存在弱口令漏洞，攻击者可利用该漏洞登陆路由器后台获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24525</number><title>Ke361存在SQL注入漏洞（CNVD-2021-24525）</title><serverity>中</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>冷虎林</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+Ke361存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。
+</description></vulnerability><vulnerability><number>CNVD-2021-26085</number><title>jeewms存在命令执行漏洞</title><serverity>高</serverity><products><product>厦门市灵鹿谷科技有限公司 jeewms </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-26</submitTime><openTime>2021-05-07</openTime><discovererName>邝锐鹏</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://gitee.com/erzhongxmu/jeewms</formalWay><description>jeewms是由灵鹿谷科技主导的开源项目，基于JAVA的仓库管理系统（支持自营和第三方），包含PDA端和WEB端。
+
+jeewms存在命令执行漏洞。攻击者可利用该漏洞获取服务器权限。</description></vulnerability><vulnerability><number>CNVD-2021-24524</number><title>Ke361存在SQL注入漏洞（CNVD-2021-24524）</title><serverity>中</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>冷虎林</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.361dream.com</formalWay><description>Ke361是一个开源的淘宝客系统。
+
+Ke361存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-24523</number><title>HUAWEI EGW2160存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 EGW2160 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-09</openTime><discovererName>zhijiansrc</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>HUAWEI EGW2160是华为技术有限公司的一款防火墙。
+
+HUAWEI EGW2160存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24521</number><title>Microsoft Windows存在拒绝服务漏洞</title><serverity>中</serverity><products><product>Microsoft Windows </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：https://www.microsoft.com/</formalWay><description>Windows是由微软公司（Microsoft）开发的操作系统。
+
+Microsoft Windows存在拒绝服务漏洞，攻击者可利用该漏洞造成拒绝服务。</description></vulnerability><vulnerability><number>CNVD-2021-24520</number><title>HUAWEI USG2120BSR存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 USG2120BSR USG2100 V300R001C10SPC500</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>honghong</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>USG2120BSR是华为技术有限公司的一款防火墙。
+
+HUAWEI USG2120BSR存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24519</number><title>飞鱼星科技开发有限公司VOLANS存在弱口令漏洞</title><serverity>中</serverity><products><product>成都飞鱼星科技开发有限公司 VOLANS </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>徐琳辉</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.adslr.com/</formalWay><description>成都飞鱼星科技股份有限公司成立于2002年，专注于数通行业、物联网行业产品创新研发的高新技术企业。
+
+飞鱼星科技开发有限公司VOLANS存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24518</number><title>维盟（WayOS）智能路由管理系统存在弱口令漏洞（CNVD-2021-24518）</title><serverity>中</serverity><products><product>深圳维盟科技股份有限公司 维盟（WayOS）智能路由管理系统 FBM-550G V2.0-19.03.29V</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>徐琳辉</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.wayos.com/</formalWay><description>维盟（WayOS）智能路由管理系统是维盟科技针对中小型企业、网吧、出租屋、商超等各行业场景而设计，突出上网行为管理、带宽叠加、智能QOS、PPP0E认证服务器、微信连WiFi、广告营销等功能。
+
+维盟（WayOS）智能路由管理系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24517</number><title>OurPHP存在SQL注入漏洞（CNVD-2021-24517）</title><serverity>中</serverity><products><product>哈尔滨伟成科技有限公司 OurPHP </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>1winner</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ourphp.net</formalWay><description>OurPHP是一款基于PHP MySQL开发符合W3C标准的建站系统。
+
+OurPHP存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24516</number><title>NBR路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>锐捷网络股份有限公司 NBR路由器 RGOS 10.3(4b11)p1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-23</submitTime><openTime>2021-05-07</openTime><discovererName>cc相信光</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页及时更新：&#xD;
+http://www.ruijie.com.cn/</formalWay><description>锐捷网络股份有限公司是一家数据通信解决方案提供商。
+
+NBR路由器存在弱口令漏洞。攻击者可利用漏洞通过弱口令登录设备，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25889</number><title>上海博达数据通信有限公司博达下一代防火墙存在弱口令漏洞</title><serverity>中</serverity><products><product>上海博达数据通信有限公司 下一代防火墙 v5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>武汉明嘉信信息安全检测评估有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.bdcom.com.cn/</formalWay><description>博达NGFW下一代防火墙是上海博达数据通信有限公司为企业、政府、酒店、医院、学校等中型网络安全需求场景设计和推出的一款防火墙产品。
+
+上海博达数据通信有限公司博达下一代防火墙存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25905</number><title> Ke361后台Ca***.cl***.php存在SQL注入漏洞</title><serverity>中</serverity><products><product>Ke361 Ke361 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://gitee.com/jcove/ke361</formalWay><description>Ke361是一个开源的淘宝客系统，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，该淘宝客系统采用了全新的架构设计和命名空间机制，融合模块化、驱动化和插件化设计理念于一体。
+
+Ke361后台Ca***.cl***.php存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-25009</number><title>DedeCMSV6存在文件上传漏洞</title><serverity>高</serverity><products><product>上海穆云智能科技有限公司 DEDECMSV6 6.0.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.dedebiz.com/</formalWay><description>DedeCMSV6是基于PHP7.x开发，具有可扩展性，并且完全开放源代码。
+
+DedeCMSV6存在文件上传漏洞，攻击者可利用该漏洞导致任意代码执行。
+</description></vulnerability><vulnerability><number>CNVD-2021-25904</number><title>Ke361后台Di***.cl***.php存在SQL注入漏洞</title><serverity>中</serverity><products><product>Ke361 Ke361 V1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，该淘宝客系统采用了全新的架构设计和命名空间机制，融合模块化、驱动化和插件化设计理念于一体。
+
+Ke361后台Di***.cl***.php存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-25008</number><title>DedeCMSV6后台存在文件上传漏洞</title><serverity>高</serverity><products><product>上海穆云智能科技有限公司 DEDECMSV6 6.0.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.dedebiz.com/</formalWay><description>DedeCMSV6是基于PHP7.x开发，具有可扩展性，并且完全开放源代码。
+
+DedeCMSV6后台存在文件上传漏洞，攻击者可利用该漏洞导致任意代码执行。
+</description></vulnerability><vulnerability><number>CNVD-2021-25007</number><title>DedeCMSV6存在文件上传漏洞（CNVD-2021-25007）</title><serverity>高</serverity><products><product>上海穆云智能科技有限公司 DEDECMSV6 6.0.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.dedebiz.com/&#xD;
+</formalWay><description>DedeCMSV6是基于PHP7.x开发，具有可扩展性，并且完全开放源代码。
+
+DedeCMSV6存在文件上传漏洞，攻击者可利用该漏洞导致任意代码执行。</description></vulnerability><vulnerability><number>CNVD-2021-25002</number><title>Ke361后台Me***.cl***.php存在SQL注入漏洞</title><serverity>中</serverity><products><product>Ke361淘客商城 Ke361 v1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，该淘宝客系统采用了全新的架构设计和命名空间机制，融合模块化、驱动化和插件化设计理念于一体。
+
+Ke361后台Me***.cl***.php存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-25888</number><title>艾泰科技多个网络设备存在弱口令漏洞</title><serverity>中</serverity><products><product>上海艾泰科技有限公司 进取™ 1220G路由器 </product><product>上海艾泰科技有限公司 商睿2610G路由器 </product><product>上海艾泰科技有限公司 商睿2620G路由器 </product><product>上海艾泰科技有限公司 商睿™810路由器 </product><product>上海艾泰科技有限公司 进取512W路由器 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.utt.com.cn/</formalWay><description>艾泰科技是中国中小型网络解决方案提供商和服务商。
+
+艾泰科技多个网络设备存在弱口令漏洞，攻击可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-26202</number><title>JeecgBoot存在SQL注入漏洞（CNVD-2021-26202）</title><serverity>高</serverity><products><product>北京国炬信息技术有限公司 JeecgBoot v2.4.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-01</submitTime><openTime>2021-05-08</openTime><discovererName>cuthbert</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+http://www.jeecg.com/ </formalWay><description>JeecgBoot是一款基于BPM的低代码平台。
+
+JeecgBoot存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-26170</number><title>D-Link DFL-260E存在弱口令漏洞</title><serverity>中</serverity><products><product>友讯电子设备（上海）有限公司 DFL-260E 2.40.04.08-21460</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-26</submitTime><openTime>2021-05-08</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.dlink.com.cn/</formalWay><description>D-Link成立于1986年，致力为全球消费者以及各规模企业提供高质量的网络解决方案。
+
+D-Link DFL-260E存在弱口令漏洞。攻击者可利用弱密码登录后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25001</number><title>Ke361后台Mo***.cl***.php存在SQL注入漏洞</title><serverity>中</serverity><products><product>Ke361淘客商城 Ke361 v1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.361dream.com/</formalWay><description>Ke361是一个开源的淘宝客系统，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，该淘宝客系统采用了全新的架构设计和命名空间机制，融合模块化、驱动化和插件化设计理念于一体。
+
+Ke361后台Mo***.cl***.php存在SQL注入漏洞。攻击者可利用该漏洞获取数据库敏感数据。</description></vulnerability><vulnerability><number>CNVD-2021-25919</number><title>零视技术(上海)有限公司H5S CONSOLE存在信息泄露漏洞</title><serverity>中</serverity><products><product>零视技术(上海)有限公司 H5S CONSOLE </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>KongBlow</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://linkingvision.cn/</formalWay><description>零视技术(上海)有限公司于2018年09月25日成立。法定代表人薛水木，公司经营范围包括：从事计算机科技、网络科技、机电科技、电子科技、信息科技、数码科技、通讯科技、软件科技、智能科技领域内的技术开发、技术咨询、技术服务、技术转让，计算机、软硬件及辅助设备、电子产品、通信设备、仪器仪表、通讯器材、家用电器的销售，计算机软件开发、计算机系统集成、计算机系统服务、通信工程等。
+
+零视技术(上海)有限公司H5S CONSOLE存在信息泄露漏洞。攻击者可利用漏洞访问url，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25006</number><title>SDCMS-B2C商城网站管理系统存在命令执行漏洞（CNVD-2021-25006）</title><serverity>高</serverity><products><product>苏州烟火网络科技有限公司 SDCMS-B2C商城网站管理系统 V1.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>长春嘉诚信息技术股份有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.sdcms.cn</formalWay><description>SDCMS-B2C商城网站管理系统集城市分站、云储存、三级分销、微信公众号、组合套餐、多人拼团等众多功能于一身的营销型商城管理系统。
+
+SDCMS-B2C商城网站管理系统存在命令执行漏洞，攻击者可利用该漏洞获取服务器权限。</description></vulnerability><vulnerability><number>CNVD-2021-25887</number><title>H3C NER324存在弱口令漏洞</title><serverity>中</serverity><products><product>H3C NER324系统管理 null</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>ycl</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>H3C NER324是新华三技术有限公司推出的新一代企业级千兆高性能路由器，它定位于网吧、唱吧、数字电影院等文化产业市场。
+
+H3C NER324存在弱口令漏洞，攻击者可利用该漏洞通过默认口令登录设备，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25000</number><title>Songcms存在SQL注入漏洞（CNVD-2021-25000）</title><serverity>高</serverity><products><product>广东凯格科技有限公司 SongCMS v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>霸道糖果</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP+MySQL、ASP+Access/SQL Server开发,面向企业,支持多国语言、免费、开源的CMS, 帮助企业用户快速建设与部署企业级门户网站。
+
+Songcms存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-30089</number><title>盈高科技多个系统存在弱口令漏洞</title><serverity>中</serverity><products><product>杭州盈高科技有限公司 盈高入网规范管理系统 </product><product>杭州盈高科技有限公司 盈高移动设备管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>echoaa1c2d</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+http://www.infogo.com.cn/</formalWay><description>杭州盈高科技有限公司（INFOGO TECHNOLOGY CO.,LTD）是业内领先的专业从事网络准入控制NAC产品研发、销售和服务的信息安全厂商。 
+
+盈高科技多个系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24999</number><title>纬衡出图管理系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>纬衡浩建科技（深圳）有限公司 纬衡出图管理系统 VHPlot 3.0</product><product>纬衡浩建科技（深圳）有限公司 纬衡出图管理系统 VHPlot 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>linktrust</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新： &#xD;
+http://www.vhsoft.com.cn/</formalWay><description>纬衡出图管理系统是一款贯穿电子图纸打印、收集、归档、统计的全过程出图管理平台。
+
+纬衡出图管理系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25894</number><title>清大新洋通用图书馆集成管理系统GLIS存在未授权访问漏洞</title><serverity>中</serverity><products><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 9.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 7.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 8.*</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+http://www.infosea.com.cn/</formalWay><description>北京清大新洋科技有限公司是北京市新技术产业开发区的高新技术企业，注册资金1000万元人民币，下属多家子公司（北京中科新洋科技有限公司、浙江清大新洋科技有限公司）。公司依托清华大学的技术优势，专业从事图书馆自动化系统软件的开发、销售及推广，承接网络系统集成工程；专业提供数据制作，网上联合采编服务。
+
+清大新洋通用图书馆集成管理系统GLIS存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25893</number><title>清大新洋通用图书馆集成管理系统GLIS存在未授权访问漏洞（CNVD-2021-25893）</title><serverity>中</serverity><products><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 9.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 7.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 8.*</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+http://www.infosea.com.cn/</formalWay><description>北京清大新洋科技有限公司是北京市新技术产业开发区的高新技术企业，注册资金1000万元人民币，下属多家子公司（北京中科新洋科技有限公司、浙江清大新洋科技有限公司）。公司依托清华大学的技术优势，专业从事图书馆自动化系统软件的开发、销售及推广，承接网络系统集成工程；专业提供数据制作，网上联合采编服务。
+
+清大新洋通用图书馆集成管理系统GLIS存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25886</number><title>华为USG2130BSR-W登录系统存在弱口令漏洞</title><serverity>中</serverity><products><product>华为软件技术有限公司 USG2130BSR-W登录系统 USG2100 V300R001C00SPCa00</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>正在阿斯</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>华为是一家全球领先的信息与通信解决方案供应商。 
+
+华为USG2130BSR-W登录系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25892</number><title>北京清大新洋科技有限公司通用图书馆集成管理系统GLIS存在未授权访问漏洞</title><serverity>中</serverity><products><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 9.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 7.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 8.*</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新： &#xD;
+http://www.infosea.com.cn/</formalWay><description>北京清大新洋科技有限公司是北京市新技术产业开发区的高新技术企业，注册资金1000万元人民币，下属多家子公司（北京中科新洋科技有限公司、浙江清大新洋科技有限公司）。公司依托清华大学的技术优势，专业从事图书馆自动化系统软件的开发、销售及推广，承接网络系统集成工程；专业提供数据制作，网上联合采编服务。
+
+北京清大新洋科技有限公司通用图书馆集成管理系统GLIS存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25891</number><title>北京清大新洋科技有限公司通用图书馆集成管理系统GLIS存在未授权访问漏洞（CNVD-2021-25891）</title><serverity>中</serverity><products><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 9.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 7.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 8.*</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新：&#xD;
+http://www.infosea.com.cn/</formalWay><description>北京清大新洋科技有限公司是北京市新技术产业开发区的高新技术企业，注册资金1000万元人民币，下属多家子公司（北京中科新洋科技有限公司、浙江清大新洋科技有限公司）。公司依托清华大学的技术优势，专业从事图书馆自动化系统软件的开发、销售及推广，承接网络系统集成工程；专业提供数据制作，网上联合采编服务。
+
+北京清大新洋科技有限公司通用图书馆集成管理系统GLIS存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25890</number><title>北京清大新洋信息技术有限公司通用图书馆集成管理系统GLIS存在目录遍历漏洞</title><serverity>中</serverity><products><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 9.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 7.0</product><product>北京清大新洋科技有限公司 通用图书馆集成管理系统GLIS 8.*</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>目前厂商尚未提供相关漏洞补丁链接，请关注厂商主页随时更新： &#xD;
+http://www.infosea.com.cn/</formalWay><description>北京清大新洋科技有限公司是北京市新技术产业开发区的高新技术企业，注册资金1000万元人民币，下属多家子公司（北京中科新洋科技有限公司、浙江清大新洋科技有限公司）。公司依托清华大学的技术优势，专业从事图书馆自动化系统软件的开发、销售及推广，承接网络系统集成工程；专业提供数据制作，网上联合采编服务。
+
+北京清大新洋信息技术有限公司通用图书馆集成管理系统GLIS存在目录遍历漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25906</number><title>74cms6.0.20存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>太原迅易科技有限公司 74cms v6.0.20</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新：&#xD;
+http://www.74cms.com/</formalWay><description>74cms是一项基于PHP+MYSQL为核心开发的一套免费开源的专业人才招聘系统。
+
+74cms6.0.20存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25005</number><title>74cms6.0.20存在逻辑缺陷漏洞（CNVD-2021-25005）</title><serverity>中</serverity><products><product>太原迅易科技有限公司 74cms v6.0.20</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>一只哈士奇</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新：&#xD;
+http://www.74cms.com/</formalWay><description>74cms是一项基于PHP+MYSQL为核心开发的一套免费开源的专业人才招聘系统。
+
+74cms6.0.20存在逻辑缺陷漏洞，攻击者可利用该漏洞对系统的完整性造成影响。</description></vulnerability><vulnerability><number>CNVD-2021-25917</number><title>腾达11AC 1200MBPS无线面板式AP的se***接口存在栈溢出漏洞（CNVD-2021-25917）</title><serverity>高</serverity><products><product>深圳市吉祥腾达科技有限公司 11AC 1200MBPS无线面板式AP V1.0.0.7(4456)_CN</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>山石网科通信技术股份有限公司</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.tenda.com.cn/</formalWay><description>深圳市吉祥腾达科技有限公司（以下简称“腾达”）创立于1999年，是专业的网络通信设备及方案供应商，也是集研发、生产、供应、销售、服务于一体的高新技术企业。
+
+腾达11AC 1200MBPS无线面板式AP的se***接口存在栈溢出漏洞，攻击者可利用该漏洞获取服务器控制权。
+</description></vulnerability><vulnerability><number>CNVD-2021-25903</number><title>Ke361后台Ad***.cl***.php存在任意文件上传漏洞</title><serverity>高</serverity><products><product>Ke361淘客商城 Ke361 v1.0.707</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>冷虎林</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://gitee.com/jcove/ke361</formalWay><description>Ke361是一个开源的淘宝客系统，基于最新的ThinkPHP3.2版本开发，提供更方便、更安全的WEB应用开发体验，该淘宝客系统采用了全新的架构设计和命名空间机制，融合模块化、驱动化和插件化设计理念于一体。
+
+Ke361后台Ad***.cl***.php存在任意文件上传漏洞。攻击者可利用该漏洞获取服务器权限。</description></vulnerability><vulnerability><number>CNVD-2021-25004</number><title>DiYunCMS存在命令执行漏洞</title><serverity>中</serverity><products><product>DiYunCMS DiYunCMS 4.3.14</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>长春嘉诚信息技术股份有限公司</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.diyuncms.com/</formalWay><description>帝云CMS内容管理系统是基于PHP7语言采用最新CodeIgniter4作为开发框架生产的网站内容管理框架，提供“电脑网站、手机网站、APP 接口”一体化网站技术解决方案。
+
+DiYunCMS存在命令执行漏洞，利用者可利用该漏洞获取服务器权限。</description></vulnerability><vulnerability><number>CNVD-2021-25003</number><title>极致cms存在文件上传漏洞（CNVD-2021-25003）</title><serverity>高</serverity><products><product>廊坊市极致网络科技有限公司 极致CMS v1.9.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>marry</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.jizhicms.cn/</formalWay><description>极致CMS是一款开源免费的PHPCMS网站内容管理系统。
+
+极致cms存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-25885</number><title>碧海威L7家庭网关存在弱口令漏洞</title><serverity>中</serverity><products><product>北京碧海威科技有限公司 碧海威L7家庭网关 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>cc相信光</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新：&#xD;
+http://www.bithighway.com/</formalWay><description>碧海威L7家庭网关是北京碧海威科技有限公司推出的一款家庭网关。
+
+碧海威L7家庭网关存在弱口令漏洞。攻击者可利用该漏洞登录系统后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25880</number><title>杭州冠航科技有限公司GS系列企业应用网关存在弱口令漏洞</title><serverity>中</serverity><products><product>杭州冠航科技有限公司 GS-R7100 </product><product>杭州冠航科技有限公司 GS-R5200 </product><product>杭州冠航科技有限公司 GS-R6200 </product><product>杭州冠航科技有限公司 GS-R5208P </product><product>杭州冠航科技有限公司 GS-R7600S </product><product>杭州冠航科技有限公司 TDROUTER </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>奈落</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.ghinf.com。</formalWay><description>杭州冠航科技有限公司是一家创新型智能网络解决方案生产厂家。致力于企业级无线网络、物联网以及智能交换机产品的开发、应用，是下一代企业级无线、物联网及交换机解决方案厂商。
+
+杭州冠航科技有限公司GS系列企业应用网关存在弱口令漏洞，攻击者可利用该漏洞登录系统后台，获取敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-25879</number><title>深圳市磊科实业有限公司磊科宽带路由器管理面板存在弱口令漏洞</title><serverity>中</serverity><products><product>深圳市磊科实业有限公司 磊科宽带路由器管理面板 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+http://www.netcoretec.com/</formalWay><description>深圳市磊科实业有限公司是专业的数据通讯网络设备及解决方案供应商。
+
+深圳市磊科实业有限公司磊科宽带路由器管理面板存在弱口令漏洞，攻击者可利用该漏洞获取信息。</description></vulnerability><vulnerability><number>CNVD-2021-25878</number><title>华为AR Web管理平台存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 AR Web管理平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>夏思祺</discovererName><formalWay>厂商已提供修复方案，请关注厂商主页更新： &#xD;
+https://www.huawei.com/</formalWay><description>华为技术有限公司，成立于1987年，总部位于广东省深圳市龙岗区。 [1]  华为是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域，坚持稳健经营、持续创新、开放合作，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务。
+
+华为AR Web管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25916</number><title>网御Web应用安全防护系统存在文件上传漏洞</title><serverity>高</serverity><products><product>北京网御星云信息技术有限公司 网御Web应用安全防护系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>kevil</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+http://www.leadsec.com.cn/</formalWay><description>网御Web应用安全防护系统(以下简称:网御WAF)是Web安全防护与应用交付类网络安全产品。
+
+网御Web应用安全防护系统存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-25877</number><title>DrayTek系列路由器登录系统存在弱口令漏洞</title><serverity>中</serverity><products><product>DrayTek VigorAP 900 </product><product>DrayTek Vigor 2925 Series </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.draytek.com/</formalWay><description>DrayTek通讯技术（常熟）有限公司上海分公司是隶属于台湾居易科技有限公司的全资子公司，前身是成立于2002年10月的居易科技上海办事处。
+
+DrayTek系列路由器登录系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24998</number><title>上海牛迈网络科技有限公司建站系统存在万能密码登录漏洞</title><serverity>高</serverity><products><product>上海牛迈网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>饶盼</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+http://www.num.net.cn/</formalWay><description>上海牛迈网络科技有限公司于2019年09月09日成立。法定代表人许新生,公司经营范围包括：从事网络科技领域内的技术开发、技术转让、技术咨询、技术服务；网页设计；广告设计；发布、制作代理；网站建设；从事通讯科技电子产品技术、信息技术、计算机软件技术领域内的技术开发、技术转让、技术咨询、技术服务；计算机信息系统集成；计算机数据处理；平面设计；计算机软件、电子产品、工艺品（象牙及其制品除外）的销售等。
+
+上海牛迈网络科技有限公司建站系统存在万能密码登录漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25876</number><title>华为AR Web管理平台存在弱口令漏洞（CNVD-2021-25876）</title><serverity>中</serverity><products><product>华为技术有限公司 AR Web管理平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>阿军</discovererName><formalWay>厂商已提供修复方案，请关注厂商主页更新： &#xD;
+https://www.huawei.com/</formalWay><description>华为技术有限公司，成立于1987年，总部位于广东省深圳市龙岗区。 [1]  华为是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域，坚持稳健经营、持续创新、开放合作，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务。
+
+华为AR Web管理平台存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24996</number><title>北京一诺互联科技有限公司建站系统存在SQL注入漏洞（CNVD-2021-24996）</title><serverity>中</serverity><products><product>北京一诺互联科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>Ink_zx</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+https://www.1-3.com.cn/</formalWay><description>北京一诺互联科技有限公司是一家提供网站建设，网站优化，网站推广，网站开发，网页设计制作等服务的公司。
+
+北京一诺互联科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25908</number><title>DKEY访问管理器存在弱口令漏洞</title><serverity>中</serverity><products><product>上海宁盾信息科技有限公司 DKEY访问管理器 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>惆怅赤城期</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+http://www.nington.com/</formalWay><description>上海宁盾信息科技有限公司于2009年4月7日在徐汇区市场监督管理局登记成立。法定代表人刘英戈，公司经营范围包括计算机软、硬件领域内的技术开发、技术咨询等。 
+
+DKEY访问管理器存在弱口令漏洞,攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-25907</number><title>联通CPE-WiFi Web管理平台存在未授权访问漏洞</title><serverity>中</serverity><products><product>中国联合网络通信集团有限公司 CPE-WiFi Web管理平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-24</submitTime><openTime>2021-05-08</openTime><discovererName>milu</discovererName><formalWay>厂商尚未提供修复方案，请关注厂商主页更新： &#xD;
+http://www.chinaunicom.com.cn</formalWay><description>中国联合通信有限公司成立于1994年7月19日，以13.4亿元资本金艰难起步，经过十年发展，已成为拥有843亿元净资产、2129亿元总资产的特大型国有骨干企业，是我国唯一一家能提供全面电信基本业务的综合性电信运营企业。
+
+联通CPE-WiFi Web管理平台存在未授权访问漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-26084</number><title>深圳市磊科实业有限公司NR235P存在弱口令漏洞</title><serverity>中</serverity><products><product>深圳市磊科实业有限公司 NR235P </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-26</submitTime><openTime>2021-05-08</openTime><discovererName>看不见的神秘人</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.netcoretec.com</formalWay><description>NR235P是小型企业设备类型宽带路由器。
+
+深圳市磊科实业有限公司NR235P存在弱口令漏洞。攻击者可利用弱密码登录后台，获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-29179</number><title>北京中创视讯科技有限公司HIM基础管理平台存在任意文件读取漏洞</title><serverity>中</serverity><products><product>北京中创视讯科技有限公司 HIM基础管理平台 1.4.3.251</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>邝锐鹏</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.hjtcloud.com/</formalWay><description>北京中创视讯科技有限公司是一家专注于视频会议系统软硬件研发的高科技公司。
+
+北京中创视讯科技有限公司HIM基础管理平台存在任意文件读取漏洞，攻击者可利用该漏洞读取服务器所有文件。</description></vulnerability><vulnerability><number>CNVD-2021-29180</number><title>北京中创视讯科技有限公司HIM基础管理平台存在目录遍历漏洞</title><serverity>中</serverity><products><product>北京中创视讯科技有限公司 HIM基础管理平台 1.4.3.251</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>邝锐鹏</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.hjtcloud.com/</formalWay><description>北京中创视讯科技有限公司是一家专注于视频会议系统软硬件研发的高科技公司。
+
+北京中创视讯科技有限公司HIM基础管理平台存在目录遍历漏洞，攻击者可利用该漏洞遍历服务器任意目录。</description></vulnerability><vulnerability><number>CNVD-2021-24928</number><title>友讯电子设备（上海）有限公司DSL-2730E存在弱口令漏洞</title><serverity>中</serverity><products><product>友讯电子设备（上海）有限公司 DSL-2730E </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>武汉明嘉信信息安全检测评估有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.dlink.com.cn/</formalWay><description>DSL-2730E是友讯电子设备（上海）有限公司的一款路由
+
+友讯电子设备（上海）有限公司DSL-2730E存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24929</number><title>TIBCO jaspersoft存在弱口令漏洞</title><serverity>中</serverity><products><product>TIBCO TIBCO jaspersoft </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.jaspersoft.com/</formalWay><description>TIBCO jaspersoft是一个桌面报表设计器。
+
+TIBCO jaspersoft存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24930</number><title>研华科技（中国）有限公司ADAM-3600-C2G存在弱口令漏洞</title><serverity>中</serverity><products><product>研华科技（中国）有限公司 ADAM-3600-C2G 2.2.1</product><product>研华科技（中国）有限公司 ADAM-3600-C2G 2.3.1</product><product>研华科技（中国）有限公司 ADAM-3600-C2G 2.5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>SanSs_Tpcsec</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.advantech.com.cn</formalWay><description>研华科技（中国）有限公司是全球智能系统产业的领导厂商。
+
+研华科技（中国）有限公司ADAM-3600-C2G存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24955</number><title>广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞</title><serverity>高</serverity><products><product>广东凯格科技有限公司 SongCMS PHP版 v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>霸道糖果</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP MySQL、ASP Access/SQL Server开发，面向企业，支持多国语言、免费、开源的CMS，帮助企业用户快速建设与部署企业级门户网站。
+
+广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24931</number><title>WMCMS存在文件上传漏洞（CNVD-2021-24931）</title><serverity>高</serverity><products><product>WMCMS团队 WMCMS 4.230.442</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.weimengcms.com/index.html</formalWay><description>WMCMS是一套基于PHP+MYSQL为核心开发、免费 + 开源的专业中文标签建站系统。
+
+WMCMS存在文件上传漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24932</number><title>Tenda AC9存在拒绝服务漏洞（CNVD-2021-24932）</title><serverity>中</serverity><products><product>Tenda AC9  V1.0 V15.03.05.19（6318）</product><product>Tenda AC9  V3.0 V15.03.06.42_multi</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>一心向阳</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tenda.com.cn/</formalWay><description>AC9是深圳市吉祥腾达科技有限公司2016年推出的一款带千兆网口的1200M 11AC无线路由器。
+
+Tenda AC9存在拒绝服务漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24933</number><title>华为技术有限公司Secoway USG2160BSR存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 Secoway USG2160BSR </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>honghong</discovererName><formalWay>厂商已提供漏洞修补方案，补丁下载地址：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>Secoway USG2160BSR是华为技术有限公司的一款防火墙。
+
+华为技术有限公司Secoway USG2160BSR存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24950</number><title>宁波市鄞州天一科技有限公司建站系统存在任意文件读取漏洞</title><serverity>低</serverity><products><product>宁波市鄞州天一科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.i0575.cn/i/index.asp</formalWay><description>宁波市鄞州天一科技有限公司是一家高新技术企业。
+
+宁波市鄞州天一科技有限公司建站系统存在任意文件读取漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24951</number><title>河南方果电子科技有限公司建站系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>河南方果电子科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.fangguokeji.com/</formalWay><description>河南方果电子科技有限公司是一家网站建设，微信商城，微信开发的科技营销企业。
+
+河南方果电子科技有限公司建站系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。
+</description></vulnerability><vulnerability><number>CNVD-2021-24948</number><title>Tenda AC9存在拒绝服务漏洞（CNVD-2021-24948）</title><serverity>中</serverity><products><product>Tenda AC9  V1.0 V15.03.05.19（6318）</product><product>Tenda AC9  V3.0 V15.03.06.42_multi</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>一心向阳</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tenda.com.cn/</formalWay><description>AC9是深圳市吉祥腾达科技有限公司2016年推出的一款带千兆网口的1200M 11AC无线路由器。
+
+Tenda AC9存在拒绝服务漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24947</number><title>南昌云端网络科技有限公司建站系统存在任意文件读取漏洞</title><serverity>低</serverity><products><product>南昌云端网络科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>中国电信股份有限公司网络安全产品运营中心</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.yunduancn.com</formalWay><description>南昌云端网络科技有限公司是一家专注在线教育领域的双软企业及高新技术企业。
+
+南昌云端网络科技有限公司建站系统存在任意文件读取漏洞，攻击者可利用该漏洞读取系统整个目录文件。</description></vulnerability><vulnerability><number>CNVD-2021-24946</number><title>新华三技术有限公司ER5200G2、ER3100G2、ER3260G2存在弱口令漏洞</title><serverity>中</serverity><products><product>新华三技术有限公司 ER5200G2 </product><product>新华三技术有限公司 ER3100G2 </product><product>新华三技术有限公司 ER3260G2 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>杨家杰</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.h3c.com/cn/</formalWay><description>ER5200G2、ER3100G2、ER3260G2是新华三技术有限公司推出的新一代高性能企业级路由器。
+
+新华三技术有限公司ER5200G2、ER3100G2、ER3260G2存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24949</number><title>哈尔滨奇讯科技有限公司建站系统in***.php页面存在SQL注入漏洞</title><serverity>高</serverity><products><product>哈尔滨奇讯科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>刘俊</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.qixunwl.com/</formalWay><description>哈尔滨奇讯科技有限公司是一家专注于中小企业网络营销外包的互联网企业。
+
+哈尔滨奇讯科技有限公司建站系统in***.php页面存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24944</number><title>哈尔滨奇讯科技有限公司建站系统se***.php页面存在SQL注入漏洞</title><serverity>高</serverity><products><product>哈尔滨奇讯科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>ur5ula</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.qixunwl.com/</formalWay><description>哈尔滨奇讯科技有限公司是一家专注于中小企业网络营销外包的互联网企业。
+
+哈尔滨奇讯科技有限公司建站系统se***.php页面存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24943</number><title>哈尔滨奇讯科技有限公司建站系统co***.php页面存在SQL注入漏洞</title><serverity>高</serverity><products><product>哈尔滨奇讯科技有限公司 建站系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>ur5ula</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.qixunwl.com/</formalWay><description>哈尔滨奇讯科技有限公司是一家专注于中小企业网络营销外包的互联网企业。
+
+哈尔滨奇讯科技有限公司建站系统co***.php页面存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24957</number><title>广东凯格科技有限公司SongCMS PHP版存在命令执行漏洞</title><serverity>高</serverity><products><product>广东凯格科技有限公司 SongCMS PHP版 v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>霸道糖果</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP MySQL、ASP Access/SQL Server开发，面向企业，支持多国语言、免费、开源的CMS，帮助企业用户快速建设与部署企业级门户网站。
+
+广东凯格科技有限公司SongCMS PHP版存在命令执行漏洞，攻击者可利用该漏洞获取网站服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24942</number><title>深圳市腾狐物联科技有限公司设备管理平台存在SQL注入漏洞</title><serverity>高</serverity><products><product>深圳市腾狐物联科技有限公司 设备管理平台 V3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>武汉明嘉信信息安全检测评估有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.tenhot.net/</formalWay><description>深圳市腾狐物联科技有限公司是一家集商业无线网络产品研发设计、制造、销售、服务为一体的互联网科技公司。
+
+深圳市腾狐物联科技有限公司设备管理平台存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24779</number><title>Hsycms存在XSS漏洞</title><serverity>中</serverity><products><product>深圳好生意网络工作室 Hsycms v3.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>ZYR178</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.hsycms.com/</formalWay><description>Hsycms是由TP5.0框架开发的一套快速建站系统。
+
+Hsycms存在XSS漏洞，攻击者可利用该漏洞获取用户cookie等敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24938</number><title>Kanboard存在弱口令漏洞</title><serverity>中</serverity><products><product>Kanboard Kanboard 1.2.18</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://kanboard.org/</formalWay><description>Kanboard是一个免费的开源看板项目管理软件。
+
+Kanboard存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24954</number><title>广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞（CNVD-2021-24954）</title><serverity>中</serverity><products><product>广东凯格科技有限公司 SongCMS PHP版 v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>霸道糖果</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP MySQL、ASP Access/SQL Server开发，面向企业，支持多国语言、免费、开源的CMS，帮助企业用户快速建设与部署企业级门户网站。
+
+广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24956</number><title>广东凯格科技有限公司SongCMS PHP版存在命令执行漏洞（CNVD-2021-24956）</title><serverity>高</serverity><products><product>广东凯格科技有限公司 SongCMS PHP版 v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>霸道糖果</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP MySQL、ASP Access/SQL Server开发，面向企业，支持多国语言、免费、开源的CMS，帮助企业用户快速建设与部署企业级门户网站。
+
+广东凯格科技有限公司SongCMS PHP版存在命令执行漏洞，攻击者可利用该漏洞获取网站服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24937</number><title>北京盛讯美恒科技发展有限公司usb server管理系统存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>北京盛讯美恒科技发展有限公司 usb server管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>sk00</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.linuxce.cn/ </formalWay><description>北京盛讯美恒科技发展有限公司是一家年轻的科技创新公司。
+
+北京盛讯美恒科技发展有限公司usb server管理系统存在逻辑缺陷漏洞，攻击者可利用该漏洞绕过登录进入后台。</description></vulnerability><vulnerability><number>CNVD-2021-24856</number><title>Adobe Animate存在二进制漏洞</title><serverity>中</serverity><products><product>Adobe Adobe Animate 21.0.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>北京神州绿盟科技有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.adobe.com/</formalWay><description>Adobe Animate是款由Adobe开发的多媒体与电脑动画制作软件。
+
+Adobe Animate存在二进制漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24855</number><title>SuperMicro SuperDoctor5存在弱口令漏洞</title><serverity>中</serverity><products><product>SuperMicro SuperDoctor5 5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.supermicro.org.cn</formalWay><description>SuperMicro SuperDoctor5是一套服务器管理监控平台。该平台主要用于实时监控目标节点硬件在数据中心的系统运行状况或可用性。
+
+SuperMicro SuperDoctor5存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24854</number><title>Adobe Animate存在内存破坏漏洞（CNVD-2021-24854）</title><serverity>中</serverity><products><product>Adobe Adobe Animate 21.0.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>绿盟科技集团股份有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新： &#xD;
+https://www.adobe.com/</formalWay><description>Adobe Animate是款由Adobe开发的多媒体与电脑动画制作软件。
+
+Adobe Animate存在内存破坏漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24773</number><title>SIEMENS JT2Go存在拒绝服务漏洞</title><serverity>中</serverity><products><product>SIEMENS JT2Go V13.1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.siemens.com</formalWay><description>SIEMENS JT2Go是一款JT文件查看器。该软件用于三维图形轻量化预览，可进行3D缩放、全景、旋转、缩放和重定位，具有精确3D测量、基本3D剖面查看、改进的选项过滤器等多种功能。
+
+SIEMENS JT2Go存在拒绝服务漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-24772</number><title>SIEMENS JT2Go存在拒绝服务漏洞（CNVD-2021-24772）</title><serverity>中</serverity><products><product>SIEMENS JT2Go V13.1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>北京顶象技术有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.siemens.com</formalWay><description>SIEMENS JT2Go是一款JT文件查看器。该软件用于三维图形轻量化预览，可进行3D缩放、全景、旋转、缩放和重定位，具有精确3D测量、基本3D剖面查看、改进的选项过滤器等多种功能。
+
+SIEMENS JT2Go存在拒绝服务漏洞，攻击者可利用该漏洞导致程序崩溃。</description></vulnerability><vulnerability><number>CNVD-2021-29178</number><title>广州市九安智能技术股份有限公司JA7208存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>广州市九安智能技术股份有限公司 JA7208 硬件版本：1.0.0/软件版本：1.6.3 6932B3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>爱飞的鱼</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.juanvision.com/index.asp</formalWay><description>广州市九安智能技术股份有限公司是全球领先的移动图传基础设施和物联网平台提供商。
+
+广州市九安智能技术股份有限公司JA7208存在逻辑缺陷漏洞，攻击者可利用该漏洞绕过登录验证。</description></vulnerability><vulnerability><number>CNVD-2021-24953</number><title>广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞（CNVD-2021-24953）</title><serverity>中</serverity><products><product>广东凯格科技有限公司 SongCMS PHP版 v3.17</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>霸道糖果</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.songcms.com</formalWay><description>SongCMS是一款基于PHP MySQL、ASP Access/SQL Server开发，面向企业，支持多国语言、免费、开源的CMS，帮助企业用户快速建设与部署企业级门户网站。
+
+广东凯格科技有限公司SongCMS PHP版存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24853</number><title>锐捷网络股份有限公司RSR路由器WEB管理系统存在弱口令漏洞</title><serverity>中</serverity><products><product>锐捷网络股份有限公司 RSR路由器WEB管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>饶盼</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.ruijie.com.cn/</formalWay><description>锐捷网络股份有限公司是一家主要经营信息系统集成服务；因特网虚拟专用网服务；互联网管理服务等项目的公司。
+
+锐捷网络股份有限公司RSR路由器WEB管理系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24852</number><title>网神SecFox安全审计系统存在弱口令漏洞</title><serverity>中</serverity><products><product>网神信息技术（北京）股份有限公司 SecFox安全审计系统 5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>冷眸</discovererName><formalWay>据厂商提供的信息，该产品已经停产退市，并且已经超出产品支持生命周期。建议客户以旧换新的方式来解决此类问题，以下型号支持硬件返厂升级：&#xD;
+C3000-U100P、C3000-U200P、C3000-U210P、C3000-U300P、C3000-U310M、C3000-U500M、C3000-U510M、C3000-U1000M、C5000-TF10P、C5000-TF20P、C5000-TF30P、C5000-TF40P。其他型号需采购新设备替换原有设备。请关注厂商主页及时更新：&#xD;
+http://www.legendsec.com</formalWay><description>SecFox安全审计系统是网神信息技术（北京）股份有限公司的一款安全审计系统。
+
+网神SecFox安全审计系统存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24764</number><title>海洋CMS存在命令执行漏洞（CNVD-2021-24764）</title><serverity>高</serverity><products><product>海洋CMS 海洋CMS V210202</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>m1sn0w</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.seacms.net/</formalWay><description>海洋CMS是一套专为不同需求的站长而设计的视频点播系统。
+
+海洋CMS存在命令执行漏洞，攻击者可利用该漏洞获取网站服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24935</number><title>SonarQube存在弱口令漏洞</title><serverity>中</serverity><products><product>SonarSource SonarQube </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>徐琳辉</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.sonarqube.org/</formalWay><description>SonarQube是一套开源的代码质量管理系统。
+
+SonarQube存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24763</number><title>海洋CMS存在SQL注入漏洞（CNVD-2021-24763）</title><serverity>高</serverity><products><product>海洋CMS 海洋CMS V210202</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>m1sn0w</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.seacms.net/</formalWay><description>海洋CMS是一套专为不同需求的站长而设计的视频点播系统。
+
+海洋CMS存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24934</number><title>上海寰创通信科技股份有限公司LAC WEB控制中心存在信息泄露漏洞</title><serverity>中</serverity><products><product>上海寰创通信科技股份有限公司      寰创通信LAC WEB控制中心 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>陈坤</discovererName><formalWay>厂商未提供漏洞修复方案，请关注厂商主页更新：&#xD;
+http://www.gbcom.com.cn/</formalWay><description>寰创通信LAC是一款WiFi产品。
+
+上海寰创通信科技股份有限公司LAC WEB控制中心存在信息泄露漏洞，攻击者可下载敏感文件获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24952</number><title>TP-LINK TL-ER6110G，TL-ER6120G，TL-ER6220G路由器存在弱口令漏洞</title><serverity>中</serverity><products><product>TP-LINK TL-ER6110G TL-ER6110G 4.0（软件版本：1.0.0）</product><product>TP-LINK TL-ER6110G TL-ER6110G 4.0（软件版本：1.0.5）</product><product>TP-LINK TL-ER6120G TL-ER6120G 6.0（软件版本：1.0.5）</product><product>TP-LINK TL-ER6120G TL-ER6120G 6.0（软件版本：1.0.6）</product><product>TP-LINK TL-ER6120G TL-ER6120G 6.0（软件版本：1.0.0）</product><product>TP-LINK TL-ER6220G TL-ER6220G 3.0（软件版本：1.0.0）</product><product>TP-LINK TL-ER6220G TL-ER6220G 3.0（软件版本：1.2.0）</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>Jsbchina-Yg</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tp-link.com.cn</formalWay><description>TL-ER6110G，TL-ER6120G，TL-ER6220G都是TP-LINK的路由器。
+
+TP-LINK TL-ER6110G，TL-ER6120G，TL-ER6220G路由器存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24777</number><title>飓风CMS存在命令执行漏洞</title><serverity>高</serverity><products><product>飓风(深圳)软件有限公司 飓风CMS 1.1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>长春嘉诚信息技术股份有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.jufengcms.com/</formalWay><description>飓风CMS是一款采用PHP mysql开发的内容管理系统。
+
+飓风CMS存在命令执行漏洞，攻击者可利用该漏洞获取服务器控制权。</description></vulnerability><vulnerability><number>CNVD-2021-24940</number><title>深圳市磊科实业有限公司NR238存在弱口令漏洞</title><serverity>中</serverity><products><product>深圳市磊科实业有限公司 NR238 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>看不见的神秘人</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.netcoretec.com</formalWay><description>NR238是深圳市磊科实业有限公司的一款路由器。
+
+深圳市磊科实业有限公司NR238存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24939</number><title>深圳市磊科实业有限公司NR255P存在弱口令漏洞</title><serverity>中</serverity><products><product>深圳市磊科实业有限公司 NR255P </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>看不见的神秘人</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.netcoretec.com</formalWay><description>NR255P是深圳市磊科实业有限公司开发的一款专门针对小型企业、微小网吧、出租屋量身定做的新一代高性能QOS路由器
+
+深圳市磊科实业有限公司NR255P存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24762</number><title>深圳市磊科实业有限公司NR285G存在弱口令漏洞</title><serverity>中</serverity><products><product>深圳市磊科实业有限公司 NR285G </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>看不见的神秘人</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.netcoretec.com</formalWay><description>NR285G是深圳市磊科实业有限公司的一款路由器。
+
+深圳市磊科实业有限公司NR285G存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24761</number><title>飓风CMS存在任意文件读取漏洞</title><serverity>低</serverity><products><product>飓风(深圳)软件有限公司 飓风CMS 1.1.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>长春嘉诚信息技术股份有限公司</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.jufengcms.com/</formalWay><description>飓风CMS是一款采用PHP mysql开发的内容管理系统。
+
+飓风CMS存在任意文件读取漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24760</number><title>网钛CMS PHP版存在XSS漏洞</title><serverity>中</serverity><products><product>福州网钛软件科技有限公司 网钛CMS PHP版 5.90</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>hacden</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://otcms.com/</formalWay><description>OTCMS（网钛CMS）是一套文章类网站内容管理系统（CMS）。
+
+网钛CMS PHP版存在XSS漏洞，攻击者可利用该漏洞获取管理员cookie。</description></vulnerability><vulnerability><number>CNVD-2021-24759</number><title>北京德西特科技有限公司会讯通电话会议系统存在SQL注入漏洞</title><serverity>高</serverity><products><product>北京德西特科技有限公司 会讯通电话会议系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>Liar</discovererName><formalWay>厂商尚未提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.sokuda.com/</formalWay><description>会讯通电话会议系统是一款集成EasyMeeting Web实现电话会议与网络会议的整合，并将集成Microsoft、IBM等行业主流办公应用软件。
+
+北京德西特科技有限公司会讯通电话会议系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-24758</number><title>华为技术有限公司Secoway USG2250存在弱口令漏洞</title><serverity>中</serverity><products><product>华为技术有限公司 Secoway USG2250 V300R001C00SPCa00</product><product>华为技术有限公司 Secoway USG2250 V300R001C00SPC900</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-03-25</submitTime><openTime>2021-05-09</openTime><discovererName>honghong</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+https://www.huawei.com/cn/psirt/security-advisories/huawei-sa-20200506-02-authentication-cn</formalWay><description>Secoway USG2250是华为技术有限公司的一款防火墙产品。
+
+华为技术有限公司Secoway USG2250存在弱口令漏洞，攻击者可利用该漏洞获取敏感信息。</description></vulnerability><vulnerability><number>CNVD-2021-32647</number><cves><cve><cveNumber>CVE-2021-20694</cveNumber></cve></cves><title>D-Link DAP-1880AC安全绕过漏洞</title><serverity>中</serverity><products><product>D-Link DAP-1880AC firmware &lt;=1.21</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-13</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-20694</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.dlink-jp.com/support/release/jvnvu92898656_dap-1880ac.html</formalWay><description>D-Link DAP-1880AC是中国台湾友讯（D-Link）公司的一个无线接入点。提供构建同时的双频无线网络，可在2.4GHz和5GHz频段实现广泛的无线区域。
+
+D-Link DAP-1880AC firmware 1.21及之前版本存在安全绕过漏洞，经过身份验证的远程攻击者可以利用此漏洞来启动telnet服务。</description><patchName>D-Link DAP-1880AC安全绕过漏洞的补丁</patchName><patchDescription>D-Link DAP-1880AC是中国台湾友讯（D-Link）公司的一个无线接入点。提供构建同时的双频无线网络，可在2.4GHz和5GHz频段实现广泛的无线区域。&#xD;
+&#xD;
+D-Link DAP-1880AC firmware 1.21及之前版本存在安全绕过漏洞，经过身份验证的远程攻击者可以利用此漏洞来启动telnet服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32646</number><cves><cve><cveNumber>CVE-2021-20695</cveNumber></cve></cves><title>D-Link DAP-1880AC权限提升漏洞</title><serverity>高</serverity><products><product>D-Link DAP-1880AC firmware &lt;=1.21</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-13</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-20695</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.dlink-jp.com/support/release/jvnvu92898656_dap-1880ac.html</formalWay><description>D-Link DAP-1880AC是中国台湾友讯（D-Link）公司的一个无线接入点。提供构建同时的双频无线网络，可在2.4GHz和5GHz频段实现广泛的无线区域。
+
+D-Link DAP-1880AC firmware 1.21及之前版本存在权限提升漏洞，经过身份验证的攻击者可以利用此漏洞来获取root特权。</description><patchName>D-Link DAP-1880AC权限提升漏洞的补丁</patchName><patchDescription>D-Link DAP-1880AC是中国台湾友讯（D-Link）公司的一个无线接入点。提供构建同时的双频无线网络，可在2.4GHz和5GHz频段实现广泛的无线区域。&#xD;
+&#xD;
+D-Link DAP-1880AC firmware 1.21及之前版本存在权限提升漏洞，经过身份验证的攻击者可以利用此漏洞来获取root特权。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32645</number><cves><cve><cveNumber>CVE-2021-20519</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-20519</cveUrl></cve></cves><title>IBM Jazz Team Server跨站脚本漏洞（CNVD-2021-32645）</title><serverity>中</serverity><products><product>IBM Jazz Team Server </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-13</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-20519</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6441803</formalWay><description>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。
+
+IBM Jazz Team Server存在跨站脚本漏洞，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Jazz Team Server跨站脚本漏洞（CNVD-2021-32645）的补丁</patchName><patchDescription>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。&#xD;
+&#xD;
+IBM Jazz Team Server存在跨站脚本漏洞，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32644</number><cves><cve><cveNumber>CVE-2020-4965</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-4965</cveUrl></cve></cves><title>IBM Jazz Team Server弱加密算法漏洞</title><serverity>中</serverity><products><product>IBM Jazz Team Server </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-13</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-4965</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6441803</formalWay><description>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。
+
+IBM Jazz Team Server存在安全漏洞，该漏洞源于产品使用的加密算法比预期的要弱，这种算法允许攻击者利用该漏洞解密高度敏感的信息。</description><patchName>IBM Jazz Team Server弱加密算法漏洞的补丁</patchName><patchDescription>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。&#xD;
+&#xD;
+IBM Jazz Team Server存在安全漏洞，该漏洞源于产品使用的加密算法比预期的要弱，这种算法允许攻击者利用该漏洞解密高度敏感的信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32643</number><cves><cve><cveNumber>CVE-2020-4920</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-4920</cveUrl></cve></cves><title>IBM Jazz Team Server跨站脚本漏洞（CNVD-2021-32643）</title><serverity>中</serverity><products><product>IBM Jazz Team Server </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-13</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-4920</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6441803</formalWay><description>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。
+
+IBM Jazz Team Server存在跨站脚本漏洞，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Jazz Team Server跨站脚本漏洞（CNVD-2021-32643）的补丁</patchName><patchDescription>IBM Jazz Team Server是美国IBM公司的一个应用服务器。提供了基础服务，这些服务使一组工具可以作为单个逻辑服务器一起工作，并且包括提供工具特定功能的任意数量的Jazz Team Server Extensions。&#xD;
+&#xD;
+IBM Jazz Team Server存在跨站脚本漏洞，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34526</number><cves><cve><cveNumber>CVE-2021-21219</cveNumber></cve></cves><title>Google Chrome PDFium安全绕过漏洞</title><serverity>中</serverity><products><product>Google Chrome &lt;90.0.4430.72</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-21219</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html </formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome PDFium存在安全绕过漏洞。远程攻击者可利用漏洞通过特制的PDF文件从进程内存获取潜在的敏感信息。</description><patchName>Google Chrome PDFium安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome PDFium存在安全绕过漏洞。远程攻击者可利用漏洞通过特制的PDF文件从进程内存获取潜在的敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34543</number><cves><cve><cveNumber>CVE-2021-21209</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-21209</cveUrl></cve></cves><title>Google Chrome存在未明漏洞（CNVD-2021-34543）</title><serverity>中</serverity><products><product>Google Chrome &lt;90.0.4430.72</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-06</openTime><referenceLink>https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</formalWay><description>Chrome是由Google开发的一款Web浏览工具。
+
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可以通过精心制作的HTML页面泄漏跨源数据。</description><patchName>Google Chrome存在未明漏洞（CNVD-2021-34543）的补丁</patchName><patchDescription>Chrome是由Google开发的一款Web浏览工具。&#xD;
+&#xD;
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可以通过精心制作的HTML页面泄漏跨源数据。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34542</number><cves><cve><cveNumber>CVE-2021-21212</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-21212</cveUrl></cve></cves><title>Google Chrome存在未明漏洞（CNVD-2021-34542）</title><serverity>中</serverity><products><product>Google Chrome &lt;90.0.4430.72</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-06</openTime><referenceLink>https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</formalWay><description>Chrome是由Google开发的一款Web浏览工具。
+
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可能通过恶意WAP破坏WiFi连接的安全性。</description><patchName>Google Chrome存在未明漏洞（CNVD-2021-34542）的补丁</patchName><patchDescription>Chrome是由Google开发的一款Web浏览工具。&#xD;
+&#xD;
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可能通过恶意WAP破坏WiFi连接的安全性。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34541</number><cves><cve><cveNumber>CVE-2021-21215</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-21215</cveUrl></cve></cves><title>Google Chrome存在未明漏洞（CNVD-2021-34541）</title><serverity>中</serverity><products><product>Google Chrome &lt;90.0.4430.72</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-06</openTime><referenceLink>https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</formalWay><description>Chrome是由Google开发的一款Web浏览工具。
+
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可以通过精心制作的HTML页面来欺骗安全UI。</description><patchName>Google Chrome存在未明漏洞（CNVD-2021-34541）的补丁</patchName><patchDescription>Chrome是由Google开发的一款Web浏览工具。&#xD;
+&#xD;
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。远程攻击者可以通过精心制作的HTML页面来欺骗安全UI。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34540</number><cves><cve><cveNumber>CVE-2021-21216</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-21216</cveUrl></cve></cves><title>Google Chrome存在未明漏洞（CNVD-2021-34540）</title><serverity>中</serverity><products><product>Google Chrome &lt;90.0.4430.72</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-06</openTime><referenceLink>https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_14.html</formalWay><description>Chrome是由Google开发的一款Web浏览工具。
+
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。攻击者可利用该漏洞通过精心制作的HTML页面来欺骗安全UI。</description><patchName>Google Chrome存在未明漏洞（CNVD-2021-34540）的补丁</patchName><patchDescription>Chrome是由Google开发的一款Web浏览工具。&#xD;
+&#xD;
+Google Chrome 90.0.4430.72之前版本存在安全漏洞。攻击者可利用该漏洞通过精心制作的HTML页面来欺骗安全UI。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33053</number><cves><cve><cveNumber>CVE-2021-29931</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-29931</cveUrl></cve></cves><title>Rust资源管理错误漏洞（CNVD-2021-33053）</title><serverity>中</serverity><products><product>Mozilla Rust &lt;=2021-01-12</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-16</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-29931</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://rustsec.org/advisories/RUSTSEC-2021-0040.html</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+arenavec crate for Rust 2021-01-12及之前版本存在资源管理错误漏洞，该漏洞源于T：：drop()。目前没有详细的漏洞细节提供。</description><patchName>Rust资源管理错误漏洞（CNVD-2021-33053）的补丁</patchName><patchDescription>Rust是Mozilla基金会的一款通用、编译型编程语言。&#xD;
+&#xD;
+arenavec crate for Rust 2021-01-12及之前版本存在资源管理错误漏洞，该漏洞源于T：：drop()。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32642</number><cves><cve><cveNumber>CVE-2021-20491</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-20491</cveUrl></cve></cves><title>IBM Spectrum Protect Server栈缓冲区溢出漏洞</title><serverity>低</serverity><products><product>IBM Spectrum Protect Server 7.1</product><product>IBM Spectrum Protect Server 8.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-19</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-20491</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6442993</formalWay><description>IBM Spectrum Protect是一个数据保护平台，可为企业提供单点控制和管理，以进行备份和恢复。IBM Spectrum Protect Server是其中的服务器。
+
+IBM Spectrum Protect Server 7.1、8.1版本存在栈缓冲区溢出漏洞。该漏洞源于在命令解析期间边界检查错误。攻击者可利用该漏洞导致服务器崩溃。</description><patchName>IBM Spectrum Protect Server栈缓冲区溢出漏洞的补丁</patchName><patchDescription>IBM Spectrum Protect是一个数据保护平台，可为企业提供单点控制和管理，以进行备份和恢复。IBM Spectrum Protect Server是其中的服务器。&#xD;
+&#xD;
+IBM Spectrum Protect Server 7.1、8.1版本存在栈缓冲区溢出漏洞。该漏洞源于在命令解析期间边界检查错误。攻击者可利用该漏洞导致服务器崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33052</number><cves><cve><cveNumber>CVE-2021-27258</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-27258</cveUrl></cve></cves><title>SolarWinds Orion Platform访问控制错误漏洞（CNVD-2021-33052）</title><serverity>高</serverity><products><product>SolarWinds Orion Platform 2020.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-19</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-27258</referenceLink><formalWay>用户可参考如下厂商提供的安全补丁以修复该漏洞：&#xD;
+https://www.zerodayinitiative.com/advisories/ZDI-21-192/</formalWay><description>Solarwinds Orion Platform是美国Solarwinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。
+
+SolarWinds Orion Platform 2020.2的SaveUserSetting端点存在访问控制错误漏洞。该漏洞源于程序未对非特权用户访问SaveUserSetting端点进行正确限制。攻击者可利用该漏洞将特权从Guest提升到Administrator。</description><patchName>SolarWinds Orion Platform访问控制错误漏洞（CNVD-2021-33052）的补丁</patchName><patchDescription>Solarwinds Orion Platform是美国Solarwinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。&#xD;
+&#xD;
+SolarWinds Orion Platform 2020.2的SaveUserSetting端点存在访问控制错误漏洞。该漏洞源于程序未对非特权用户访问SaveUserSetting端点进行正确限制。攻击者可利用该漏洞将特权从Guest提升到Administrator。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32641</number><cves><cve><cveNumber>CVE-2021-20501</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-20501</cveUrl></cve></cves><title>IBM i资源管理错误漏洞</title><serverity>中</serverity><products><product>IBM IBM i 7.2</product><product>IBM IBM i 7.3</product><product>IBM IBM i 7.4</product><product>IBM IBM i 7.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-22</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-20501</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://www.ibm.com/support/pages/node/6445505</formalWay><description>IBM i是美国IBM公司的一套运行在IBM Power Systems和IBM PureSystems中的操作系统。
+
+IBM i SMTP存在安全漏洞，攻击者可利用该漏洞消耗未必要的网络带宽和磁盘空间，并发送垃圾邮件。</description><patchName>IBM i资源管理错误漏洞的补丁</patchName><patchDescription>IBM i是美国IBM公司的一套运行在IBM Power Systems和IBM PureSystems中的操作系统。&#xD;
+&#xD;
+IBM i SMTP存在安全漏洞，攻击者可利用该漏洞消耗未必要的网络带宽和磁盘空间，并发送垃圾邮件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33051</number><cves><cve><cveNumber>CVE-2021-22678</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-22678</cveUrl></cve></cves><title>Cscape内存破坏漏洞</title><serverity>中</serverity><products><product>Horner Automation Cscape &lt;9.90 SP4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-23</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-22678</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://us-cert.cisa.gov/ics/advisories/icsa-21-112-01</formalWay><description>Cscape是一款可对全系列OCS进行编程的应用程序。
+
+Cscape 9.90 SP4之前版本存在内存破坏漏洞。该漏洞源于受影响的应用程序在解析项目文件时未能正确验证用户提供的数据。攻击者可利用该漏洞在当前进程的上下文中执行代码。</description><patchName>Cscape内存破坏漏洞的补丁</patchName><patchDescription>Cscape是一款可对全系列OCS进行编程的应用程序。&#xD;
+&#xD;
+Cscape 9.90 SP4之前版本存在内存破坏漏洞。该漏洞源于受影响的应用程序在解析项目文件时未能正确验证用户提供的数据。攻击者可利用该漏洞在当前进程的上下文中执行代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33050</number><cves><cve><cveNumber>CVE-2021-22682</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-22682</cveUrl></cve></cves><title>Cscape访问控制错误漏洞</title><serverity>中</serverity><products><product>Horner Automation Cscape &lt;9.90 SP4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-23</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-22682</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://us-cert.cisa.gov/ics/advisories/icsa-21-112-01</formalWay><description>Cscape是一款可对全系列OCS进行编程的应用程序。
+
+Cscape 9.90 SP4之前版本存在访问控制错误漏洞。该漏洞源于受影响的产品默认配置是安装时未分区用户权限，所有用户均有包括读取/写入访问权限在内的完整权限。攻击者可利用该漏洞修改二进制文件和配置文件，从而可实现本地权限提升。</description><patchName>Cscape访问控制错误漏洞的补丁</patchName><patchDescription>Cscape是一款可对全系列OCS进行编程的应用程序。&#xD;
+&#xD;
+Cscape 9.90 SP4之前版本存在访问控制错误漏洞。该漏洞源于受影响的产品默认配置是安装时未分区用户权限，所有用户均有包括读取/写入访问权限在内的完整权限。攻击者可利用该漏洞修改二进制文件和配置文件，从而可实现本地权限提升。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33249</number><cves><cve><cveNumber>CVE-2021-31794</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-31794</cveUrl></cve></cves><title>Directum跨站脚本漏洞</title><serverity>中</serverity><products><product>Directum Directum 5.8.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-25</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-31794</referenceLink><formalWay>厂商尚未提供漏洞修复方案，请关注厂商主页更新：&#xD;
+https://www.directum.ru/</formalWay><description>Directum是俄罗斯Directum公司的一个应用系统。一个智能数字流程和文件系统。
+
+Directum 5.8.2版本中的Settings.aspx?view=About存在跨站脚本漏洞。攻击者可通过HTTP User-Agent header利用该漏洞进行跨站脚本攻击。</description></vulnerability><vulnerability><number>CNVD-2021-33248</number><cves><cve><cveNumber>CVE-2021-31780</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-31780</cveUrl></cve></cves><title>MISP信息泄露漏洞（CNVD-2021-33248）</title><serverity>中</serverity><products><product>MISP MISP 2.4.141</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-25</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-31780</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://github.com/MISP/MISP/commit/a0f08501d2850025892e703f40fb1570c7995478</formalWay><description>MISP是一款用于收集、存储、分发和共享有关网络安全事件分析和恶意软件分析的网络安全指标和威胁的开源软件解决方案。
+
+MISP 2.4.141版本中的app/Model/MispObject.php存在信息泄露漏洞。该漏洞源于共享组关联未正确。攻击者可利用该漏洞获取相关信息。</description><patchName>MISP信息泄露漏洞（CNVD-2021-33248）的补丁</patchName><patchDescription>MISP是一款用于收集、存储、分发和共享有关网络安全事件分析和恶意软件分析的网络安全指标和威胁的开源软件解决方案。&#xD;
+&#xD;
+MISP 2.4.141版本中的app/Model/MispObject.php存在信息泄露漏洞。该漏洞源于共享组关联未正确。攻击者可利用该漏洞获取相关信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33247</number><cves><cve><cveNumber>CVE-2021-31726</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-31726</cveUrl></cve></cves><title>Akuvox C315远程命令注入漏洞</title><serverity>高</serverity><products><product>Akuvox C315 115.116.2613</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-31726</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://www.akuvox.com/ProductsDisp.aspx?pid=21</formalWay><description>Akuvox C315是一款7英寸Android室内监视器。
+
+Akuvox C315 115.116.2613版本的cfgd_server服务存在远程命令注入漏洞。攻击者可通过向端口189发送payload利用该漏洞注入并执行命令。</description><patchName>Akuvox C315远程命令注入漏洞的补丁</patchName><patchDescription>Akuvox C315是一款7英寸Android室内监视器。&#xD;
+&#xD;
+Akuvox C315 115.116.2613版本的cfgd_server服务存在远程命令注入漏洞。攻击者可通过向端口189发送payload利用该漏洞注入并执行命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32640</number><cves><cve><cveNumber>CVE-2021-20532</cveNumber></cve></cves><title>IBM Spectrum Protect Client权限提升漏洞</title><serverity>高</serverity><products><product>IBM Spectrum Protect Client &gt;=8.1.0.0，&lt;= 8.1.11.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-privilege-escalation-vulnerability-in-ibm-spectrum-protect-backup-archive-client-and-ibm-spectrum-protect-for-virtual-environments-cve-2021-20532-2/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6445503 </formalWay><description>IBM Spectrum Protect（前称Tivoli Storage Manager）是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。IBM Spectrum Protect Client是客户端。
+
+IBM Spectrum Protect Client 8.1.0.0-8.1.11.0版本存在权限提升漏洞。该漏洞源于目录权限未安全。本地攻击者可利用该漏洞提升权限并完全控制系统。</description><patchName>IBM Spectrum Protect Client权限提升漏洞的补丁</patchName><patchDescription>IBM Spectrum Protect（前称Tivoli Storage Manager）是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。IBM Spectrum Protect Client是客户端。&#xD;
+&#xD;
+IBM Spectrum Protect Client 8.1.0.0-8.1.11.0版本存在权限提升漏洞。该漏洞源于目录权限未安全。本地攻击者可利用该漏洞提升权限并完全控制系统。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32639</number><cves><cve><cveNumber>CVE-2021-20432</cveNumber></cve></cves><title>IBM Spectrum Protect Plus信息泄露漏洞（CNVD-2021-32639）</title><serverity>中</serverity><products><product>IBM Spectrum Protect Plus &gt;=10.1.0，&lt;=10.1.7</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-cross-origin-resource-sharing-cors-vulnerability-in-ibm-spectrum-protect-plus-cve-2021-20432/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6445733 </formalWay><description>IBM Spectrum Protect Plus是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。
+
+IBM Spectrum Protect Plus 10.1.0-10.1.7版本存在信息泄露漏洞。该漏洞源于该产品使用跨域资源共享(CORS)，但域名未仅限于受信任的域。攻击者可利用该漏洞执行特权操作并检索敏感信息。</description><patchName>IBM Spectrum Protect Plus信息泄露漏洞（CNVD-2021-32639）的补丁</patchName><patchDescription>IBM Spectrum Protect Plus是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。&#xD;
+&#xD;
+IBM Spectrum Protect Plus 10.1.0-10.1.7版本存在信息泄露漏洞。该漏洞源于该产品使用跨域资源共享(CORS)，但域名未仅限于受信任的域。攻击者可利用该漏洞执行特权操作并检索敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32638</number><cves><cve><cveNumber>CVE-2021-20536</cveNumber></cve></cves><title>IBM Spectrum Protect Plus信息泄露漏洞（CNVD-2021-32638） </title><serverity>低</serverity><products><product>IBM IBM Spectrum Protect Plus File Systems Agent 10.1.6</product><product>IBM IBM Spectrum Protect Plus File Systems Agent 10.1.7</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-information-disclosure-in-ibm-spectrum-protect-plus-microsoft-file-systems-backup-and-restore-log-files-cve-2021-20536/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6445739 </formalWay><description>IBM Spectrum Protect Plus是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。
+
+IBM Spectrum Protect Plus File Systems Agent存在信息泄露漏洞，该漏洞源于潜在的敏感信息存储在本地用户可以读取的日志文件中。目前没有详细漏洞细节提供。 </description><patchName>IBM Spectrum Protect Plus信息泄露漏洞（CNVD-2021-32638） 的补丁</patchName><patchDescription>IBM Spectrum Protect Plus是美国IBM公司的一套数据保护平台。该平台为企业提供单一控制和管理点，并支持对所有规模的虚拟、物理和云环境进行备份和恢复。&#xD;
+&#xD;
+IBM Spectrum Protect Plus File Systems Agent存在信息泄露漏洞，该漏洞源于潜在的敏感信息存储在本地用户可以读取的日志文件中。目前没有详细漏洞细节提供。 目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32637</number><cves><cve><cveNumber>CVE-2020-4562</cveNumber></cve></cves><title>IBM Planning Analytics访问控制错误漏洞</title><serverity>中</serverity><products><product>IBM Planning Analytics 2.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-ibm-planning-analytics-workspace-is-affected-by-a-security-vulnerability/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6446699 </formalWay><description>IBM Planning Analytics是美国IBM公司的一套业务规划分析解决方案。该方案支持自动化执行业务规划、预算和分析等流程。
+
+IBM Planning Analytics存在访问控制错误漏洞，该漏洞允许远程攻击者可利用该漏洞通过文档框架与未受限制的目标源进行跨窗口通信，从而获得敏感信息。</description><patchName>IBM Planning Analytics访问控制错误漏洞的补丁</patchName><patchDescription>IBM Planning Analytics是美国IBM公司的一套业务规划分析解决方案。该方案支持自动化执行业务规划、预算和分析等流程。&#xD;
+&#xD;
+IBM Planning Analytics存在访问控制错误漏洞，该漏洞允许远程攻击者可利用该漏洞通过文档框架与未受限制的目标源进行跨窗口通信，从而获得敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33246</number><cves><cve><cveNumber>CVE-2021-25899</cveNumber></cve></cves><title>Void Aural Rec Monitor SQL注入漏洞</title><serverity>中</serverity><products><product>void Void Aural Rec Monitor 9.0.0.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-27</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-25899</referenceLink><formalWay>目前厂商暂未发布修复措施解决此安全问题，建议使用此软件的用户随时关注厂商主页或参考网址以获取解决办法：&#xD;
+https://www.void.es/index.php/es/ </formalWay><description>Void Aural Rec Monitor是西班牙Void公司的一个应用软件。
+
+Aural Rec Monitor 9.0.0.1版本存在SQL注入漏洞，该漏洞源于svc-login.php，未经身份验证的攻击者发送精心设计的HTTP请求来执行基于盲时间的SQL注入。 </description></vulnerability><vulnerability><number>CNVD-2021-32636</number><cves><cve><cveNumber>CVE-2021-20448</cveNumber></cve></cves><title>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32636）</title><serverity>低</serverity><products><product>IBM IBM Content Navigator 3.0.CD</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-ibm-content-navigator-is-vulnerable-to-cross-site-scripting-4/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6447139 </formalWay><description>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。
+
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32636）的补丁</patchName><patchDescription>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。&#xD;
+&#xD;
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-34523</number><cves><cve><cveNumber>CVE-2021-21231</cveNumber></cve></cves><title>Google Chrome V8安全绕过漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;90.0.4430.93</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_26.html</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://chromereleases.googleblog.com/2021/04/stable-channel-update-for-desktop_26.html </formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome存在安全漏洞，该漏洞源于V8中的数据验证不足。攻击者可以利用此漏洞绕过安全限制。 </description><patchName>Google Chrome V8安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome存在安全漏洞，该漏洞源于V8中的数据验证不足。攻击者可以利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32635</number><cves><cve><cveNumber>CVE-2021-20550</cveNumber></cve></cves><title>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32635）</title><serverity>低</serverity><products><product>IBM IBM Content Navigator 3.0.CD</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-ibm-content-navigator-is-vulnerable-to-cross-site-scripting-3/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6447143 </formalWay><description>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。
+
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32635）的补丁</patchName><patchDescription>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。&#xD;
+&#xD;
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32634</number><cves><cve><cveNumber>CVE-2021-20549</cveNumber></cve></cves><title>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32634）</title><serverity>低</serverity><products><product>IBM IBM Content Navigator 3.0.CD</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-ibm-content-navigator-is-vulnerable-to-cross-site-scripting-3/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6447143 </formalWay><description>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。
+
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Content Navigator跨站脚本漏洞（CNVD-2021-32634）的补丁</patchName><patchDescription>IBM Content Navigator是美国IBM公司的一款Web客户机。该产品支持从Web浏览器搜索和处理存储在内容服务器中的文档。&#xD;
+&#xD;
+IBM Content Navigator 3.0.CD版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32633</number><cves><cve><cveNumber>CVE-2021-29666</cveNumber></cve></cves><title>IBM Spectrum Scale跨站脚本漏洞（CNVD-2021-32633）</title><serverity>中</serverity><products><product>IBM IBM Spectrum Scale &gt;=5.1.0，&lt;=5.1.0.2</product><product>IBM Spectrum Scale &gt;=5.0.0，&lt;=5.0.5.6</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-multiple-vulnerabilities-affect-the-ibm-spectrum-scale-gui-3/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6447107 </formalWay><description>IBM Spectrum Scale是一种高性能共享磁盘文件管理解决方案，可让您快速、可靠地访问来自多个服务器的数据。
+
+IBM Spectrum Scale 5.0.0至5.0.5.6、5.1.0至5.1.0.2版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。</description><patchName>IBM Spectrum Scale跨站脚本漏洞（CNVD-2021-32633）的补丁</patchName><patchDescription>IBM Spectrum Scale是一种高性能共享磁盘文件管理解决方案，可让您快速、可靠地访问来自多个服务器的数据。&#xD;
+&#xD;
+IBM Spectrum Scale 5.0.0至5.0.5.6、5.1.0至5.1.0.2版本存在跨站脚本漏洞。攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码，从而可更改预期功能，从而会导致受信任会话中的凭据泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32632</number><cves><cve><cveNumber>CVE-2020-4981</cveNumber></cve></cves><title>IBM Spectrum Scale文件覆盖漏洞</title><serverity>低</serverity><products><product>IBM Spectrum Scale &gt;=5.0.4.1，&lt;=5.1.0.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-a-vulnerability-in-ibm-spectrum-scale-csi-could-allow-insecure-external-command-execution-cve-2020-4981/</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.ibm.com/support/pages/node/6447077 </formalWay><description>IBM Spectrum Scale是美国IBM公司的一套基于IBM GPFS（专为PB级存储管理而优化的企业文件管理系统）的可扩展的数据及文件管理解决方案。该产品支持帮助客户减少存储成本，同时提高云、大数据和分析环境中的安全性和管理效率等。
+
+IBM Spectrum Scale 5.0.4.1至5.1.0.3版本存在文件覆盖漏洞。该漏洞源于输入验证错误。本地攻击者可利用该漏洞覆盖文件。</description><patchName>IBM Spectrum Scale文件覆盖漏洞的补丁</patchName><patchDescription>IBM Spectrum Scale是美国IBM公司的一套基于IBM GPFS（专为PB级存储管理而优化的企业文件管理系统）的可扩展的数据及文件管理解决方案。该产品支持帮助客户减少存储成本，同时提高云、大数据和分析环境中的安全性和管理效率等。&#xD;
+&#xD;
+IBM Spectrum Scale 5.0.4.1至5.1.0.3版本存在文件覆盖漏洞。该漏洞源于输入验证错误。本地攻击者可利用该漏洞覆盖文件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33245</number><cves><cve><cveNumber>CVE-2021-25898</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-25898</cveUrl></cve></cves><title>Void Aural Rec Monitor信息泄露漏洞</title><serverity>中</serverity><products><product>void Void Aural Rec Monitor 9.0.0.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-26</submitTime><openTime>2021-05-08</openTime><referenceLink>https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=28765</referenceLink><formalWay>厂商尚未提供漏洞修复方案，请关注厂商主页更新：&#xD;
+https://www.void.es/index.php/es/</formalWay><description>Void Aural Rec Monitor是西班牙Void公司的一个应用软件。
+
+Void Aural Rec Monitor在9.0.0.1版本存在信息泄露漏洞，该漏洞源于svc-login.php密码存储在未加密的源代码文本文件中，攻击可利用此漏洞获取密码后进一步攻击利用。</description></vulnerability><vulnerability><number>CNVD-2021-33244</number><cves><cve><cveNumber>CVE-2021-28079</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-28079</cveUrl></cve></cves><title>jamovi跨站脚本漏洞</title><serverity>中</serverity><products><product>jamovi jamovi &lt;=1.6.18</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-27</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-28079</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.jamovi.org/</formalWay><description>jamovi是jamovi开源的一个免费且开放的统计平台。
+
+Jamovi在1.6.18及之前版本存在跨站脚本漏洞。在ElectronJS框架中，列名易受XSS攻击。攻击者可利用该漏洞制作包含有效负载的.omv文档，当受害者打开时有效载荷被触发。</description><patchName>jamovi跨站脚本漏洞的补丁</patchName><patchDescription>jamovi是jamovi开源的一个免费且开放的统计平台。&#xD;
+&#xD;
+Jamovi在1.6.18及之前版本存在跨站脚本漏洞。在ElectronJS框架中，列名易受XSS攻击。攻击者可利用该漏洞制作包含有效负载的.omv文档，当受害者打开时有效载荷被触发。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32630</number><cves><cve><cveNumber>CVE-2019-25042</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25042</cveUrl></cve></cves><title>Unbound越界写入漏洞</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25042</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的rdata_copy存在越界写入漏洞。攻击者可通过压缩名称利用该漏洞导致越界写入。</description><patchName>Unbound越界写入漏洞的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的rdata_copy存在越界写入漏洞。攻击者可通过压缩名称利用该漏洞导致越界写入。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32631</number><cves><cve><cveNumber>CVE-2019-25041</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25041</cveUrl></cve></cves><title>Unbound断言失败漏洞</title><serverity>中</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25041</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的dname_pkt_copy存在断言失败漏洞。攻击者可通过压缩名称利用该漏洞导致断言失败。</description><patchName>Unbound断言失败漏洞的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的dname_pkt_copy存在断言失败漏洞。攻击者可通过压缩名称利用该漏洞导致断言失败。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32629</number><cves><cve><cveNumber>CVE-2019-25040</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25040</cveUrl></cve></cves><title>Unbound无限循环漏洞</title><serverity>中</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25040</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的dname_pkt_copy存在无限循环漏洞。攻击者可通过压缩名称利用该漏洞导致无限循环。</description><patchName>Unbound无限循环漏洞的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的dname_pkt_copy存在无限循环漏洞。攻击者可通过压缩名称利用该漏洞导致无限循环。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32628</number><cves><cve><cveNumber>CVE-2019-25039</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25039</cveUrl></cve></cves><title>Unbound整数溢出漏洞</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25039</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的respip/respip.c中的大小计算存在整数溢出漏洞。目前没有详细的漏洞细节提供。</description><patchName>Unbound整数溢出漏洞的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的respip/respip.c中的大小计算存在整数溢出漏洞。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32626</number><cves><cve><cveNumber>CVE-2019-25038</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25038</cveUrl></cve></cves><title>Unbound整数溢出漏洞（CNVD-2021-32626）</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25038</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的dnscrypt/dnscrypt.c中的大小计算存在整数溢出漏洞。目前没有详细的漏洞细节提供。</description><patchName>Unbound整数溢出漏洞（CNVD-2021-32626）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的dnscrypt/dnscrypt.c中的大小计算存在整数溢出漏洞。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32627</number><cves><cve><cveNumber>CVE-2019-25037</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25037</cveUrl></cve></cves><title>Unbound断言失败漏洞（CNVD-2021-32627）</title><serverity>中</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25037</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的dname_pkt_copy存在断言失败漏洞。攻击者可通过无效数据包利用该漏洞导致拒绝服务。</description><patchName>Unbound断言失败漏洞（CNVD-2021-32627）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的dname_pkt_copy存在断言失败漏洞。攻击者可通过无效数据包利用该漏洞导致拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32625</number><cves><cve><cveNumber>CVE-2019-25036</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25036</cveUrl></cve></cves><title>Unbound断言失败漏洞（CNVD-2021-32625）</title><serverity>中</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25036</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的synth_cname存在断言失败漏洞。攻击者可利用该漏洞导致拒绝服务。</description><patchName>Unbound断言失败漏洞（CNVD-2021-32625）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的synth_cname存在断言失败漏洞。攻击者可利用该漏洞导致拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32623</number><cves><cve><cveNumber>CVE-2019-25035</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25035</cveUrl></cve></cves><title>Unbound越界写入漏洞（CNVD-2021-32623）</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25035</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的sldns_bget_token_par存在越界写入漏洞。攻击者可利用该漏洞导致越界写入。</description><patchName>Unbound越界写入漏洞（CNVD-2021-32623）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的sldns_bget_token_par存在越界写入漏洞。攻击者可利用该漏洞导致越界写入。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32624</number><cves><cve><cveNumber>CVE-2019-25034</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25034</cveUrl></cve></cves><title>Unbound整数溢出漏洞（CNVD-2021-32624）</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25034</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的sldns_str2wire_dname_buf_origin存在整数溢出漏洞。攻击者可利用该漏洞导致越界写入。</description><patchName>Unbound整数溢出漏洞（CNVD-2021-32624）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的sldns_str2wire_dname_buf_origin存在整数溢出漏洞。攻击者可利用该漏洞导致越界写入。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32622</number><cves><cve><cveNumber>CVE-2019-25033</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25033</cveUrl></cve></cves><title>Unbound整数溢出漏洞（CNVD-2021-32622）</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25033</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的区域分配器存在整数溢出漏洞。攻击者可通过ALIGN_UP宏利用该漏洞导致整数溢出。</description><patchName>Unbound整数溢出漏洞（CNVD-2021-32622）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的区域分配器存在整数溢出漏洞。攻击者可通过ALIGN_UP宏利用该漏洞导致整数溢出。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32620</number><cves><cve><cveNumber>CVE-2019-25032</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25032</cveUrl></cve></cves><title>Unbound整数溢出漏洞（CNVD-2021-32620）</title><serverity>高</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25032</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的区域分配器存在整数溢出漏洞。攻击者可通过regional_alloc利用该漏洞导致整数溢出。</description><patchName>Unbound整数溢出漏洞（CNVD-2021-32620）的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的区域分配器存在整数溢出漏洞。攻击者可通过regional_alloc利用该漏洞导致整数溢出。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32621</number><cves><cve><cveNumber>CVE-2019-25031</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2019-25031</cveUrl></cve></cves><title>Unbound配置注入漏洞</title><serverity>中</serverity><products><product>NLnet Labs Unbound &lt;1.9.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2019-25031</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://lists.nlnetlabs.nl/pipermail/unbound-users/2019-December/</formalWay><description>Unbound是一个支持验证、递归、缓存功能的DNS解析器。
+
+Unbound 1.9.5之前版本中的create_unbound_ad_servers.sh存在配置注入漏洞。中间人攻击者可通过明文HTTP会话利用该漏洞注入配置。</description><patchName>Unbound配置注入漏洞的补丁</patchName><patchDescription>Unbound是一个支持验证、递归、缓存功能的DNS解析器。&#xD;
+&#xD;
+Unbound 1.9.5之前版本中的create_unbound_ad_servers.sh存在配置注入漏洞。中间人攻击者可通过明文HTTP会话利用该漏洞注入配置。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33243</number><cves><cve><cveNumber>CVE-2020-35542</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-35542</cveUrl></cve></cves><title>Unisys Data Exchange Management Studio跨站脚本漏洞</title><serverity>低</serverity><products><product>Unisys Unisys Data Exchange Management Studio &lt;=5.0.34</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-28</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-35542</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://public.support.unisys.com/common/public/vulnerability/NVD_Detail_Rpt.aspx?ID=61</formalWay><description>Unisys Data Exchange Management Studio是美国Unisys公司的一个数据交换的组件。
+
+Unisys Data Exchange Management Studio 5.0.34版本及之前版本存在跨站脚本漏洞，该漏洞源于未清除HTML文档字段的输入，攻击者可能利用此漏洞注入JavaScript代码执行。</description><patchName>Unisys Data Exchange Management Studio跨站脚本漏洞的补丁</patchName><patchDescription>Unisys Data Exchange Management Studio是美国Unisys公司的一个数据交换的组件。&#xD;
+&#xD;
+Unisys Data Exchange Management Studio 5.0.34版本及之前版本存在跨站脚本漏洞，该漏洞源于未清除HTML文档字段的输入，攻击者可能利用此漏洞注入JavaScript代码执行。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33242</number><cves><cve><cveNumber>CVE-2021-27933</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-27933</cveUrl></cve></cves><title>pfSense跨站脚本漏洞（CNVD-2021-33242）</title><serverity>中</serverity><products><product>Pfsense pfSense 2.5.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-29</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-27933</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新&#xD;
+:https://www.pfsense.org/</formalWay><description>pfSense是一套基于FreeBSD Linux的网络防火墙。
+
+pfsense 2.5.0版本存在跨站脚本漏洞，该漏洞源于没有对通过Description字段传递给services_wol_edit.php脚本的用户提供的数据进行足够的无害化处理。攻击者可以利用该漏洞进行跨站脚本攻击。</description><patchName>pfSense跨站脚本漏洞（CNVD-2021-33242）的补丁</patchName><patchDescription>pfSense是一套基于FreeBSD Linux的网络防火墙。&#xD;
+&#xD;
+pfsense 2.5.0版本存在跨站脚本漏洞，该漏洞源于没有对通过Description字段传递给services_wol_edit.php脚本的用户提供的数据进行足够的无害化处理。攻击者可以利用该漏洞进行跨站脚本攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33049</number><cves><cve><cveNumber>CVE-2020-36317</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-36317</cveUrl></cve></cves><title>Mozilla Rust缓冲区溢出漏洞（CNVD-2021-33049）</title><serverity>中</serverity><products><product>Mozilla Rust &lt;1.49.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-30</submitTime><openTime>2021-05-07</openTime><referenceLink>https://github.com/rust-lang/rust/issues/78498</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://github.com/rust-lang/rust</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust standard library 1.49.0之前版本存在缓冲区溢出漏洞，该漏洞源于当所提供的闭包出现问题时，它允许创建一个非UTF-8 Rust字符串。目前没有详细的漏洞细节提供。</description><patchName>Mozilla Rust缓冲区溢出漏洞（CNVD-2021-33049）的补丁</patchName><patchDescription>Rust是Mozilla基金会的一款通用、编译型编程语言。&#xD;
+&#xD;
+Rust standard library 1.49.0之前版本存在缓冲区溢出漏洞，该漏洞源于当所提供的闭包出现问题时，它允许创建一个非UTF-8 Rust字符串。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33048</number><cves><cve><cveNumber>CVE-2021-28877</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-28877</cveUrl></cve></cves><title>Rust缓冲区溢出漏洞（CNVD-2021-33048）</title><serverity>中</serverity><products><product>Mozilla Rust &lt;1.51.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-30</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-28877</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://github.com/rust-lang/rust</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust standard library 1.51.0之前版本存在缓冲区溢出漏洞，该漏洞源于未满足对TrustedRandomAccess特性的安全要求，此错误可能导致内存安全违规。目前没有详细的漏洞细节提供。</description><patchName>Rust缓冲区溢出漏洞（CNVD-2021-33048）的补丁</patchName><patchDescription>Rust是Mozilla基金会的一款通用、编译型编程语言。&#xD;
+&#xD;
+Rust standard library 1.51.0之前版本存在缓冲区溢出漏洞，该漏洞源于未满足对TrustedRandomAccess特性的安全要求，此错误可能导致内存安全违规。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-32619</number><cves><cve><cveNumber>CVE-2021-20515</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-20515</cveUrl></cve></cves><title>IBM Informix Dynamic Server缓冲区溢出漏洞（CNVD-2021-32619）</title><serverity>中</serverity><products><product>IBM IBM Informix Dynamic Server 14.10</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-04-30</submitTime><openTime>2021-05-06</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-ibm-informix-dynamic-server-is-vulnerable-to-a-stack-based-buffer-overflow-caused-by-improper-bounds-checking/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6448568</formalWay><description>IBM Informix Dynamic Server是美国IBM公司的一款可扩展的对象关系数据库服务器，它为集群数据中心提供持续数据可用性和灾难恢复等功能。
+
+IBM Informix Dynamic Server存在缓冲区溢出漏洞，该漏洞源于未适当的边界检查导致的基于堆栈的缓冲区溢出。本地特权攻击者可能会溢出缓冲区并在系统上执行任意代码或导致拒绝服务的情况。</description><patchName>IBM Informix Dynamic Server缓冲区溢出漏洞（CNVD-2021-32619）的补丁</patchName><patchDescription>IBM Informix Dynamic Server是美国IBM公司的一款可扩展的对象关系数据库服务器，它为集群数据中心提供持续数据可用性和灾难恢复等功能。&#xD;
+&#xD;
+IBM Informix Dynamic Server存在缓冲区溢出漏洞，该漏洞源于未适当的边界检查导致的基于堆栈的缓冲区溢出。本地特权攻击者可能会溢出缓冲区并在系统上执行任意代码或导致拒绝服务的情况。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33241</number><cves><cve><cveNumber>CVE-2021-29440</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-29440</cveUrl></cve></cves><title>Grav代码注入漏洞</title><serverity>中</serverity><products><product>Grav Grav &lt;1.7.11</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-29440</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://github.com/getgrav/grav/security/advisories/GHSA-g8r4-p96j-xfxc</formalWay><description>Grav是一套可扩展的用于个人博客、小型内容发布平台和单页产品展示的CMS（内容管理系统）。
+
+Grav存在代码注入漏洞，攻击者可利用该漏洞任意代码执行和提升实例上的特权。</description><patchName>Grav代码注入漏洞的补丁</patchName><patchDescription>Grav是一套可扩展的用于个人博客、小型内容发布平台和单页产品展示的CMS（内容管理系统）。&#xD;
+&#xD;
+Grav存在代码注入漏洞，攻击者可利用该漏洞任意代码执行和提升实例上的特权。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33240</number><cves><cve><cveNumber>CVE-2021-3460</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-3460</cveUrl></cve></cves><title>Motorola MH702信任管理问题漏洞</title><serverity>高</serverity><products><product>Motorola MH702x device &lt;2.0.0.301</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-3460</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://motorolamentor.zendesk.com/hc/en-us/articles/1260804087249</formalWay><description>Motorola MH702是美国摩托罗拉（Motorola）公司的一个路由器。
+
+Motorola MH702x devices 2.0.0.301之前版本存在信任管理问题漏洞，该漏洞源于与支持服务器通信时未能正确验证服务器证书，攻击者可利用该漏洞访问通信通道。</description><patchName>Motorola MH702信任管理问题漏洞的补丁</patchName><patchDescription>Motorola MH702是美国摩托罗拉（Motorola）公司的一个路由器。&#xD;
+&#xD;
+Motorola MH702x devices 2.0.0.301之前版本存在信任管理问题漏洞，该漏洞源于与支持服务器通信时未能正确验证服务器证书，攻击者可利用该漏洞访问通信通道。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33239</number><cves><cve><cveNumber>CVE-2020-36322</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-36322</cveUrl></cve></cves><title>Linux kernel拒绝服务漏洞（CNVD-2021-33239）</title><serverity>中</serverity><products><product>Linux  Linux kernel &lt;5.10.6</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-08</openTime><referenceLink>https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.6</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5d069dbe8aaf2a197142558b6fb2978189ba3454</formalWay><description>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。
+
+Linux kernel 5.10.6之前版本存在拒绝服务漏洞，该漏洞源于fuse_do_getattr()在未适当的情况下调用make_bad_inode（），攻击者可利用该漏洞导致系统崩溃。</description><patchName>Linux kernel拒绝服务漏洞（CNVD-2021-33239）的补丁</patchName><patchDescription>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。&#xD;
+&#xD;
+Linux kernel 5.10.6之前版本存在拒绝服务漏洞，该漏洞源于fuse_do_getattr()在未适当的情况下调用make_bad_inode（），攻击者可利用该漏洞导致系统崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33047</number><cves><cve><cveNumber>CVE-2017-20004</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2017-20004</cveUrl></cve></cves><title>Mozilla Rust竞争条件问题漏洞</title><serverity>中</serverity><products><product>Mozilla Rust &lt;1.19.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2017-20004</referenceLink><formalWay>目前厂商暂未发布修复措施解决此安全问题，建议使用此软件的用户随时关注厂商主页或参考网址以获取解决办法：&#xD;
+https://github.com/rust-lang/rust/issues/41622</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust 1.19.0之前版本中的standard library存在竞争条件问题漏洞，该漏洞源于MutexGuard对象存在同步问题，允许在竞争条件下出现内存安全问题。目前没有详细的漏洞细节提供。</description></vulnerability><vulnerability><number>CNVD-2021-33046</number><cves><cve><cveNumber>CVE-2018-25008</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2018-25008</cveUrl></cve></cves><title>Mozilla Rust存在未明漏洞（CNVD-2021-33046）</title><serverity>中</serverity><products><product>Mozilla Rust &lt;1.29.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2018-25008</referenceLink><formalWay>目前厂商暂未发布修复措施解决此安全问题，建议使用此软件的用户随时关注厂商主页或参考网址以获取解决办法：&#xD;
+https://github.com/rust-lang/rust/issues/51780</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+standard library in Rust 1.29.0之前版本存在安全漏洞，该漏洞源于Arc：：get mut方法存在弱同步。这种同步问题可能会通过竞态条件导致内存安全问题。目前没有详细的漏洞细节提供。</description></vulnerability><vulnerability><number>CNVD-2021-33045</number><cves><cve><cveNumber>CVE-2020-36323</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-36323</cveUrl></cve></cves><title>Mozilla Rust格式化字符串错误漏洞</title><serverity>中</serverity><products><product>Mozilla Rust &lt;1.52.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-36323</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://github.com/rust-lang/rust</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust 1.52.0之前版本中的standard library存在格式化字符串错误漏洞，该漏洞源于如果在检查了借来的字符串长度后改变了它，可能会导致未初始化的字节被暴露(或者程序崩溃)。目前没有详细的漏洞细节提供。</description><patchName>Mozilla Rust格式化字符串错误漏洞的补丁</patchName><patchDescription>Rust是Mozilla基金会的一款通用、编译型编程语言。&#xD;
+&#xD;
+Rust 1.52.0之前版本中的standard library存在格式化字符串错误漏洞，该漏洞源于如果在检查了借来的字符串长度后改变了它，可能会导致未初始化的字节被暴露(或者程序崩溃)。目前没有详细的漏洞细节提供。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33044</number><cves><cve><cveNumber>CVE-2021-31162</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-31162</cveUrl></cve></cves><title>Rust资源管理错误漏洞（CNVD-2021-33044）</title><serverity>高</serverity><products><product>Mozilla Rust &lt;1.53.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-31162</referenceLink><formalWay>目前厂商暂未发布修复措施解决此安全问题，建议使用此软件的用户随时关注厂商主页或参考网址以获取解决办法：&#xD;
+https://github.com/rust-lang/rust/issues/83618</formalWay><description>Rust是Mozilla基金会的一款通用、编译型编程语言。
+
+Rust 1.53.0之前版本中的standard library存在资源管理错误漏洞，该漏洞源于Vec::from_iter函数中会出现双重释放。目前没有详细的漏洞细节提供。</description></vulnerability><vulnerability><number>CNVD-2021-33238</number><cves><cve><cveNumber>CVE-2021-27990</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-27990</cveUrl></cve></cves><title>Appspace授权问题漏洞</title><serverity>中</serverity><products><product>Appspace Appspace 6.2.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-27990</referenceLink><formalWay>目前厂商暂未发布修复措施解决此安全问题，建议使用此软件的用户随时关注厂商主页或参考网址以获取解决办法：&#xD;
+https://github.com/syedsohaibkarim/PoC-StoredXSS-Appspace6.2.4</formalWay><description>Appspace是美国Appspace公司的一个应用软件。提供内置的内容策略轻松实施和执行团队沟通程序。
+
+Appspace 6.2.4版本存在授权问题漏洞，该漏洞源于很容易受到认证机制破坏的影响，其中包括/medianet/mail.aspx等页面。目前没有详细的漏洞细节提供。</description></vulnerability><vulnerability><number>CNVD-2021-33042</number><cves><cve><cveNumber>CVE-2020-27870</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-27870</cveUrl></cve></cves><title>SolarWinds Orion Platform路径遍历漏洞</title><serverity>中</serverity><products><product>SolarWinds Orion Platform 2020.2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-27870</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://www.zerodayinitiative.com/advisories/ZDI-21-066/</formalWay><description>SolarWinds Orion Platform是美国SolarWinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。
+
+SolarWinds Orion Platform 2020.2.1版本的ExportToPDF.aspx存在路径遍历漏洞。该漏洞源于程序在文件操作中使用用户提供的路径之前未对其进行正确验证。远程攻击者可利用该漏洞导致信息泄露。</description><patchName>SolarWinds Orion Platform路径遍历漏洞的补丁</patchName><patchDescription>SolarWinds Orion Platform是美国SolarWinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。&#xD;
+&#xD;
+SolarWinds Orion Platform 2020.2.1版本的ExportToPDF.aspx存在路径遍历漏洞。该漏洞源于程序在文件操作中使用用户提供的路径之前未对其进行正确验证。远程攻击者可利用该漏洞导致信息泄露。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33043</number><cves><cve><cveNumber>CVE-2020-27871</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-27871</cveUrl></cve></cves><title>SolarWinds Orion Platform路径遍历漏洞（CNVD-2021-33043）</title><serverity>高</serverity><products><product>SolarWinds Orion Platform 2020.2.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-27871</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，详情请关注厂商主页：&#xD;
+https://www.zerodayinitiative.com/advisories/ZDI-21-067/</formalWay><description>SolarWinds Orion Platform是美国SolarWinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。
+
+SolarWinds Orion Platform 2020.2.1版本的VulnerabilitySettings.aspx存在路径遍历漏洞。该漏洞源于程序在文件操作中使用用户提供的路径之前未对其进行正确验证。远程攻击者可利用该漏洞导致任意代码执行并创建任意文件。</description><patchName>SolarWinds Orion Platform路径遍历漏洞（CNVD-2021-33043）的补丁</patchName><patchDescription>SolarWinds Orion Platform是美国SolarWinds公司的一套网络故障和网络性能管理平台。该平台可对网络设备提供实时监测和分析，并支持定制网页介面、多种用户意见和对整个网络进行地图式浏览等。&#xD;
+&#xD;
+SolarWinds Orion Platform 2020.2.1版本的VulnerabilitySettings.aspx存在路径遍历漏洞。该漏洞源于程序在文件操作中使用用户提供的路径之前未对其进行正确验证。远程攻击者可利用该漏洞导致任意代码执行并创建任意文件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2021-33041</number><cves><cve><cveNumber>CVE-2020-4987</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-4987</cveUrl></cve></cves><title>IBM FlashSystem 900跨站脚本漏洞</title><serverity>中</serverity><products><product>IBM IBM FlashSystem 900 1.5.2.9</product><product>IBM IBM FlashSystem 900 1.6.1.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2021-05-06</submitTime><openTime>2021-05-07</openTime><referenceLink>https://www.ibm.com/blogs/psirt/security-bulletin-a-vulnerability-exists-in-the-management-gui-of-the-ibm-flashsystem-900/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：https://www.ibm.com/support/pages/node/6449280</formalWay><description>IBM FlashSystem 900是美国IBM公司的一个应用软件。提供一个微妙延迟。
+
+IBM FlashSystem 900 1.5.2.9和1.6.1.3版本存在跨站脚本漏洞，该漏洞允许攻击者在Web UI中嵌入任意的JavaScript代码，从而改变预期的功能，这可能导致在可信会话中暴露凭据。</description><patchName>IBM FlashSystem 900跨站脚本漏洞的补丁</patchName><patchDescription>IBM FlashSystem 900是美国IBM公司的一个应用软件。提供一个微妙延迟。&#xD;
+&#xD;
+IBM FlashSystem 900 1.5.2.9和1.6.1.3版本存在跨站脚本漏洞，该漏洞允许攻击者在Web UI中嵌入任意的JavaScript代码，从而改变预期的功能，这可能导致在可信会话中暴露凭据。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability></vulnerabilitys>

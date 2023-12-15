@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vulnerabilitys><vulnerability><number>CNVD-2022-44338</number><title>珠海奔图打印科技有限公司Pantum M6700DW Series存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>珠海奔图打印科技有限公司 Pantum M6700DW Series </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2022-05-13</submitTime><openTime>2023-09-06</openTime><discovererName>郭焕鑫</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.pantum.cn/contact-us/media-services/</formalWay><description>珠海奔图打印科技有限公司是一家掌握打印机核心技术和自主知识产权，集研发、设计、生产、销售打印机、耗材及文印输出解决方案为一体的企业。
+
+珠海奔图打印科技有限公司Pantum M6700DW Series存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>珠海奔图打印科技有限公司Pantum M6700DW Series存在逻辑缺陷漏洞的补丁</patchName><patchDescription>珠海奔图打印科技有限公司是一家掌握打印机核心技术和自主知识产权，集研发、设计、生产、销售打印机、耗材及文印输出解决方案为一体的企业。&#xD;
+&#xD;
+珠海奔图打印科技有限公司Pantum M6700DW Series存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2022-56007</number><title>北京世纪超星信息技术发展有限责任公司学习通质量工程平台存在逻辑缺陷漏洞</title><serverity>低</serverity><products><product>北京世纪超星信息技术发展有限责任公司 学习通质量工程平台 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2022-07-14</submitTime><openTime>2023-09-04</openTime><discovererName>longw</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.chaoxing.com</formalWay><description>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。
+
+北京世纪超星信息技术发展有限责任公司学习通质量工程平台存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>北京世纪超星信息技术发展有限责任公司学习通质量工程平台存在逻辑缺陷漏洞的补丁</patchName><patchDescription>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。&#xD;
+&#xD;
+北京世纪超星信息技术发展有限责任公司学习通质量工程平台存在逻辑缺陷漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68216</number><cves><cve><cveNumber>CVE-2022-34482</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-34482</cveUrl></cve></cves><title>Mozilla Firefox输入验证错误漏洞（CNVD-2023-68216）</title><serverity>高</serverity><products><product>Mozilla Firefox &lt;102.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2022-06-30</submitTime><openTime>2023-09-08</openTime><referenceLink>https://vigilance.fr/vulnerability/Mozilla-Firefox-multiple-vulnerabilities-38684</referenceLink><formalWay>目前厂商已发布升级补丁以修复漏洞，补丁获取链接：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2022-24/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。
+
+Mozilla Firefox存在输入验证错误漏洞，该漏洞源于拖放图像功能缺少对于扩展名的限制与过滤。攻击者可利用该漏洞通过拖放恶意图像到文件系统执行恶意代码。</description><patchName>Mozilla Firefox输入验证错误漏洞（CNVD-2023-68216）的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。&#xD;
+&#xD;
+Mozilla Firefox存在输入验证错误漏洞，该漏洞源于拖放图像功能缺少对于扩展名的限制与过滤。攻击者可利用该漏洞通过拖放恶意图像到文件系统执行恶意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2022-83463</number><title>北京世纪超星信息技术发展有限责任公司实习实训管理系统存在逻辑缺陷漏洞</title><serverity>中</serverity><products><product>北京世纪超星信息技术发展有限责任公司 实习实训管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2022-10-31</submitTime><openTime>2023-09-04</openTime><discovererName>宋瑞</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.chaoxing.com</formalWay><description>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。
+
+北京世纪超星信息技术发展有限责任公司实习实训管理系统存在逻辑缺陷漏洞，攻击者可利用该漏洞登录系统后台。</description><patchName>北京世纪超星信息技术发展有限责任公司实习实训管理系统存在逻辑缺陷漏洞的补丁</patchName><patchDescription>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。&#xD;
+&#xD;
+北京世纪超星信息技术发展有限责任公司实习实训管理系统存在逻辑缺陷漏洞，攻击者可利用该漏洞登录系统后台。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-00898</number><title>北京世纪超星信息技术发展有限责任公司超星汇雅电子图书馆存在SQL注入漏洞</title><serverity>高</serverity><products><product>北京世纪超星信息技术发展有限责任公司 超星汇雅电子图书馆 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2022-12-04</submitTime><openTime>2023-09-04</openTime><discovererName>DarkFire</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+http://www.chaoxing.com</formalWay><description>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。
+
+北京世纪超星信息技术发展有限责任公司超星汇雅电子图书馆存在SQL注入漏洞，攻击者可利用漏洞获取数据库敏感信息。</description><patchName>北京世纪超星信息技术发展有限责任公司超星汇雅电子图书馆存在SQL注入漏洞的补丁</patchName><patchDescription>北京世纪超星信息技术发展有限责任公司是一家以技术、产品与服务创新为驱动力的教育信息化企业。&#xD;
+&#xD;
+北京世纪超星信息技术发展有限责任公司超星汇雅电子图书馆存在SQL注入漏洞，攻击者可利用漏洞获取数据库敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-52185</number><title>TP-LINK TL-WR841N存在二进制漏洞</title><serverity>中</serverity><products><product>TP-LINK TL-WR841N V10</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-25</submitTime><openTime>2023-09-06</openTime><discovererName>夏国壹</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.tp-link.com/us/support/download/</formalWay><description>TP-LINK TL-WR841N是TP-Link旗下一款经典的11n无线路由器。
+
+TP-LINK TL-WR841N存在二进制漏洞，攻击者可利用该漏洞造成拒绝服务攻击。</description><patchName>TP-LINK TL-WR841N存在二进制漏洞的补丁</patchName><patchDescription>TP-LINK TL-WR841N是TP-Link旗下一款经典的11n无线路由器。&#xD;
+&#xD;
+TP-LINK TL-WR841N存在二进制漏洞，攻击者可利用该漏洞造成拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-34055</number><title>泛雅课堂存在命令执行漏洞</title><serverity>高</serverity><products><product>北京世纪超星信息技术发展有限责任公司 泛雅课堂 V4.5.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-06</submitTime><openTime>2023-09-04</openTime><discovererName>Ghost1032</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://k.chaoxing.com/</formalWay><description>泛雅课堂是一款在线课堂软件。
+
+泛雅课堂存在命令执行漏洞，攻击者可利用该漏洞执行任意命令。</description><patchName>泛雅课堂存在命令执行漏洞的补丁</patchName><patchDescription>泛雅课堂是一款在线课堂软件。&#xD;
+&#xD;
+泛雅课堂存在命令执行漏洞，攻击者可利用该漏洞执行任意命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68214</number><cves><cve><cveNumber>CVE-2022-22756</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-22756</cveUrl></cve></cves><title>Mozilla Thunderbird和Firefox任意代码执行漏洞</title><serverity>高</serverity><products><product>Mozilla Firefox &lt;97.0</product><product>Mozilla Firefox ESR &lt;91.6</product><product>Mozilla Thunderbird &lt;91.6</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-06</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2022-22756</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2022-01/</formalWay><description>Mozilla Thunderbird是美国Mozilla基金会的一套从Mozilla Application Suite独立出来的电子邮件客户端软件。该软件支持IMAP、POP邮件协议以及HTML邮件格式。
+
+Mozilla Thunderbird 91.6之前版本、Firefox 97之前版本和Firefox ESR 91.6之前版本存在任意代码执行漏洞。攻击者可利用该漏洞诱导用户拖拽图像至其桌面或文件夹，进而运行任意代码。</description><patchName>Mozilla Thunderbird和Firefox任意代码执行漏洞的补丁</patchName><patchDescription>Mozilla Thunderbird是美国Mozilla基金会的一套从Mozilla Application Suite独立出来的电子邮件客户端软件。该软件支持IMAP、POP邮件协议以及HTML邮件格式。&#xD;
+&#xD;
+Mozilla Thunderbird 91.6之前版本、Firefox 97之前版本和Firefox ESR 91.6之前版本存在任意代码执行漏洞。攻击者可利用该漏洞诱导用户拖拽图像至其桌面或文件夹，进而运行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67112</number><cves><cve><cveNumber>CVE-2023-21879</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21879</cveUrl></cve></cves><title>Oracle MySQL Server拒绝服务漏洞（CNVD-2023-67112）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.31</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-16</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpujan2023.html</referenceLink><formalWay>用户可参考如下供应商提供的安全公告获得补丁信息：&#xD;
+https://www.oracle.com/security-alerts/cpujan2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在拒绝服务漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server拒绝服务漏洞（CNVD-2023-67112）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在拒绝服务漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67111</number><cves><cve><cveNumber>CVE-2023-21875</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21875</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67111）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.31</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-16</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpujan2023.html</referenceLink><formalWay>用户可参考如下供应商提供的安全公告获得补丁信息：&#xD;
+https://www.oracle.com/security-alerts/cpujan2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致对关键数据或所有MySQL Server可访问数据的未经授权的创建、删除或修改访问，以及导致MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67111）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致对关键数据或所有MySQL Server可访问数据的未经授权的创建、删除或修改访问，以及导致MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67110</number><cves><cve><cveNumber>CVE-2023-21868</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21868</cveUrl></cve></cves><title>Oracle MySQL Server拒绝服务漏洞（CNVD-2023-67110）</title><serverity>高</serverity><products><product>Oracle MySQL Server &lt;=8.0.31</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-16</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpujan2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpujan2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在拒绝服务漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server拒绝服务漏洞（CNVD-2023-67110）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在拒绝服务漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68213</number><cves><cve><cveNumber>CVE-2023-25748</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-25748</cveUrl></cve></cves><title>Mozilla Firefox代码问题漏洞（CNVD-2023-68213）</title><serverity>中</serverity><products><product>Mozilla Firefox &lt;111.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-17</submitTime><openTime>2023-09-08</openTime><referenceLink>https://www.auscert.org.au/bulletins/ESB-2023.1567</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2023-09/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。
+
+Mozilla Firefox存在代码问题漏洞，该漏洞源于通过显示带有长描述的提示，全屏通知可能会被隐藏，攻击者可利用该漏洞导致潜在的用户混淆或欺骗攻击。</description><patchName>Mozilla Firefox代码问题漏洞（CNVD-2023-68213）的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。&#xD;
+&#xD;
+Mozilla Firefox存在代码问题漏洞，该漏洞源于通过显示带有长描述的提示，全屏通知可能会被隐藏，攻击者可利用该漏洞导致潜在的用户混淆或欺骗攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-53005</number><title>用友网络科技股份有限公司U8 Cloud存在反序列化漏洞</title><serverity>高</serverity><products><product>用友网络科技股份有限公司 U8 Cloud </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-30</submitTime><openTime>2023-09-06</openTime><discovererName>superx</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+https://security.yonyou.com/#/noticeInfo?id=361</formalWay><description>U8 Cloud是一款企业上云数字化平台，集交易、服务、管理于一体的ERP整体解决方案。
+
+用友网络科技股份有限公司U8 Cloud存在反序列化漏洞，攻击者可利用漏洞远程执行命令。
+</description><patchName>用友网络科技股份有限公司U8 Cloud存在反序列化漏洞的补丁</patchName><patchDescription>U8 Cloud是一款企业上云数字化平台，集交易、服务、管理于一体的ERP整体解决方案。&#xD;
+&#xD;
+用友网络科技股份有限公司U8 Cloud存在反序列化漏洞，攻击者可利用漏洞远程执行命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-40557</number><title>北京国炬信息技术有限公司积木报表存在信息泄露漏洞</title><serverity>中</serverity><products><product>北京国炬信息技术有限公司 积木报表 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-03-23</submitTime><openTime>2023-09-07</openTime><discovererName>xxx1997</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+http://jeecg.com/doc/log&#xD;
+https://blog.csdn.net/zhangdaiscott/article/details/132304391 &#xD;
+https://blog.csdn.net/zhangdaiscott/article/details/132313016 </formalWay><description>北京国炬信息技术有限公司是一家从事计算机软件研发、应用及服务，为大中型应用系统工程提供全方位支持的信息技术公司。
+
+北京国炬信息技术有限公司积木报表存在信息泄露漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>北京国炬信息技术有限公司积木报表存在信息泄露漏洞的补丁</patchName><patchDescription>北京国炬信息技术有限公司是一家从事计算机软件研发、应用及服务，为大中型应用系统工程提供全方位支持的信息技术公司。&#xD;
+&#xD;
+北京国炬信息技术有限公司积木报表存在信息泄露漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67092</number><cves><cve><cveNumber>CVE-2023-1815</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1815</cveUrl></cve></cves><title>Google Chrome Networking APIs代码执行漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1815</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Networking APIs存在代码执行漏洞，该漏洞源于网络API中存在内存释放后重用问题。攻击者可利用此漏洞在系统上执行任意代码或导致拒绝服务。</description><patchName>Google Chrome Networking APIs代码执行漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Networking APIs存在代码执行漏洞，该漏洞源于网络API中存在内存释放后重用问题。攻击者可利用此漏洞在系统上执行任意代码或导致拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67091</number><cves><cve><cveNumber>CVE-2023-1816</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1816</cveUrl></cve></cves><title>Google Chrome Picture In Picture安全绕过漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1816</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Picture In Picture存在安全绕过漏洞，该漏洞源于Picture In Picture中的安全UI不正确。攻击者可利用此漏洞绕过安全限制。</description><patchName>Google Chrome Picture In Picture安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Picture In Picture存在安全绕过漏洞，该漏洞源于Picture In Picture中的安全UI不正确。攻击者可利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67090</number><cves><cve><cveNumber>CVE-2023-1817</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1817</cveUrl></cve></cves><title>Google Chrome Intents安全绕过漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1817</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Intents存在安全绕过漏洞，该漏洞源于Intents中的策略执行不足造成的。攻击者可利用此漏洞绕过安全限制。</description><patchName>Google Chrome Intents安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Intents存在安全绕过漏洞，该漏洞源于Intents中的策略执行不足造成的。攻击者可利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67089</number><cves><cve><cveNumber>CVE-2023-1818</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1818</cveUrl></cve></cves><title>Google Chrome Vulkan代码执行漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1818</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Vulkan存在代码执行漏洞，该漏洞源于Vulkan中存在释放后重用问题。攻击者可利用此漏洞在系统上执行任意代码或导致拒绝服务。</description><patchName>Google Chrome Vulkan代码执行漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Vulkan存在代码执行漏洞，该漏洞源于Vulkan中存在释放后重用问题。攻击者可利用此漏洞在系统上执行任意代码或导致拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67088</number><cves><cve><cveNumber>CVE-2023-1820</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1820</cveUrl></cve></cves><title>Google Chrome Browser History缓冲区溢出漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1820</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Browser History存在缓冲区溢出漏洞，攻击者可利用该漏洞使溢出缓冲区并在系统上执行任意代码，或者导致应用程序崩溃。</description><patchName>Google Chrome Browser History缓冲区溢出漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Browser History存在缓冲区溢出漏洞，攻击者可利用该漏洞使溢出缓冲区并在系统上执行任意代码，或者导致应用程序崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67087</number><cves><cve><cveNumber>CVE-2023-1819</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1819</cveUrl></cve></cves><title>Google Chrome Accessibility信息泄露漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1819</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome Accessibility存在信息泄露漏洞，该漏洞源于辅助功能存在越界读取问题。远程攻击者可利用此漏洞获取敏感信息。</description><patchName>Google Chrome Accessibility信息泄露漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome Accessibility存在信息泄露漏洞，该漏洞源于辅助功能存在越界读取问题。远程攻击者可利用此漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67086</number><cves><cve><cveNumber>CVE-2023-1821</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1821</cveUrl></cve></cves><title>Google Chrome WebShare安全绕过漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1821</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome WebShare存在安全绕过漏洞，该漏洞源于WebShare中实施不当。攻击者可利用此漏洞绕过安全限制。</description><patchName>Google Chrome WebShare安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome WebShare存在安全绕过漏洞，该漏洞源于WebShare中实施不当。攻击者可利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67085</number><cves><cve><cveNumber>CVE-2023-1822</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1822</cveUrl></cve></cves><title>Google Chrome navigation安全绕过漏洞（CNVD-2023-67085）</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1822</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome navigation安全绕过漏洞，该漏洞源于Navigation中的安全UI不正确。攻击者可利用此漏洞绕过安全限制。</description><patchName>Google Chrome navigation安全绕过漏洞（CNVD-2023-67085）的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome navigation安全绕过漏洞，该漏洞源于Navigation中的安全UI不正确。攻击者可利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67084</number><cves><cve><cveNumber>CVE-2023-1823</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-1823</cveUrl></cve></cves><title>Google Chrome FedCM安全绕过漏洞</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.49</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-07</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-1823</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome FedCM存在安全绕过漏洞，该漏洞源于FedCM中存在实施不当。攻击者可利用此漏洞绕过安全限制。</description><patchName>Google Chrome FedCM安全绕过漏洞的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome FedCM存在安全绕过漏洞，该漏洞源于FedCM中存在实施不当。攻击者可利用此漏洞绕过安全限制。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67109</number><cves><cve><cveNumber>CVE-2023-21929</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21929</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67109）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁可重复崩溃，以及对某些MySQL Server可访问数据的未经授权更新、插入或删除访问。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67109）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁可重复崩溃，以及对某些MySQL Server可访问数据的未经授权更新、插入或删除访问。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67108</number><cves><cve><cveNumber>CVE-2023-21920</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21920</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67108）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67108）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67107</number><cves><cve><cveNumber>CVE-2023-21919</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21919</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67107）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67107）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67106</number><cves><cve><cveNumber>CVE-2023-21917</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21917</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67106）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.30</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67106）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67105</number><cves><cve><cveNumber>CVE-2023-21933</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21933</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67105）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67105）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67104</number><cves><cve><cveNumber>CVE-2023-21912</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21912</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67104）</title><serverity>高</serverity><products><product>Oracle MySQL Server &lt;=8.0.30</product><product>Oracle MySQL Server &lt;=5.7.41</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67104）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67103</number><cves><cve><cveNumber>CVE-2023-21911</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21911</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67103）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-07</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67103）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67102</number><cves><cve><cveNumber>CVE-2023-21913</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21913</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67102）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.31</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67102）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67101</number><cves><cve><cveNumber>CVE-2023-21935</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21935</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67101）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67101）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67100</number><cves><cve><cveNumber>CVE-2023-21940</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21940</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67100）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67100）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67099</number><cves><cve><cveNumber>CVE-2023-21945</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21945</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67099） </title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67099）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67098</number><cves><cve><cveNumber>CVE-2023-21946</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21946</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67098）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67098）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67097</number><cves><cve><cveNumber>CVE-2023-21947</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21947</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67097）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67097）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67096</number><cves><cve><cveNumber>CVE-2023-21953</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21953</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67096）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67096）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67095</number><cves><cve><cveNumber>CVE-2023-21955</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21955</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67095） </title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67095）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67094</number><cves><cve><cveNumber>CVE-2023-21962</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21962</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67094）</title><serverity>中</serverity><products><product>Oracle MySQL Server &lt;=8.0.32</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67094）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server挂起或频繁重复崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67093</number><cves><cve><cveNumber>CVE-2023-21963</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-21963</cveUrl></cve></cves><title>Oracle MySQL Server存在未明漏洞（CNVD-2023-67093）</title><serverity>低</serverity><products><product>Oracle MySQL Server &lt;=8.0.31</product><product>Oracle MySQL Server &lt;=5.7.40</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-21</submitTime><openTime>2023-09-05</openTime><referenceLink>https://www.oracle.com/security-alerts/cpuapr2023.html</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.oracle.com/security-alerts/cpuapr2023.html</formalWay><description>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。
+
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server部分拒绝服务（部分DOS）。</description><patchName>Oracle MySQL Server存在未明漏洞（CNVD-2023-67093）的补丁</patchName><patchDescription>Oracle MySQL Server是美国甲骨文（Oracle）公司的一款关系型数据库。&#xD;
+&#xD;
+Oracle MySQL Server存在安全漏洞，攻击者可利用该漏洞导致未经授权的MySQL Server部分拒绝服务（部分DOS）。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67083</number><cves><cve><cveNumber>CVE-2023-2134</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-2134</cveUrl></cve></cves><title>Google Chrome代码执行漏洞（CNVD-2023-67083）</title><serverity>高</serverity><products><product>Google Chrome &lt;112.0.5615.137</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-04-23</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-2134</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://chromereleases.googleblog.com/2023/04/stable-channel-update-for-desktop_18.html</formalWay><description>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。
+
+Google Chrome 112.0.5615.137之前版本存在代码执行漏洞，该漏洞源于Service Worker API中存在越界内存访问。攻击者可利用此漏洞在系统上执行任意代码或导致应用程序崩溃。</description><patchName>Google Chrome代码执行漏洞（CNVD-2023-67083）的补丁</patchName><patchDescription>Google Chrome是美国谷歌（Google）公司的一款Web浏览器。&#xD;
+&#xD;
+Google Chrome 112.0.5615.137之前版本存在代码执行漏洞，该漏洞源于Service Worker API中存在越界内存访问。攻击者可利用此漏洞在系统上执行任意代码或导致应用程序崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-64016</number><title>RPCMS存在SQL注入漏洞</title><serverity>高</serverity><products><product>RPCMS RPCMS 3.4.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-05-08</submitTime><openTime>2023-09-04</openTime><discovererName>小狗熊</discovererName><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+http://www.rpcms.cn/post/2.html</formalWay><description>RPCMS是一款基于PHP语言和MYSQL数据库的开源PHP内容管理系统。
+
+RPCMS存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description><patchName>RPCMS存在SQL注入漏洞的补丁</patchName><patchDescription>RPCMS是一款基于PHP语言和MYSQL数据库的开源PHP内容管理系统。&#xD;
+&#xD;
+RPCMS存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-57643</number><title>珠海奔图打印科技有限公司M7160DW存在任意文件读取漏洞</title><serverity>低</serverity><products><product>珠海奔图打印科技有限公司 M7160DW 2.A.1.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-05-19</submitTime><openTime>2023-09-06</openTime><discovererName>上海交通大学网络与系统安全实验室：Lnkvct、vfenux</discovererName><formalWay>厂商已提供漏洞修补方案，请关注厂商主页及时更新：&#xD;
+https://www.pantum.cn/contact-us/media-services/</formalWay><description>M7160DW是黑白激光多功能一体机，支持打印、复印和扫描功能，可通过USB、有线网络、局域网和WIFI连接。
+
+珠海奔图打印科技有限公司M7160DW存在任意文件读取漏洞，攻击者可利用该漏洞在未授权的情况下任意读取打印机文件系统中的文件。</description><patchName>珠海奔图打印科技有限公司M7160DW存在任意文件读取漏洞的补丁</patchName><patchDescription>M7160DW是黑白激光多功能一体机，支持打印、复印和扫描功能，可通过USB、有线网络、局域网和WIFI连接。&#xD;
+&#xD;
+珠海奔图打印科技有限公司M7160DW存在任意文件读取漏洞，攻击者可利用该漏洞在未授权的情况下任意读取打印机文件系统中的文件。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-62355</number><title>上海纽盾科技股份有限公司Reporter组件存在命令执行漏洞</title><serverity>高</serverity><products><product>上海纽盾科技股份有限公司 Reporter组件 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-06-09</submitTime><openTime>2023-09-07</openTime><discovererName>xlccccc</discovererName><formalWay>厂商已提供漏洞修补方案，建议用户下载使用：&#xD;
+http://nafupgrade.newdon.net/featurefile/%E7%AC%AC%E4%BA%94%E4%BB%A3%E7%89%B9%E5%BE%81%E5%BA%931.1.6.9-2023.09.01.zip</formalWay><description>上海纽盾科技股份有限公司是一家以“网络安全”为主轴，以“让网络更安全”为使命，为客户提供网络安全整体解决方案的专业安全公司。
+
+上海纽盾科技股份有限公司Reporter组件存在命令执行漏洞，攻击者可利用该漏洞获取服务器的root权限。</description><patchName>上海纽盾科技股份有限公司Reporter组件存在命令执行漏洞的补丁</patchName><patchDescription>上海纽盾科技股份有限公司是一家以“网络安全”为主轴，以“让网络更安全”为使命，为客户提供网络安全整体解决方案的专业安全公司。&#xD;
+&#xD;
+上海纽盾科技股份有限公司Reporter组件存在命令执行漏洞，攻击者可利用该漏洞获取服务器的root权限。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-65430</number><title>绿盟运维安全管理系统存在SQL注入漏洞</title><serverity>中</serverity><products><product>北京神州绿盟科技有限公司 绿盟运维安全管理系统 </product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-07-25</submitTime><openTime>2023-09-08</openTime><discovererName>Mr_Destiny</discovererName><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+F00SP16.104955:&#xD;
+https://update.nsfocus.com/update/listSashDetail/v/engine5.6.10&#xD;
+F0X.Patch(适用F01版本):&#xD;
+https://update.nsfocus.com/update/listSashDetail/v/V5.6R10F01&#xD;
+F0X.Patch(适用F03版本):&#xD;
+https://update.nsfocus.com/update/listSashDetail/v/V5.6R10F03</formalWay><description>北京神州绿盟科技有限公司是一家经营范围包括技术开发、技术咨询、技术服务；计算机系统服务等的公司。
+
+绿盟运维安全管理系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。</description><patchName>绿盟运维安全管理系统存在SQL注入漏洞的补丁</patchName><patchDescription>北京神州绿盟科技有限公司是一家经营范围包括技术开发、技术咨询、技术服务；计算机系统服务等的公司。&#xD;
+&#xD;
+绿盟运维安全管理系统存在SQL注入漏洞，攻击者可利用该漏洞获取数据库敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68212</number><cves><cve><cveNumber>CVE-2023-4046</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-4046</cveUrl></cve></cves><title>Mozilla Firefox and Firefox ESR拒绝服务漏洞（CNVD-2023-68212）</title><serverity>中</serverity><products><product>Mozilla Firefox &lt;116.0</product><product>Mozilla Firefox ESR &gt;=102.0，&lt;102.14</product><product>Mozilla Firefox ESR &gt;=115.0，&lt;115.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-03</submitTime><openTime>2023-09-08</openTime><referenceLink>https://bugzilla.mozilla.org/show_bug.cgi?id=1837686</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2023-29/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。
+
+Mozilla Firefox和Mozilla Firefox ESR存在拒绝服务漏洞，该漏洞源于WASM 编译期间使用的值不正确。攻击者可利用该漏洞导致内容进程中的错误编译和潜在可利用的崩溃。</description><patchName>Mozilla Firefox and Firefox ESR拒绝服务漏洞（CNVD-2023-68212）的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。&#xD;
+&#xD;
+Mozilla Firefox和Mozilla Firefox ESR存在拒绝服务漏洞，该漏洞源于WASM 编译期间使用的值不正确。攻击者可利用该漏洞导致内容进程中的错误编译和潜在可利用的崩溃。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68211</number><cves><cve><cveNumber>CVE-2023-4049</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-4049</cveUrl></cve></cves><title>Mozilla Firefox and Firefox ESR竞争条件问题漏洞</title><serverity>中</serverity><products><product>Mozilla Firefox &lt;116.0</product><product>Mozilla Firefox ESR &gt;=102.0，&lt;102.14</product><product>Mozilla Firefox ESR &gt;=115.0，&lt;115.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-03</submitTime><openTime>2023-09-08</openTime><referenceLink>https://bugzilla.mozilla.org/show_bug.cgi?id=1842658</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2023-29/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。
+
+Mozilla Firefox和Mozilla Firefox ESR存在竞争条件问题漏洞，该漏洞源于通过代码检查发现了引用计数代码中的竞争条件。攻击者可利用该漏洞可能导致程序崩溃，任意代码执行等。</description><patchName>Mozilla Firefox and Firefox ESR竞争条件问题漏洞的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。&#xD;
+&#xD;
+Mozilla Firefox和Mozilla Firefox ESR存在竞争条件问题漏洞，该漏洞源于通过代码检查发现了引用计数代码中的竞争条件。攻击者可利用该漏洞可能导致程序崩溃，任意代码执行等。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68210</number><cves><cve><cveNumber>CVE-2023-4050</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-4050</cveUrl></cve></cves><title>Mozilla Firefox and Firefox ESR缓冲区溢出漏洞</title><serverity>高</serverity><products><product>Mozilla Firefox &lt;116.0</product><product>Mozilla Firefox ESR &gt;=102.0，&lt;102.14</product><product>Mozilla Firefox ESR &gt;=115.0，&lt;115.1</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-03</submitTime><openTime>2023-09-08</openTime><referenceLink>https://www.mozilla.org/security/advisories/mfsa2023-30/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/en-US/security/advisories/mfsa2023-29/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。
+
+Mozilla Firefox和Mozilla Firefox ESR存在缓冲区溢出漏洞，该漏洞源于在某些情况下，不受信任的输入流会在不检查其大小的情况下复制到堆栈缓冲区。攻击者可利用该漏洞导致潜在的可利用崩溃，可能导致沙箱逃逸。</description><patchName>Mozilla Firefox and Firefox ESR缓冲区溢出漏洞的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。Mozilla Firefox ESR是火狐浏览器(企业版)。&#xD;
+&#xD;
+Mozilla Firefox和Mozilla Firefox ESR存在缓冲区溢出漏洞，该漏洞源于在某些情况下，不受信任的输入流会在不检查其大小的情况下复制到堆栈缓冲区。攻击者可利用该漏洞导致潜在的可利用崩溃，可能导致沙箱逃逸。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66738</number><cves><cve><cveNumber>CVE-2023-35893</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-35893</cveUrl></cve></cves><title>IBM Security Guardium命令执行漏洞（CNVD-2023-66738）</title><serverity>高</serverity><products><product>IBM Security Guardium 10.6</product><product>IBM Security Guardium 11.3</product><product>IBM Security Guardium 11.4</product><product>IBM Security Guardium 11.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-18</submitTime><openTime>2023-09-04</openTime><referenceLink>https://www.ibm.com/support/pages/node/7027853</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7027853</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 10.6版本、11.3版本、11.4版本、11.5版本存在命令执行漏洞，攻击者可利用该漏洞通过发送特制请求在系统上执行任意命令。</description><patchName>IBM Security Guardium命令执行漏洞（CNVD-2023-66738）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 10.6版本、11.3版本、11.4版本、11.5版本存在命令执行漏洞，攻击者可利用该漏洞通过发送特制请求在系统上执行任意命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67122</number><cves><cve><cveNumber>CVE-2020-24293</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-24293</cveUrl></cve></cves><title>FreeImage psdThumbnail::Read函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.19.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-24293</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/discussion/36111/thread/afb98701eb/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage psdThumbnail::Read函数存在缓冲区溢出漏洞，攻击者可利用该漏洞通过打开特制的psd文件来运行任意代码。</description><patchName>FreeImage psdThumbnail::Read函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage psdThumbnail::Read函数存在缓冲区溢出漏洞，攻击者可利用该漏洞通过打开特制的psd文件来运行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67121</number><cves><cve><cveNumber>CVE-2020-24294</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-24294</cveUrl></cve></cves><title>FreeImage psdParser::UnpackRLE函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.19.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-24294</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/discussion/36111/thread/afb98701eb/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage psdParser::UnpackRLE函数存在缓冲区溢出漏洞，攻击者可利用该漏洞通过打开特制的psd文件来消除拒绝服务。</description><patchName>FreeImage psdParser::UnpackRLE函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage psdParser::UnpackRLE函数存在缓冲区溢出漏洞，攻击者可利用该漏洞通过打开特制的psd文件来消除拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67120</number><cves><cve><cveNumber>CVE-2021-40263</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-40263</cveUrl></cve></cves><title>FreeImage ofLoad函数缓冲区溢出漏洞（CNVD-2023-67120）</title><serverity>高</serverity><products><product>FreeImage FreeImage 1.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-40263</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/336/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage ofLoad函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage ofLoad函数缓冲区溢出漏洞（CNVD-2023-67120）的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage ofLoad函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67119</number><cves><cve><cveNumber>CVE-2021-40265</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-40265</cveUrl></cve></cves><title>FreeImage ofLoad函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage &lt;1.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-40265</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/337/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage ofLoad函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage ofLoad函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage ofLoad函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67118</number><cves><cve><cveNumber>CVE-2020-24292</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-24292</cveUrl></cve></cves><title>FreeImage load函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.19.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-24292</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/discussion/36111/thread/afb98701eb/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage load函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage load函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage load函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67116</number><cves><cve><cveNumber>CVE-2020-21428</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-21428</cveUrl></cve></cves><title>FreeImage LoadRGB函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://sourceforge.net/p/freeimage/bugs/299/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/299/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage LoadRGB函数存在缓冲区溢出漏洞，该漏洞源于PluginDDS.cpp文件的LoadRGB函数在处理不受信任的输入时出现边界错误。攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage LoadRGB函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage LoadRGB函数存在缓冲区溢出漏洞，该漏洞源于PluginDDS.cpp文件的LoadRGB函数在处理不受信任的输入时出现边界错误。攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67117</number><cves><cve><cveNumber>CVE-2020-21427</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-21427</cveUrl></cve></cves><title>FreeImage LoadPixelDataRLE8函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://sourceforge.net/p/freeimage/bugs/298/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/298/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage LoadPixelDataRLE8函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage LoadPixelDataRLE8函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage LoadPixelDataRLE8函数存在缓冲区溢出漏洞，攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67115</number><cves><cve><cveNumber>CVE-2020-22524</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-22524</cveUrl></cve></cves><title>FreeImage FreeImage_Load函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.19.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://sourceforge.net/p/freeimage/bugs/319/</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/319/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage FreeImage_Load函数存在缓冲区溢出漏洞。远程攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage FreeImage_Load函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage FreeImage_Load函数存在缓冲区溢出漏洞。远程攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67114</number><cves><cve><cveNumber>CVE-2021-40264</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2021-40264</cveUrl></cve></cves><title>FreeImage FreeImage_CloneTag函数拒绝服务漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage &lt;1.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2021-40264</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/335/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage FreeImage_CloneTag函数存在拒绝服务漏洞。攻击者可利用此漏洞导致拒绝服务。</description><patchName>FreeImage FreeImage_CloneTag函数拒绝服务漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage FreeImage_CloneTag函数存在拒绝服务漏洞。攻击者可利用此漏洞导致拒绝服务。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-67113</number><cves><cve><cveNumber>CVE-2020-21426</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2020-21426</cveUrl></cve></cves><title>FreeImage C_IStream::read函数缓冲区溢出漏洞</title><serverity>高</serverity><products><product>FreeImage FreeImage 3.18.0</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-25</submitTime><openTime>2023-09-06</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2020-21426</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://sourceforge.net/p/freeimage/bugs/300/</formalWay><description>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。
+
+FreeImage C_IStream::read函数存在缓冲区溢出漏洞，该漏洞源于PluginEXR.cpp文件的C_IStream::read函数在处理不受信任的输入时出现边界错误。攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。</description><patchName>FreeImage C_IStream::read函数缓冲区溢出漏洞的补丁</patchName><patchDescription>FreeImage是一个跨平台的用于支持流行的图形图像格式的开源库。&#xD;
+&#xD;
+FreeImage C_IStream::read函数存在缓冲区溢出漏洞，该漏洞源于PluginEXR.cpp文件的C_IStream::read函数在处理不受信任的输入时出现边界错误。攻击者可利用该漏洞在系统上执行任意代码或者导致拒绝服务攻击。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68209</number><cves><cve><cveNumber>CVE-2022-46884</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-46884</cveUrl></cve></cves><title>Mozilla Firefox内存错误引用漏洞（CNVD-2023-68209） </title><serverity>高</serverity><products><product>Mozilla Firefox &lt;106</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-28</submitTime><openTime>2023-09-08</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2022-46884</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.mozilla.org/security/advisories/mfsa2022-44/</formalWay><description>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。
+
+Mozilla Firefox 106之前版本存在内存错误引用漏洞，该漏洞源于程序负责释放内存的指令发生混乱。攻击者可利用该漏洞导致程序崩溃，任意代码执行等。</description><patchName>Mozilla Firefox内存错误引用漏洞（CNVD-2023-68209） 的补丁</patchName><patchDescription>Mozilla Firefox是美国Mozilla基金会的一款开源Web浏览器。&#xD;
+&#xD;
+Mozilla Firefox 106之前版本存在内存错误引用漏洞，该漏洞源于程序负责释放内存的指令发生混乱。攻击者可利用该漏洞导致程序崩溃，任意代码执行等。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66737</number><cves><cve><cveNumber>CVE-2022-43904</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-43904</cveUrl></cve></cves><title>IBM Security Guardium身份验证错误漏洞</title><serverity>高</serverity><products><product>IBM Security Guardium 11.3</product><product>IBM Security Guardium 11.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2022-43904</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028509</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.3版本和11.4版本存在身份验证错误漏洞，攻击者可利用该漏洞获取敏感信息。</description><patchName>IBM Security Guardium身份验证错误漏洞的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.3版本和11.4版本存在身份验证错误漏洞，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66736</number><cves><cve><cveNumber>CVE-2022-43907</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-43907</cveUrl></cve></cves><title>IBM Security Guardium命令执行漏洞（CNVD-2023-66736）</title><serverity>高</serverity><products><product>IBM Security Guardium 11.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://exchange.xforce.ibmcloud.com/vulnerabilities/240901</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028511</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.4版本存在命令执行漏洞，该漏洞源于应用未能正确过滤构造命令特殊字符、命令等，经过身份验证的远程攻击者可利用该漏洞通过发送特制请求在系统上执行任意命令。</description><patchName>IBM Security Guardium命令执行漏洞（CNVD-2023-66736）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.4版本存在命令执行漏洞，该漏洞源于应用未能正确过滤构造命令特殊字符、命令等，经过身份验证的远程攻击者可利用该漏洞通过发送特制请求在系统上执行任意命令。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66735</number><cves><cve><cveNumber>CVE-2023-30435</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-30435</cveUrl></cve></cves><title>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66735）</title><serverity>中</serverity><products><product>IBM Security Guardium 11.3</product><product>IBM Security Guardium 11.4</product><product>IBM Security Guardium 11.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://exchange.xforce.ibmcloud.com/vulnerabilities/252291</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028506</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.3、11.4和11.5版本存在跨站脚本漏洞，该漏洞源于应用对用户提供的数据缺乏有效过滤与转义，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码。</description><patchName>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66735）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.3、11.4和11.5版本存在跨站脚本漏洞，该漏洞源于应用对用户提供的数据缺乏有效过滤与转义，攻击者可利用该漏洞在Web UI中嵌入任意JavaScript代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66734</number><cves><cve><cveNumber>CVE-2023-30436</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-30436</cveUrl></cve></cves><title>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66734）</title><serverity>中</serverity><products><product>IBM Security Guardium 11.3</product><product>IBM Security Guardium 11.4</product><product>IBM Security Guardium 11.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://exchange.xforce.ibmcloud.com/vulnerabilities/252292</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028506</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.3、11.4和11.5版本存在跨站脚本漏洞，攻击者可利用该漏洞通过注入精心设计的有效载荷执行任意Web脚本或HTML。</description><patchName>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66734）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.3、11.4和11.5版本存在跨站脚本漏洞，攻击者可利用该漏洞通过注入精心设计的有效载荷执行任意Web脚本或HTML。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66733</number><cves><cve><cveNumber>CVE-2022-43909</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2022-43909</cveUrl></cve></cves><title>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66733）</title><serverity>中</serverity><products><product>IBM Security Guardium 11.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://www.ibm.com/support/pages/node/7028511</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028511</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.4版本存在跨站脚本漏洞，攻击者可利用该漏洞通过注入精心设计的有效载荷执行任意Web脚本或HTML。</description><patchName>IBM Security Guardium跨站脚本漏洞（CNVD-2023-66733）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.4版本存在跨站脚本漏洞，攻击者可利用该漏洞通过注入精心设计的有效载荷执行任意Web脚本或HTML。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66732</number><cves><cve><cveNumber>CVE-2023-30437</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-30437</cveUrl></cve></cves><title>IBM Security Guardium信息泄露漏洞（CNVD-2023-66732）</title><serverity>中</serverity><products><product>IBM Security Guardium 11.3</product><product>IBM Security Guardium 11.4</product><product>IBM Security Guardium 11.5</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://www.ibm.com/support/pages/node/7028506</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028506</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.3、11.4和11.5版本存在信息泄露漏洞，未经授权的攻击者可利用该漏洞通过发送特制的HTTP请求来枚举用户名。</description><patchName>IBM Security Guardium信息泄露漏洞（CNVD-2023-66732）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.3、11.4和11.5版本存在信息泄露漏洞，未经授权的攻击者可利用该漏洞通过发送特制的HTTP请求来枚举用户名。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66731</number><cves><cve><cveNumber>CVE-2023-33852</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-33852</cveUrl></cve></cves><title>IBM Security Guardium SQL注入漏洞（CNVD-2023-66731）</title><serverity>中</serverity><products><product>IBM Security Guardium 11.4</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://www.ibm.com/support/pages/node/7028514</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/7028514</formalWay><description>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。
+
+IBM Security Guardium 11.4版本存在SQL注入漏洞，该漏洞源于应用缺少对外部输入SQL语句的验证，攻击者可利用该漏洞执行非法SQL命令获取数据库敏感数据。</description><patchName>IBM Security Guardium SQL注入漏洞（CNVD-2023-66731）的补丁</patchName><patchDescription>IBM Security Guardium是美国国际商业机器（IBM）公司的一套提供数据保护功能的平台。该平台包括自定义UI、报告管理和流线化的审计流程构建等功能。&#xD;
+&#xD;
+IBM Security Guardium 11.4版本存在SQL注入漏洞，该漏洞源于应用缺少对外部输入SQL语句的验证，攻击者可利用该漏洞执行非法SQL命令获取数据库敏感数据。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66730</number><cves><cve><cveNumber>CVE-2023-26272</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-26272</cveUrl></cve></cves><title>IBM Security Guardium Data Encryption信息泄露漏洞（CNVD-2023-66730）</title><serverity>中</serverity><products><product>IBM Security Guardium Data Encryption 1.10.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-26272</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/6995161</formalWay><description>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。
+
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在信息泄露漏洞，该漏洞源于浏览器中返回详细的技术错误消息，攻击者可利用该漏洞获取敏感信息。</description><patchName>IBM Security Guardium Data Encryption信息泄露漏洞（CNVD-2023-66730）的补丁</patchName><patchDescription>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。&#xD;
+&#xD;
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在信息泄露漏洞，该漏洞源于浏览器中返回详细的技术错误消息，攻击者可利用该漏洞获取敏感信息。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66729</number><cves><cve><cveNumber>CVE-2023-26271</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-26271</cveUrl></cve></cves><title>IBM Security Guardium Data Encryption访问控制错误漏洞</title><serverity>中</serverity><products><product>IBM Security Guardium Data Encryption 1.10.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-26271</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/6995161</formalWay><description>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。
+
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在访问控制错误漏洞，攻击者可利用该漏洞暴力破解帐户凭据。</description><patchName>IBM Security Guardium Data Encryption访问控制错误漏洞的补丁</patchName><patchDescription>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。&#xD;
+&#xD;
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在访问控制错误漏洞，攻击者可利用该漏洞暴力破解帐户凭据。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-66728</number><cves><cve><cveNumber>CVE-2023-26270</cveNumber><cveUrl>https://nvd.nist.gov/vuln/detail/CVE-2023-26270</cveUrl></cve></cves><title>IBM Security Guardium Data Encryption代码执行漏洞</title><serverity>中</serverity><products><product>IBM Security Guardium Data Encryption 1.10.3</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-08-29</submitTime><openTime>2023-09-04</openTime><referenceLink>https://nvd.nist.gov/vuln/detail/CVE-2023-26270</referenceLink><formalWay>厂商已发布了漏洞修复程序，请及时关注更新：&#xD;
+https://www.ibm.com/support/pages/node/6995161</formalWay><description>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。
+
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在代码执行漏洞，攻击者可利用该漏洞在系统上执行任意代码。</description><patchName>IBM Security Guardium Data Encryption代码执行漏洞的补丁</patchName><patchDescription>IBM Security Guardium Data Encryption是美国国际商业机器（IBM）公司的一个用于保护组织内敏感数据安全性的软件。该软件通过控制对数据库、文件、应用和容器的访问，可以保护位于云环境、虚拟环境、大数据环境和物理环境中的资产。&#xD;
+&#xD;
+IBM Security Guardium Data Encryption (IBM Guardium Cloud Key Manager (GCKM) )1.10.3版本存在代码执行漏洞，攻击者可利用该漏洞在系统上执行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68417</number><cves><cve><cveNumber>CVE-2023-41064</cveNumber></cve></cves><title>Apple多款产品任意代码执行漏洞</title><serverity>高</serverity><products><product>Apple iOS &lt;16.6.1</product><product>Apple iPadOS &lt;16.6.1</product><product>Apple macOS Ventura &lt;13.5.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-09-09</submitTime><openTime>2023-09-10</openTime><formalWay>厂商已发布了更新版本修复漏洞，建议受影响用户升级至将相关Apple产品升级至iOS 16.6.1、iPadOS 16.6.1、macOS Ventura 13.5.2。新版本可在系统更新推送中找到，请及时关注更新：&#xD;
+https://www.apple.com.cn/</formalWay><description>iOS是由苹果公司开发的移动操作系统。iPadOS是苹果公司基于iOS研发的移动端操作系统系列。macOS Ventura是Apple旗下桌面操作系统。
+
+Apple多款产品存在任意代码执行漏洞，攻击者可利用漏洞从iMessage帐户发送恶
+意图像给目标用户，在不与受害者进行任何交互的情况下执行任意代码。</description><patchName>Apple多款产品任意代码执行漏洞的补丁</patchName><patchDescription>iOS是由苹果公司开发的移动操作系统。iPadOS是苹果公司基于iOS研发的移动端操作系统系列。macOS Ventura是Apple旗下桌面操作系统。&#xD;
+&#xD;
+Apple多款产品存在任意代码执行漏洞，攻击者可利用漏洞从iMessage帐户发送恶&#xD;
+意图像给目标用户，在不与受害者进行任何交互的情况下执行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability><vulnerability><number>CNVD-2023-68416</number><cves><cve><cveNumber>CVE-2023-41061</cveNumber></cve></cves><title>Apple多款产品存在任意代码执行漏洞（CNVD-2023-68416）</title><serverity>高</serverity><products><product>Apple iOS &lt;16.6.1</product><product>Apple iPadOS &lt;16.6.1</product><product>Apple watchOS &lt;9.6.2</product></products><isEvent>通用软硬件漏洞</isEvent><submitTime>2023-09-09</submitTime><openTime>2023-09-10</openTime><formalWay>厂商已发布了更新版本修复漏洞，建议受影响用户升级至将相关Apple产品升级至iOS 16.6.1、iPadOS 16.6.1、macOS Ventura 13.5.2和watchOS 9.6.2。新版本可在系统更新推送中找到，请及时关注更新：&#xD;
+https://www.apple.com.cn/</formalWay><description>iOS是由苹果公司开发的移动操作系统。iPadOS是苹果公司基于iOS研发的移动端操作系统系列。watchOS是Apple Watch的操作系统。
+
+Apple多款产品存在任意代码执行漏洞，攻击者可利用漏洞通过恶意制作的PassKit附件，在不与受害者进行任何交互的情况下执行任意代码。</description><patchName>Apple多款产品存在任意代码执行漏洞（CNVD-2023-68416）的补丁</patchName><patchDescription>iOS是由苹果公司开发的移动操作系统。iPadOS是苹果公司基于iOS研发的移动端操作系统系列。watchOS是Apple Watch的操作系统。&#xD;
+&#xD;
+Apple多款产品存在任意代码执行漏洞，攻击者可利用漏洞通过恶意制作的PassKit附件，在不与受害者进行任何交互的情况下执行任意代码。目前，供应商发布了安全公告及相关补丁信息，修复了此漏洞。</patchDescription></vulnerability></vulnerabilitys>
